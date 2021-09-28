@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Schedule Page
+   ========================================================================== */
+
+.sched-well {
+  background-color: $card-bg;
+  color: $gray-400;
+  border-radius: 10px;
+  box-shadow: 4px 5px 0px rgba(0, 0, 0, .11);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.sched-well h4 {
+  padding: 0px 0px 5px 0px;
+  text-align: left;
+  font-size: 1.75em;
+}
+
+.sched-well a:not(.ct-btn-light) {
+  //@include link-styles;
+  color: #EE44E2 !important;
+
+  &:active,
+  &:focus,
+  &:hover {
+    //@include link-styles-states;
+    text-decoration: underline;
+  }
+}
+
+// .sched-well a.btn {
+//   background-color: $btn-bg-color-mid;
+//   color: $btn-color-mid !important;
+//   border-color: $btn-border-color-mid;
+//   border: 1px solid;
+//   text-decoration: none;
+//     &:hover {
+//         border: 1px solid $btn-border-hover;
+//         //outline-offset: -2px;
+//     }
+// }
+
+.sched-well p {
+  font-size: .9em;
+  line-height: 1.7em;
+  word-break: break-word;
+}
+
+.text-right h3 {
+  font-size: 1.25em;
+  color: $gray-400;
+}
+
+.timezone {
+  font-size: 16px;
+  color: #8a8a8a;
+  &.info-box {
+    color: $xiketic;
+  }
+}
+
+.pagination {
+  display: inline-flex;
+  border: 1px solid $cultured-white;
+}
+.page-item {
+  border-left: 1px solid $cultured-white;
+  border-right: 1px solid $cultured-white;
+}
+
+//
+// Community Support Volunteers
+// ----------------------------
+
+.csv-schedule {
+    background: $oxford-blue-desat;
+    border: 2px solid $crayola-pink;
+    border-radius: 10px;
+    h2 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        }
+    h3 {
+        margin-top: 30px;
+        }
+}

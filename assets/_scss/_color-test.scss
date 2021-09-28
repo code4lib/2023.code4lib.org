@@ -1,0 +1,141 @@
+/* ==========================================================================
+   Color Test for 2021
+   ========================================================================== */
+//
+// Variables
+// --------------------------------------------------
+
+// Background
+$oxford-blue: #061A40;
+$xiketic: #070413;
+
+// Foreground
+$cultured-white: #F5F5F5;
+$turquoise: #00D5C0;
+$crayola-pink: #FA62F0;
+$honey-yellow: #FDB827;
+
+//Lighter
+$cultured-white-lighter: #FFF;
+$turquoise-lighter: lighten($turquoise, 10%);
+$crayola-pink-lighter: lighten($crayola-pink, 10%);
+$honey-yellow-lighter: lighten($honey-yellow, 10%);
+$turquoise-darker: darken($turquoise, 10%);
+$crayola-pink-darker: darken($crayola-pink, 10%);
+$honey-yellow-darker: darken($honey-yellow, 10%);
+//
+// Settings
+// --------------------------------------------------
+
+.CT-body {
+    /* Margin bottom by footer height */
+    color: $cultured-white;
+    background-color: $oxford-blue;
+    font-family: $font-family-sans-serif;
+    font-weight: 300;
+    padding: 50px;
+}
+
+.CT-body a {
+    color: $turquoise;
+}
+
+// .CT-body a:hover, .CT-body a:focus {
+//     background-color: $black !important;
+//     color: $cultured-white !important;
+// }
+
+
+// Alternative hover effect:
+.CT-body a:hover, .CT-body a:focus {
+    color: $crayola-pink;
+}
+
+.CT-body hr{
+    border: 10px solid $turquoise;
+}
+
+.CT-body .clip-circle-lg {
+    background: transparent !important;
+    border: 0px !important;
+}
+
+.CT-body .speaker-box-inner {
+    border-top: 3px solid $crayola-pink;
+    border-left: 3px solid $crayola-pink;
+    border-right: 3px solid $crayola-pink;
+    border-radius: 3px;
+}
+
+.CT-body .arrow-down {
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 15px solid $crayola-pink;
+    height: 0;
+    margin-top: 15px;
+    opacity: 0;
+    position: absolute;
+    width: 0;
+    z-index: 99;
+}
+
+.CT-body .ct-btn-light{
+    background-color: $honey-yellow;
+    color: $black;
+    &:hover {
+        background-color: transparent;
+        color: $honey-yellow-lighter;
+        border-color: $honey-yellow-darker;
+    }
+}
+
+.CT-body .ct-btn-outline-light{
+    border-color: $honey-yellow;
+    color: $honey-yellow;
+    &:hover {
+        background-color: $honey-yellow;
+        color: black;
+        border-color: $honey-yellow-darker;
+    }
+}
+
+.CT-body .ct-btn-middle{
+    background-color: $crayola-pink;
+    color: $black;
+    &:hover {
+        background-color: transparent;
+        color: $crayola-pink;
+        border-color: $crayola-pink-darker;
+    }
+}
+
+.CT-body .ct-btn-outline-middle{
+    border-color: $crayola-pink;
+    color: $crayola-pink;
+    &:hover {
+        background-color: $crayola-pink;
+        color: black;
+        border-color: $crayola-pink-darker;
+    }
+}
+
+.CT-body .ct-btn-dark{
+    background-color: $turquoise;
+    color: $black;
+    &:hover {
+        background-color: transparent;
+        color: $turquoise-lighter;
+        border-color: $turquoise-darker;
+    }
+}
+
+.CT-body .ct-btn-outline-dark{
+    border-color: $turquoise;
+    color: $turquoise;
+    &:hover {
+        background-color: $turquoise;
+        color: black;
+        border-color: $turquoise-darker;
+    }
+}
+

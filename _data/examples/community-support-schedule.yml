@@ -1,0 +1,8 @@
+- title: Event 1
+  volunteers:
+    - surname
+    - othersurname
+
+- title: Event 2
+  volunteers:
+    - surname

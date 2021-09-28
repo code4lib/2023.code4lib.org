@@ -1,0 +1,68 @@
+---
+layout: default
+title: code4lib 2021
+---
+
+{% include homepage/jumbotron.html %}
+
+<section>
+    <div class="container">
+        {% unless site.data.conf.homepage-display == 'peri' %}
+        <div class="row">
+            <div class="col-12">
+                <h2>The conference for people who code for libraries.</h2>
+                <p>
+                    An annual gathering of technologists from around the world, who largely work for and with libraries,
+                    archives, and museums and have a commitment to open technologies.
+                </p>
+            </div>
+        </div>
+        {% endunless %}
+        <div class="row">
+            {% include homepage/{{ site.data.conf.homepage-display }}_conference.html %}
+        </div>
+    </div>
+</section>
+
+{% if site.data.conf.location != '' %}
+<section class="welcome">
+    <div class="container">
+        <div class="row section">
+            <div class="col-sm-2">
+                <img class="clip-circle" src="assets/img/theme-images/icosahedron.svg" alt="icosahedron">
+            </div>
+            <div class="col-sm-10">
+                <h2>Welcome to {{site.data.conf.location}}</h2>
+                {% if site.data.conf.venue.name != '' %}
+                <p>
+                The conference will take place at the <a href="{{site.data.conf.venue.website}}">{{site.data.conf.venue.name}}</a>, right in downtown {{ site.data.conf.location }}.
+                </p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+
+<section>
+    <div class="container">
+        <div class="row" id="testimonials">
+        {% for testimonial in site.data.testimonials %}
+            <div class="col-sm-6 col-md-4 testimonial">
+                <div class="thumbnail">
+                    <div class="speech-bubble">
+                        <div class="arrow bottom right"></div>
+                        {{ testimonial.blurb }}
+                    </div>
+                    <div class="caption">
+                        <h3><a href="https://twitter.com/{{ testimonial.twitter }}">{{ testimonial.name }}</a></h3>
+                        <p>{{ testimonial.org }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        <script src="{{ "/assets/js/testimonials.js" | relative_url }}"></script>
+        </div>
+    </div>
+</section>

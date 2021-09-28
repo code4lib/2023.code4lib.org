@@ -1,0 +1,372 @@
+###################
+# "Global" Vars
+###########
+
+year: 2021
+hashtag: 'c4l21'
+location: 'Code4Lib 2021'
+search: false
+local-conference: false
+
+###########################
+# Hero
+###########################
+# Place hero image in /assets/img/theme-images/
+hero-image-filename: 'hero-image.png'
+hero-image-source: 'https://pixabay.com/vectors/triangles-polygon-color-pink-1430105/'
+hero-image-alt: 'colored mosaic'
+
+########################
+# Program & Schedule
+#######################
+# These booleans affect the main menu links in the ways described below, as well
+# as displays in a few other places.
+# if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
+have-talks: true
+have-workshops: false
+# if true Schedule link -> /schedule/, if false -> /schedule/timeline
+have-schedule: true
+
+# day 0 = preconf day
+days:
+  - weekday: Monday
+    date: March 22nd
+    # date in a form that JS Date() constructor understands
+    date-data: 2021-03-22T23:59
+  - weekday: Tuesday
+    date: March 23rd
+    date-data: 2021-03-23T23:59
+  - weekday: Wednesday
+    date: March 24th
+    date-data: 2021-03-24T23:59
+  - weekday: Thursday
+    date: March 25th
+    date-data: 2021-03-25T23:59
+  - weekday: Friday
+    date: March 26th
+    date-data: 2021-03-26T23:59
+
+#############################
+# Venue Information
+####################
+
+#Short Form for location
+city-state: ''
+city: ''
+state: ''
+
+# NOTE: {% if site.data.conf.venue.name != '' %} is being used to remove textual references
+#       to a physical conference venue, when the conference is fully online.
+venue:
+    name: ''
+    street: ''
+    postal-code: ''
+    phone: ''
+    image: ''
+    website: ''
+    floorplan: ''
+    directions: ''
+    a11y: ''
+    cost: ''
+    with-tax-cost: ''
+    cost-cutoff-date: 2021-01-01
+
+#############################
+# C4l Links
+################
+
+#twitter and instagram are both managed using the code4lib hashtag data
+social-links:
+  slack: 'http://code4lib.slack.com/'
+  irc: 'http://code4lib.org/irc'
+  youtube: 'https://www.youtube.com/user/code4lib/videos'
+
+#############################
+# Various Emails/contact info
+#############################
+
+main-conf-email: 'code4lib@concentra-cms.com'
+sponsor-contact-email: 'code4lib.sponsorship@gmail.com'
+scholarship-contact-email: 'code4libaward@gmail.com'
+workshop-contact-email: 'casden@email.unc.edu'
+lpc-contact-email: 'code4liblpc@gmail.com'
+# accessibility-email: 'code4lib.accessibility@gmail.com'
+accessibility-email: 'code4libaccessibility@googlegroups.com'
+# when empty, community support volunteers page will use main-conf-email
+community-support-email: 'c4lcommunitysupport@googlegroups.com'
+community-support-phone: '510-423-3356'
+anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
+
+###################
+# Homepage section
+# Values can be one of
+# - pre :   displays the _includes/homepage/timeline.html partial
+#           this section provides an overview of important conference dates.
+# - peri:   for display during the conference. provides homepage links to conference schedule, talks, livestream, etc.
+# - post:   for after the conference is over (TODO: we never made this template!)
+#
+####################
+homepage-display: post
+
+livestream:
+  show: false
+  button-label: "Join Workshop"
+  url: 'https://whova.com/portal/webapp/codel_202103/'
+
+slides:
+  show: false
+  url: 'https://osf.io/meetings/c4l21/'
+  contact: ''
+  email: ''
+
+slide-template:
+  url: '/assets/C4L2021-template.pptx'
+
+closed-captioning:
+  url: 'https://2021archive.1capapp.com/event/cod4lib/'
+  show: false
+
+# Peri display descriptions and titles
+peri:
+  day1-am-title: "Conference, Day 1"
+  day1-am-desc: "Keynote"
+  day2-am-title: "Conference, Day 2"
+  day2-am-desc: "Awesome Talks"
+  day2-pm-title: "Game Night"
+  day2-pm-desc: "Board or Card Games"
+  day3-am-title: "Conference, Day 3"
+  day3-am-desc: "Awesome Talks"
+  day3-pm-title: "Karaoke Night"
+  day3-pm-desc: "Join Us"
+  day4-am-title: "Conference, Day 4"
+  day4-am-desc: "Awesome Talks"
+  day4-pm-title: "Trivia Night"
+  day4-pm-desc: "Bragging Rights"
+  day5-am-title: "Postconference"
+  day5-am-desc: "Workshops"
+
+###########
+# Sponsors
+###########
+# If false, hides sponsors link in navigation and footer
+show-sponsors: true
+# If true, any "Sponsors" links will go to /prospectus instead of /sponsors
+call-for-sponsors: false
+# Individual Page Buttons
+homepage-sponsor-button: false
+sponsorpage-sponsor-button: false
+# URL to document
+prospectus-document: ''
+sponsor-btn-link: 'https://na.eventscloud.com/sponsor.c4l21'
+
+##########
+# !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
+# e.g., 2013-11-29
+##########
+
+###########
+# Proposals
+###########
+
+keynote-proposals:
+  show: false
+  submission-form: 'https://wiki.code4lib.org/2021_Keynote_Speakers_Nominations'
+  end-date: '2020-11-25'
+
+workshop-proposals:
+  show: false
+  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSfGLxdVHROBtxAviUEbfpH4QVYBT7dX4voXt210y92ByWo-kw/viewform'
+  end-date: '2020-12-13'
+
+talk-proposals:
+  show: false
+  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSfTKj7rT3P82f3vggZZRq15nA_OaXiAiKZmcMIVaAxDvctFjg/viewform'
+  end-date: '2020-12-21'
+
+panel-proposals:
+  show: false
+  submission-form: ''
+  end-date: ''
+
+poster-proposals:
+  show: false
+  submission-form: 'https://forms.gle/sSQWDgFxHbDwojoW6'
+  end-date: '2020-02-15'
+
+shirt-proposals:
+  show: false
+  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSczoRX5Rd37TIWT9MhZJxS1hR7V3UQu0aU93rzhF8jY8as1KQ/viewform?usp=sf_link'
+  end-date: '2021-01-13'
+
+host-proposals:
+  show: false
+  submission-form: 'https://wiki.code4lib.org/2019_Hosting_Proposals'
+  end-date: '2020-02-23'
+
+###########
+# Voting
+###########
+
+keynote-voting:
+  show: false
+  url: 'https://forms.gle/QbNwRbSwhE7E67ik7'
+  end-date: '2021-01-08'
+
+workshop-voting:
+  show: false
+  url: 'https://docs.google.com/forms/d/e/1FAIpQLSfEAwmP9Wnrk2aXLgfEpnk0zS3W8M4rukx_DL3tCeaMjqHwdg/viewform'
+  end-date: '2019-11-19'
+
+talk-voting:
+  show: false
+  url: 'https://forms.gle/MsnFX4G5rZLraRwKA'
+  end-date: '2021-01-22'
+
+panel-voting:
+  show: false
+  url: ''
+  end-date:
+
+poster-voting:
+  show: false
+  url: 'https://goo.gl/tM4JJq'
+  end-date: '2018-11-29'
+
+shirt-voting:
+  show: false
+  url: 'https://forms.gle/5nMtw8Degbfgm2ja7 '
+  end-date: '2021-01-21'
+
+##################
+# Schedule events
+##################
+
+# usually on the wiki
+social-activities-url: ''
+
+community-gathering:
+    show: false
+    date: '2021-03-22'
+    time: '7PM'
+    description: 'Are you a crafter, artist, maker, or collector? We want your show-and-tell proposal! Please fill out the interest form by March 1st.'
+    event-url: ''
+    event-url-button-text: ''
+    sign-up-url: ''
+    sign-up-button-text: ''
+
+game-night:
+    show: true
+    date: '2021-03-23'
+    time: '6PM to 8PM'
+    description: 'Play games? Come join your fellow code4libers in a few board or card games!'
+    event-url: ''
+    event-url-button-text: ''
+    sign-up-url: ''
+    sign-up-button-text: 'Sign Up for Game Night'
+
+karaoke-night:
+    show: true
+    date: '2021-03-24'
+    time: '6PM to 7:30PM'
+    description: 'We also have Karaoke night for those who would like to share your passions in singing, or just hangout with friendly folks.'
+    event-url: ''
+    event-url-button-text: ''
+    sign-up-url: ''
+    sign-up-button-text: 'Sign Up for a Song!'
+
+trivia-night:
+    show: true
+    date: '2021-03-25'
+    time: '6PM to 7:30PM'
+    description: 'If you miss the good old pub trivia days, come join us as we compete for bragging rights at Trivia Night hosted by DC-based District Trivia!'
+    event-url: ''
+    event-url-button-text: ''
+    sign-up-url: ''
+    sign-up-button-text: 'Sign Up! Registration Limited'
+
+newcomer-dinner:
+    show: false
+    # entering the URL doubles as a "show more info" switch, too
+    signup-url: 'https://docs.google.com/document/d/1XCql9YgWydMluKfeAN9veDfms8u38shzE2wLlym179I/edit#heading=h.vmyysg627xj7'
+    transit-info: 'https://docs.google.com/document/d/1vOgMNG0kOaPdsvnjNLld5xlK7pLKZPYzytp7u14MRnQ/edit'
+    activities-info: 'https://www.google.com/maps/d/viewer?mid=1RI4SjmFkzoYX1k5cUgTlJ5zzjHQeAhui&ll=40.44383527823009%2C-79.9586392&z=14'
+    date: '2020-03-08'
+
+libtech-women:
+    show: false
+    date: '2020-03-10'
+    time: '5:30PM to 7:30PM'
+    location: 'Bill’s Bar & Burger (in the Conference Hotel)'
+    hashtag: libtechwomen
+
+reception:
+    show: false
+    venue: 'Carnegie Museum of Pittsburgh - Oakland'
+    street: '4400 Forbes Ave'
+    postal-code: '15213'
+    phone: '+1(412)-353-4795'
+    contact: 'straubn@carnegiemuseums.org'
+    times: '6:30PM to 8:30PM'
+    date: '2020-03-09'
+
+self-event:
+    show: false
+    url: 'https://docs.google.com/document/d/1bKuSy14npN2uq-rqE9RAEmc4nZRpn99KnU9SK8dfEQ8/edit?usp=sharing'
+
+###############
+# Volunteer
+###############
+
+volunteer-committee:
+  show: false
+  url: 'https://wiki.code4lib.org/Code4Lib_2021_Conference_Committees'
+  end-date: '2021-01-18'
+
+volunteer-dutyoff:
+  show: false
+  url: 'https://goo.gl/forms/2DkdbUUDSSOMi1f33'
+  end-date: ''
+
+# for volunteers during conference like MCs, mic-minders, etc.
+volunteer-onsite:
+  show: false
+  url: ''
+  end-date: ''
+
+################
+# Scholarships
+################
+
+criteria:
+  # if you have this year's eligibility requirements, show criteria section on general-info/scholarships
+  show: false
+
+angel-fund:
+    show: true
+    # whether to show the "donation thermometer" & Google Spreadsheet key for it
+    # NOTE: spreadsheet needs to be "published to the web"
+    thermometer: true
+    spreadsheet-key: '1U-FaszOhcXxpQnfMaI9TbRfcpQfPxrogfl8zrFIVIOk'
+    url: https://mxmerchant.com/mxcustomer/d/46efc4f8-1366-4943-a367-3d11cda79283/v3
+
+diversity-scholarship-applications:
+  show: false
+  url: '/general-info/scholarships#how-to-apply'
+  url-text: 'How to Apply'
+  end-date: '2019-12-02'
+  notification-date: '2019-12-17'
+  apply-url: 'https://forms.gle/XFxkujq5HQhyac1eA'
+  committee-wiki-url: 'https://wiki.code4lib.org/Code4Lib_2021_Conference_Committees#Scholarship_Committee'
+  max-scholarship-award: '$1500'
+
+# show sponsors for diversity scholarships on general-info/scholarships
+diversity-scholarship-sponsors:
+  seeking: false
+  show: false
+
+################
+# Other
+################
+
+quiet-room:
+    show: false

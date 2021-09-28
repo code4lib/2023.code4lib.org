@@ -1,0 +1,189 @@
+/* ==========================================================================
+   Single Presentation/Workshop page
+   ========================================================================== */
+
+.past-slides {
+  display: block;
+  font-size: 2em;
+}
+
+.talk-row:nth-child(odd) {
+  background-color: darken($card-bg, 1%);
+}
+
+.talk-row {
+  margin-top: 11px;
+  padding: 11px 0 11px 11px;
+  border-top: 4px solid $body-bg;
+  a {
+    color: #EE44E2;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.back-workshops {
+  //border-top: solid 1px $white;
+  color: $black;
+  display: block;
+  margin: 10px 0;
+  padding: 10px 0 5px 0;
+}
+
+.back-workshops:hover {
+  color: $turquoise;
+  cursor: pointer;
+}
+
+.speaker-link {
+  color: $turquoise;
+  &:hover {
+    color: $turquoise-lighter;
+  }
+}
+.talk-detail-box {
+  animation: intro .34s .4s cubic-bezier(1, 1.4, .41, 1.01) forwards;
+  background: $talk-box-bg;
+  border-radius: 10px;
+  box-shadow: 4px 5px 0px $talk-box-shadow;
+  color: $talk-box-color;
+  margin-bottom: 100px;
+  transform: translateY(-50%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(10deg);
+}
+
+.talk-detail-box .time-slot {
+  background: $talk-box-2-bg;
+  color: $talk-box-2-color;
+}
+
+.talk-detail-box .building {
+  background: $talk-box-bg;
+}
+
+.talk-detail-box .time-length {
+  background: $talk-box-3-bg;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: $talk-box-3-color;
+}
+
+.talk-box-detail-icon {
+  display: table-cell;
+  font-size: 20px;
+  height: 100px;
+  padding: 10px;
+  vertical-align: middle;
+  width: 50px;
+}
+
+.talk-box-detail-value {
+  display: table-cell;
+  font-size: 25px;
+  font-weight: bold;
+  height: 100px;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
+  a {
+    color: $gray-900;
+  }
+  a:hover {color: darken($crayola-pink, 5%);}
+}
+
+@keyframes intro {
+  0% {transform: translateY(25%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(40deg)}
+  100% {transform: translateY(25%) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
+}
+
+/* ==========================================================================
+   Presentation/Workshop index page
+   ========================================================================== */
+
+#workshop-sorting-div {
+  margin-bottom: 20px;
+}
+
+.workshop-well {
+  -webkit-flex-flow: row wrap;
+  background-color: $oxford-blue-desat;
+  color: #d4d8d1;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 10px 10px 0px;
+  //width: 300px;
+}
+
+.workshop-well p {
+  font-size: 1.0em;
+  line-height: 1.3em;
+  //word-break: break-all;
+}
+
+.workshop-well a {
+  //@include link-styles;
+  color: $crayola-pink-desat;
+
+  &:hover,
+  &:focus,
+  &:active {
+    //@include link-styles-states;
+    text-decoration: underline;
+  }
+}
+
+.workshop-well.top-10 {
+  background-color: lightgoldenrodyellow;
+}
+
+.sched-date {
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   Proposals listing page
+   ========================================================================== */
+
+.proposals {
+  padding-top: 20px;
+
+  h3 {
+    padding-bottom: 20px;
+  }
+
+  .card-body a {
+    @include link-styles;
+
+    &:hover,
+    &:focus,
+    &:active {
+      @include link-styles-states;
+    }
+  }
+}
+
+#prepared-talks a.btn {
+  background-color: $btn-bg-color-mid;
+  color: $btn-color-mid;
+  border-color: $btn-border-color-mid;
+  border: 1px solid;
+    &:hover {
+        border: 1px solid $btn-border-hover;
+        //outline-offset: -2px;
+    }
+}
+
+#postconference a.btn {
+  background-color: $btn-bg-color-mid;
+  color: $btn-color-mid;
+  border-color: $btn-border-color-mid;
+  border: 1px solid;
+    &:hover {
+        border: 1px solid $btn-border-hover;
+        //outline-offset: -2px;
+    }
+}

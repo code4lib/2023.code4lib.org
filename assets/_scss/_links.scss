@@ -1,0 +1,20 @@
+@mixin link-styles {
+  border-bottom: 1px dotted;
+  color: $turquoise;
+  text-decoration: none;
+}
+
+@mixin link-styles-states {
+  //background-color: $accent;
+  color: $link-color-light;
+  border-bottom: 2px solid;
+  text-decoration: none;
+}
+
+#postconference a:hover {
+    color: lighten(#00D5C0, 10%);
+}
+
+a.keynote-nominee:hover {
+    color: #00D5C0;
+}

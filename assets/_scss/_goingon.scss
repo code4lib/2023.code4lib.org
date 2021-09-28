@@ -1,0 +1,40 @@
+/* ==========================================================================
+   'Going On' Block
+   ========================================================================== */
+
+
+.going-on {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.going-on h2,
+.going-on h3,
+.going-on h5 {
+  margin-top: 0;
+}
+
+.going-on a {
+  &:not(.btn) {
+    @include link-styles;
+  }
+}
+
+.going-on a:hover,
+.going-on a:focus,
+.going-on a:active {
+  &:not(.btn) {
+    @include link-styles-states;
+  }
+}
+
+.going-on a.btn {
+  background-color: $btn-bg-color-mid;
+  color: $btn-color-mid;
+  border-color: $btn-border-color-mid;
+  border: 1px solid;
+    &:hover {
+        border: 1px solid $btn-border-hover;
+        //outline-offset: -2px;
+    }
+}

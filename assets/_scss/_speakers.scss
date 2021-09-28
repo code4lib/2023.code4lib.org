@@ -1,0 +1,191 @@
+/* ==========================================================================
+   Speaker Boxes
+   ========================================================================== */
+
+.speaker-name {
+  font-size: 1.65em;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+.speaker-mini {
+  height: 5.2em;
+  padding: 0 15px;
+}
+
+a.speaker-info-toggle {
+  color: $turquoise;
+  &:hover {
+    color: $link-color-light;
+  }
+}
+
+p.speaker-title,
+p.speaker-bio {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+p.speaker-session {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+p.speaker-title {
+  font-weight: 400;
+  margin-bottom: 0;
+  padding: .2em .5em;
+}
+
+
+p.speaker-bio,
+p.speaker-session {
+  color: $speaker-info-color;
+  padding: .5em;
+}
+
+p.speaker-bio a,
+p.speaker-session a {
+  &:not(.icon) {
+    color: $link-color-dark !important;
+    border-bottom: 2px dotted;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: $link-hover-light;
+      border-bottom: 0;
+    }
+  }
+}
+
+// Links to twitter usernames for speakers & scholarships
+p.speaker-bio .icon--twitter a,
+dt .speaker-bio .icon.icon--twitter a {
+  border-bottom: 0;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    border-bottom: 0;
+    color: $black;
+  }
+}
+
+p.speaker-bio:not(:nth-of-type(1)) {
+  margin-bottom: 5px;
+  padding-top: 0;
+}
+
+p.speaker-inst {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  position: relative;
+  z-index: 100;
+}
+
+.speaker-info {
+  -moz-transition: max-height .15s ease;
+  -o-transition: max-height .15s ease;
+  -webkit-flex-flow: row wrap;
+  -webkit-transition: max-height .15s ease;
+  background-color: $speaker-info-bg;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .15s ease;
+  width: 900px;
+}
+
+.speaker-info.show {
+  -moz-transition: max-height .15s ease;
+  -o-transition: max-height .15s ease;
+  -webkit-transition: max-height .15s ease;
+  max-height: 600px;
+  transition: max-height .15s ease;
+  transition-delay: .0s;
+}
+
+.speaker-info-inner {
+  padding: 20px 15px 10px;
+}
+
+.speaker-info-inner h4 {
+  color: $speaker-info-color;
+  padding: .5em;
+}
+
+.speaker-info-inner h4 a {
+  color: $accent-dark;
+
+  &:focus,
+  &:hover {
+    color: $accent-darker;
+  }
+}
+
+.speaker-box {
+  -webkit-flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 10px 10px 0px;
+  width: 300px;
+}
+
+.speaker-box-inner {
+  padding: 15px 0;
+  width: 100%;
+}
+
+.speaker-box.selected .speaker-box-inner {
+  background-color: $speaker-selected-bg;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: $speaker-selected-outline;
+}
+
+.speaker-box.selected a {
+  color: $speaker-selected-color;
+
+  &:active,
+  &:focus,
+  &:hover {
+    border: none;
+    color: $speaker-selected-color;
+  }
+}
+
+.speaker-box.selected p {
+  color: $white;
+}
+
+.arrow-down {
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  border-top: 15px solid $speaker-selected-arrow;
+  height: 0;
+  margin-top: 15px;
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  z-index: 99;
+}
+
+.speaker-box.selected .arrow-down {
+  opacity: 1;
+}
+
+.icon > svg,
+.icon > a > svg {
+  display: inline-block;
+  height: 16px;
+  vertical-align: middle;
+  width: 16px;
+}

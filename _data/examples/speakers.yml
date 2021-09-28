@@ -1,0 +1,26 @@
+# NOTE: we've not traditionally used the github, twitter, slack, or bio at all
+- id: aaaron-collier
+  name: Aaron Collier
+  last: Collier
+  pronouns: he/him/his
+  position-title: Software Engineer
+  bio: Aaron Collier joined the Infrastructure Team at Stanford Libraries as a developer in mid-2017 from the California State University Office of the Chancellor, where he served as Repository Manager for several years. His true passion is judging beer.
+  twitter: aaronisbrewing
+  slack: acollier
+  github: aaaron-collier
+  image_src: /assets/img/speakers/aaaron-collier.jpg
+  keynote: false
+
+## PREVIOUS EXAMPLE
+- id: melancholy-jaques
+  name: Melancholy Jaques
+  last: Jaques
+  bio: |
+    Depressed much?
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  keynote: false
+  work_title: Introvert
+  institution: Arden
+  image_src: /assets/img/nopics/nopic10.jpg
