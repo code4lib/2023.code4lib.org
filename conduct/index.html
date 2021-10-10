@@ -197,7 +197,7 @@ active: 'Conduct & Safety'
                       </ul>
 
                     {% if site.data.community-support %}
-                        {% if site.data.conf.local-conference %}
+                        {% if site.data.conf.online-only-conference == false %}
                             <h3>On-Site Community Support Volunteers</h3>
 
                             <div class="row">
@@ -239,7 +239,7 @@ active: 'Conduct & Safety'
             <div class="row csv-schedule">
                 <div class="col-12">
                     <h2 id="schedule">Community Support Volunteer Schedule
-                        {% if site.data.conf.local-conference %}
+                        {% if site.data.conf.online-only-conference == false %}
                             - On-Site
                         {% else %}
                             - Online
@@ -265,7 +265,7 @@ active: 'Conduct & Safety'
                             </div>
                         </div>
                     {% endfor %}
-                    {% if site.data.conf.local-conference %}
+                    {% if site.data.conf.online-only-conference %}
                         <h3>Online</h3>
                         {% for period in site.data.online-community-support-schedule %}
                            {% assign officer = site.data.community-support[period.officer] %}

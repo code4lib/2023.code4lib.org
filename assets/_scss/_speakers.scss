@@ -14,10 +14,7 @@
 }
 
 a.speaker-info-toggle {
-  color: $turquoise;
-  &:hover {
-    color: $link-color-light;
-  }
+  color: $primary-light;
 }
 
 p.speaker-title,
@@ -47,14 +44,12 @@ p.speaker-session {
 p.speaker-bio a,
 p.speaker-session a {
   &:not(.icon) {
-    color: $link-color-dark !important;
-    border-bottom: 2px dotted;
+    @include link-styles;
 
     &:active,
     &:focus,
     &:hover {
-      color: $link-hover-light;
-      border-bottom: 0;
+      @include link-styles-states;
     }
   }
 }
@@ -103,12 +98,12 @@ p.speaker-inst {
 }
 
 .speaker-info.show {
-  -moz-transition: max-height .15s ease;
-  -o-transition: max-height .15s ease;
-  -webkit-transition: max-height .15s ease;
+  -moz-transition: max-height .35s ease;
+  -o-transition: max-height .35s ease;
+  -webkit-transition: max-height .35s ease;
   max-height: 600px;
-  transition: max-height .15s ease;
-  transition-delay: .0s;
+  transition: max-height .35s ease;
+  transition-delay: .15s;
 }
 
 .speaker-info-inner {
@@ -148,11 +143,10 @@ p.speaker-inst {
   background-color: $speaker-selected-bg;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  outline: $speaker-selected-outline;
 }
 
 .speaker-box.selected a {
-  color: $speaker-selected-color;
+  color: $white;
 
   &:active,
   &:focus,
@@ -169,7 +163,7 @@ p.speaker-inst {
 .arrow-down {
   border-left: 140px solid transparent;
   border-right: 140px solid transparent;
-  border-top: 15px solid $speaker-selected-arrow;
+  border-top: 15px solid $speaker-selected-bg;
   height: 0;
   margin-top: 15px;
   opacity: 0;

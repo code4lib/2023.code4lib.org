@@ -1,12 +1,11 @@
 <div class="col-12">
 
     <!-- Registation -->
+    {% if site.data.registration.conference.show and site.data.registration.conference.open == false %}
     <div class="row expo-row">
         <div class="col-12">
             <h3 class="expo">Registration</h3>
     {% comment %} details known/announced but can't register yet {% endcomment %}
-    {% if site.data.registration.conference.show
-    and site.data.registration.conference.open == false %}
         {% include homepage/going_on_block.html
             primary=true
             title='Conference Registration'

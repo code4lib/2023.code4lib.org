@@ -7,9 +7,9 @@
   height: 79px;
   width: 79px;
   border-radius: 50%;
-  margin: 0 auto .2em;
-  background: $icosahedron-color;
-  border: 13px solid $icosahedron-color;
+  margin: 0 auto 0.2em;
+  background: $primary;
+  border: 13px solid $primary;
   box-sizing: content-box;
 }
 
@@ -31,6 +31,6 @@
   border-radius: 50%;
   margin: 0 auto .2em;
   background: $clip-circle-border;
-  border: 3px solid $clip-circle-border;
+  border: $clip-circle-border-size solid $clip-circle-border;
   box-sizing: content-box;
 }

@@ -1,8 +1,14 @@
 /* ==========================================================================
-   Color Test for 2021
+   Color Test for 2022
    ========================================================================== */
 //
 // Variables
+// https://coolors.co/002673-f3d03e-F5F5F5-e8e8e8
+// --------------------------------------------------
+// blue: #002673
+// yellow: #f3d03e
+// white: #F5F5F5
+// silver: #e8e8e8
 // --------------------------------------------------
 
 // Background
@@ -29,15 +35,15 @@ $honey-yellow-darker: darken($honey-yellow, 10%);
 
 .CT-body {
     /* Margin bottom by footer height */
-    color: $cultured-white;
-    background-color: $oxford-blue;
+    color: #000;
+    background-color: $cultured-white;
     font-family: $font-family-sans-serif;
     font-weight: 300;
     padding: 50px;
 }
 
 .CT-body a {
-    color: $turquoise;
+    color: #003087;
 }
 
 // .CT-body a:hover, .CT-body a:focus {
@@ -48,29 +54,37 @@ $honey-yellow-darker: darken($honey-yellow, 10%);
 
 // Alternative hover effect:
 .CT-body a:hover, .CT-body a:focus {
-    color: $crayola-pink;
+    color: lighten(#003087, 5%);
 }
 
-.CT-body hr{
-    border: 10px solid $turquoise;
+.CT-body hr {
+    border: 10px solid #003087;
+}
+
+.CT-body speaker-info-inner {
+    background: #afb0ac;
 }
 
 .CT-body .clip-circle-lg {
     background: transparent !important;
-    border: 0px !important;
+    border: 4px solid #003087;
 }
 
-.CT-body .speaker-box-inner {
-    border-top: 3px solid $crayola-pink;
-    border-left: 3px solid $crayola-pink;
-    border-right: 3px solid $crayola-pink;
-    border-radius: 3px;
+.CT-body .speaker-box.selected {
+    a {
+        color: #f3d03e;
+    }
+    .speaker-box-inner {
+        border-radius: 10px 10px 3px 3px;
+        background: #003087;
+    }
 }
+
 
 .CT-body .arrow-down {
     border-left: 140px solid transparent;
     border-right: 140px solid transparent;
-    border-top: 15px solid $crayola-pink;
+    border-top: 15px solid #003087;
     height: 0;
     margin-top: 15px;
     opacity: 0;

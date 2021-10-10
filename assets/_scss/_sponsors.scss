@@ -22,7 +22,6 @@
   font-style: italic;
   margin: 1em 2em -.8em;
   padding: 5px;
-  color: $oxford-blue;
 }
 
 .sponsor-group {
@@ -151,7 +150,7 @@
   -o-transition-duration: .3s;
   -webkit-border-radius: 0 5px 5px 0;
   -webkit-transition-duration: .3s;
-  background-color: $crayola-pink;
+  background-color: $accent-light;
   border-radius: 0 5px 5px 0;
   left: 0;
   padding: 30px 0;
@@ -175,11 +174,9 @@
     -o-transition-duration: .3s;
     -webkit-border-radius: 0 0 5px 0;
     -webkit-transition-duration: .3s;
-    background-color: $oxford-blue;
+    background-color: $accent-light;
     border-radius: 0 0 5px;
-    border-bottom: 2px solid $crayola-pink;
-    border-top: 2px solid $crayola-pink;
-    border-right: 2px solid $crayola-pink;
+    color: $black;
     padding: 20px;
     text-align: left;
     transition-duration: .3s;

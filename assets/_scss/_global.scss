@@ -9,7 +9,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  color: $cultured-white;
+  color: $gray-base;
   font-family: $font-family-sans-serif;
   font-weight: 300;
   margin-bottom: 20.3125em;
@@ -30,13 +30,13 @@ h4,
 h5 {
   font-family: $font-family-sans-serif;
   letter-spacing: .02em;
+
+  &.expo {
+    border-bottom: 1px solid $gray-light;
+  }
+
   margin-top: $font-size-base;
   margin-bottom: $font-size-base;
-}
-
-.expo {
-    border-bottom: 1px solid $crayola-pink;
-    margin-bottom: $font-size-base;
 }
 
 .btn:focus {
@@ -46,6 +46,7 @@ h5 {
 .navbar {
   font-family: $font-family-sans-serif;
   font-weight: 300;
+  background: $navbar-bg;
 }
 
 dt {
@@ -73,14 +74,4 @@ p {
   justify-content: space-around;
   margin: 0;
   padding: 0;
-}
-
-.ct-btn-light{
-    background-color: $honey-yellow;
-    color: $black;
-    &:hover {
-        background-color: transparent;
-        color: $honey-yellow-lighter !important;
-        border-color: $honey-yellow-darker;
-    }
 }

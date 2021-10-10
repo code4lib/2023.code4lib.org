@@ -6,11 +6,10 @@
   background-color: transparent;
   overflow: hidden;
   padding: 0;
-  border-radius: 0px;
 }
 
 #conferenceInfo {
-  background-color: $hero-transition;
+  background-color: $primary;
 
   h1 {
     background-color: fade-out($primary-light, .35);
@@ -50,21 +49,13 @@
   }
 }
 
-#mainNavBar > ul > li> a.nav-link {
-    color: $cultured-white;
-    &:hover {
-      color: $turquoise;
-    }
-}
-
-
 /* ==========================================================================
    Hero Image
    ========================================================================== */
 
 #heroImageAttribution {
-  background-color: $hero-transition;
-  color: $primary-dark;
+  background-color: $primary;
+  color: $cultured-white;
   font-size: .9em;
 
   a {
@@ -87,10 +78,9 @@
  2019 note: This math did not work out for a 2876x913 image, where min-width in line 152 should have, according to above math, been 1020. Instead 1160 is the number that works with this year's hero image.
  */
 
-@media (min-width: 578px) {
+@media (min-width: 1160px) {
   .hero-image img {
     width: 100%;
-    height: auto;
   }
 }
 
@@ -143,9 +133,6 @@
 }
 
 // "Welcome to..." section of the home page
-.welcome {
-  background-color: $xiketic;
-}
 .welcome a {
   @include link-styles;
 

@@ -1,38 +1,5 @@
 $bootstrap-sass-asset-helper: true !default;
-
-// --------------------------------------------------
-// 2021 Variables
-// --------------------------------------------------
-
-// Background
-$oxford-blue: #060c40;
-$xiketic: #070413;
-$oxford-blue-desat: #0D1661;
-
-// Foreground
-$cultured-white: #F5F5F5;
-$turquoise: #00D5C0;
-$crayola-pink: #F971F0 ;
-$honey-yellow: #FDB827;
-
-//Foreground lighter
-$cultured-white-lighter: #FFF;
-$turquoise-lighter: lighten($turquoise, 10%);
-$crayola-pink-lighter: lighten($crayola-pink, 10%);
-$honey-yellow-lighter: lighten($honey-yellow, 10%);
-$crayola-pink-desat: #EE44E2;
-// Buttons
-$btn-bg-color-mid: $honey-yellow;
-$btn-color-mid: #000;
-$btn-border-color-mid: #000;
-$btn-border-hover: $honey-yellow-lighter;
-$honey-yellow-darker: darken($honey-yellow, 10%);
-
-// Random Utils
 $transparent: transparent !important;
-$icosahedron-color: $turquoise;
-$hero-transition: #770681;
-
 
 //
 // Variables
@@ -40,6 +7,7 @@ $hero-transition: #770681;
 
 //== Colors
 
+$cultured-white: #F5F5F5;
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #f6fdfd !default;
@@ -52,35 +20,43 @@ $gray-800: #67655d !default;
 $gray-900: #464745 !default;
 $black:    #000 !default;
 
+// $gray-base:               #332c2f !default;
+// $gray-darker:             #464745 !default; // #222
+// $gray-dark:               #67655d !default;
+// $gray:                    #8e908c;
+// $gray-light:              #d4d8d1 !default;
+// $gray-lighter:            #f6fdfd !default;
+
 
 //From Bootstrap3
 //## Gray and brand colors for use across Bootstrap.
+
 $gray-base:              #332c2f !default;
 $gray-darker:            $gray-900 !default; // #222
 $gray-dark:              $gray-800 !default; // #333
 $gray:                   $gray-600 !default; // #555
 $gray-light:             $gray-400 !default; // #777
-$gray-light:             $cultured-white; //2021 override
 $gray-lighter:           $gray-200 !default; // #eee
-//End fo gray setting
 
-$primary:                 $xiketic;
+//End of gray setting
+
+$primary:                 #002673;
 $primary-dark:            darken($primary, 10%) !default;
 $primary-light:           lighten($primary, 10%) !default;
 
-$accent:                  $crayola-pink;
+$accent:                  #f3d03e;
 $accent-dark:             darken($accent, 10%) !default;
 $accent-light:            lighten($accent, 10%);
 $accent-darker:           darken($accent, 20%);
 $accent-lighter:          lighten($accent, 20%);
 
-$brand-primary:           $oxford-blue !default; // #337ab7
+$brand-primary:           $accent !default; // #f3d03e
 $brand-success:           #5cb85c !default;
 $brand-info:              #5bc0de !default;
-$brand-warning:           $gray-600 !default;
+$brand-warning:           #f0ad4e !default;
 $brand-danger:            #d9534f !default;
 
-$accent-link-primary:    $gray-600 !default;
+$accent-link-primary:    #fdb771 !default;
 $accent-primary-hover:   lighten($accent-link-primary, 10%) !default;
 
 // General
@@ -92,23 +68,24 @@ $tab-focus-color: rgba(0, 103, 244, 0.43);
 //## Unique Code4Lib conference site components
 
 // Sections
-$section-2-bg:            $cultured-white;
+$section-2-bg:            $primary;
 $section-2-color:         color-contrast($primary);
 $section-2-link:          $accent-dark;
 $section-2-hover:         $accent-lighter;
 
-$section-3-bg:            $oxford-blue;
+$section-3-bg:            $primary-dark;
 $section-3-color:         $gray-lighter;
 $section-3-link:          $accent-dark;
 $section-3-hover:         darken($accent-light, 6.5%);
 
-$footer-bg:               $black;
+$footer-bg:               $primary;
 $footer-color:            $gray-lighter;
 $footer-link:             lighten($accent-light, 30%);
-$footer-hover:            $turquoise;
+$footer-hover:            darken($footer-link, 6.5%);
 
 // Clip circle
-$clip-circle-border:      $transparent;
+$clip-circle-border:      $primary;
+$clip-circle-border-size: 2px;
 
 // Sponsor Badges
 $sponsor-badge-primary:   $accent;
@@ -118,11 +95,9 @@ $sponsor-badge-ribbon:    $accent-light;
 $sponsor-badge-bg:        $gray-lighter;
 
 // Speaker Box
-$speaker-selected-bg:     $xiketic;
-$speaker-selected-color:  $turquoise;
-$speaker-selected-outline:  2px solid $crayola-pink;
-$speaker-selected-arrow:  $crayola-pink;
-$speaker-info-bg:         $gray-light;
+$speaker-selected-bg:     $primary;
+$speaker-selected-color:  $gray-lighter;
+$speaker-info-bg:         #e8e8e8;
 $speaker-info-color:      $gray-base;
 
 // Menu
@@ -144,8 +119,8 @@ $timeline-content-bg:     $gray-lighter;
 $timeline-content-shadow: $gray;
 
 // Testimonials
-$testimonial-bg:          $gray-light;
-$testimonial-border:      $accent;
+$testimonial-bg:          $accent;
+$testimonial-border:      $gray-base;
 $testimonial-color:       $primary-dark;
 
 // Presentation Info Box
@@ -162,32 +137,24 @@ $jumbotron-btn-color:     $gray-lighter;
 $jumbotron-btn-hover:     darken($primary-dark, 6.5%);
 
 // Event cards
-$card-bg:                 $oxford-blue-desat;
-$event-card-color:        $cultured-white;
-$day-event-cap:           $honey-yellow;
-$day-event-icon-color:    darken($honey-yellow, 6.5%);
-$night-event:             $turquoise;
-$day-night-icon-bg:       $card-bg;
-$schedule-card-title:     $crayola-pink-desat;
+$day-event:               $accent-light;
+$night-event:             $primary-dark;
+
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $oxford-blue !default;
+$body-bg:               $gray-lighter !default;
 //** Global text color on `<body>`.
-$text-color:            $cultured-white !default;
-$text-color-subtle:     #ccc; 
+$text-color:            $gray-base !default;
 
 //** Global textual link color.
-$link-color:            $turquoise !default;
-$link-color-light:      lighten($turquoise, 10%);
-$link-color-dark:       #ea1cdd; //#770681;
+$link-color:            $primary !default;
 $link-decoration:       none !default;
 $link-hover-color:      $primary-dark !default;
 $link-hover-decoration: underline !default;
-$link-hover-dark:       darken($accent-dark, 10%);
-$link-hover-light:      darken($link-color-dark, 10%);
+
 
 //== Typography
 //
@@ -226,7 +193,7 @@ $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
 $font-weight-bold:            700 !default;
-$font-weight-bolder:          $font-weight-bold; //bolder !default;
+$font-weight-bolder:          bolder !default;
 
 //** Unit-less `line-height` for use in components like buttons.
 // $line-height-base:        1.428571429 !default; // 20/14
@@ -320,8 +287,6 @@ $table-border-color:            #ddd !default;
 //== Buttons
 //
 
-//
-// $btn-font-weight:                normal !default;
 $btn-font-weight:             $font-weight-normal !default;
 
 $btn-secondary-color:              #333 !default;
@@ -354,7 +319,6 @@ $btn-link-disabled-color:        $gray-light !default;
 $btn-border-radius-base:         $border-radius-base !default;
 $btn-border-radius-large:        $border-radius-large !default;
 $btn-border-radius-small:        $border-radius-small !default;
-
 
 //== Forms
 //
@@ -537,6 +501,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
+$navbar-bg:                        $primary;
 $navbar-height:                    40px !default;
 $navbar-margin-bottom:             0px !default;
 $navbar-border-radius:             0px !default;
@@ -545,7 +510,7 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-light-color:             $gray-lighter !default;
-$navbar-light-bg:                $primary-dark !default;
+$navbar-light-bg:                $primary !default;
 $navbar-light-border:            darken($primary-dark, 20%) !default;
 
 // Navbar links
@@ -627,21 +592,21 @@ $nav-pills-active-link-hover-color:         $component-active-color !default;
 //
 //##
 
-$pagination-color:                     $speaker-info-color !default;
-$pagination-bg:                        #dadada !default;
-$pagination-border:                    $cultured-white !default;
+$pagination-color:                     $link-color !default;
+$pagination-bg:                        $white !default;
+$pagination-border:                    #ddd !default;
 
-$pagination-hover-color:               $speaker-info-color !default;
+$pagination-hover-color:               $link-hover-color !default;
 $pagination-hover-bg:                  $gray-lighter !default;
-$pagination-hover-border:              $gray-lighter !default;
+$pagination-hover-border:              #ddd !default;
 
-$pagination-active-color:              $speaker-info-color !default;
-$pagination-active-bg:                 $cultured-white !default;
-$pagination-active-border:             $cultured-white !default;
+$pagination-active-color:              $black !default;
+$pagination-active-bg:                 $brand-primary !default;
+$pagination-active-border:             $brand-primary !default;
 
 $pagination-disabled-color:            $gray-light !default;
 $pagination-disabled-bg:               $white !default;
-$pagination-disabled-border:           $cultured-white !default;
+$pagination-disabled-border:           #ddd !default;
 
 
 //== Pager
@@ -1009,8 +974,8 @@ $close-text-shadow:           0 1px 0 $white !default;
 //
 //##
 
-$code-color:                  $crayola-pink !default;
-$code-bg:                     $xiketic !default;
+$code-color:                  #c7254e !default;
+$code-bg:                     #f9f2f4 !default;
 
 $kbd-color:                   $white !default;
 $kbd-bg:                      #333 !default;
@@ -1040,7 +1005,7 @@ $blockquote-font-size:        ($font-size-base * 1.2) !default;
 //** Blockquote border color
 $blockquote-border-color:     $gray-light !default;
 //** Page header border color
-$page-header-border-color:    $crayola-pink !default;
+$page-header-border-color:    $gray-lighter !default;
 //** Width of horizontal description list titles
 $dl-horizontal-offset:        $component-offset-horizontal !default;
 //** Point at which .dl-horizontal becomes horizontal
