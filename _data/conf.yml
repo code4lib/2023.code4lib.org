@@ -13,23 +13,17 @@ online-only-conference: false
 # Hero
 ###########################
 # Place hero image in /assets/img/theme-images/
-hero-image-filename: ''
-hero-image-source: 'https://pixabay.com/vectors/triangles-polygon-color-pink-1430105/'
+hero-image-filename: 'buffalo.png'
+hero-image-source: ''
 hero-image-alt: ''
 
 image-attributions:
   - attribution:
-    creator: DavidRockDesign
-    image-title: triangles-polygon-color-pink-1430105
-    image-url: https://pixabay.com/vectors/triangles-polygon-color-pink-1430105/
-    license-name: Pixabay License
-    license-url: https://pixabay.com/service/terms/#license
-  - attribution:
-    creator: Alessandro Bertoni
-    image-title: icosahedron
-    image-url: https://thenounproject.com/term/icosahedron/6890
-    license-name: Public Domain (CC0 1.0 Universal)
-    license-url: https://creativecommons.org/publicdomain/zero/1.0/
+    creator: Creator
+    image-title: image-title
+    image-url: https://example.com
+    license-name: License Type
+    license-url: https://example.com
 
 ########################
 # Program & Schedule
