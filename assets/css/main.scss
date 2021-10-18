@@ -3,9 +3,9 @@
 @charset "UTF-8";
 // these are vars, functions, mixins & need to come first
 // @import 'color-contrast';
+@import 'variables';
 @import 'mixins';
 @import 'links';
-@import 'variables';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 // actual styles, order _may_ be important
 @import 'global';

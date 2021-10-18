@@ -1,6 +1,6 @@
 @mixin link-styles {
   border-bottom: 1px dotted;
-  color: $accent;
+  color: $primary;
   text-decoration: none;
 }
 
@@ -9,4 +9,25 @@
   color: $primary-dark;
   border-bottom: 2px solid;
   text-decoration: none;
+}
+
+#mainNavBar {
+    .nav-link {
+        color: $cultured-white;
+        padding: 0 0.5rem;
+        &:hover {
+            color: $accent !important;
+            border-bottom: 2px solid;
+            margin-bottom: -2px;
+        }
+    }
+}
+
+#footerNav .nav {
+    color: $cultured-white;
+    &:hover {
+        color: $accent !important;
+        border-bottom: 2px solid;
+        margin-bottom: -2px;
+    }
 }

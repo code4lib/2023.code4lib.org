@@ -3,7 +3,8 @@
    ========================================================================== */
 
 ul.secondarynav > li:not(.active):hover {
-  border-left: solid 3px $accent;
+  border-left: solid 2px $accent;
+  margin-left: -2px;
 }
 
 ul.secondarynav > li.active > ul > li {
