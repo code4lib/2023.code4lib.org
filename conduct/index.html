@@ -16,7 +16,6 @@ active: 'Conduct & Safety'
 
             <h2 id="conduct">Code4Lib Community Code of Conduct</h2>
 
-
                 <div class="blockquote">
                   <p>
                     Code4Lib seeks to provide a welcoming, fun, and safe community and conference experience and ongoing
@@ -32,9 +31,6 @@ active: 'Conduct & Safety'
                     other events, inappropriate physical contact, and unwelcome sexual attention.</p><br>
                     <cite title="Source Title">—CodeOfConduct4Lib</cite>
                 </div>
-
-
-
 
             <p class="lead text-center">
                 <a href="https://github.com/code4lib/antiharassment-policy/blob/master/code_of_conduct.md">
@@ -164,17 +160,17 @@ active: 'Conduct & Safety'
                     {% endunless %}
 
                       <ul>
-                        {% if site.data.conf.community-support-email != '' %}
+                        {% if site.data.conf.community-support-email != nil %}
                             <li>Send an email to <a href="mailto:{{site.data.conf.community-support-email}}">{{site.data.conf.community-support-email}}</a>. Only Community Support Volunteers are subscribed to this mailing list, and no archive is kept.
                         {% else %}
                             <li>While no Community Support Volunteer email is available yet, you can contact the Local Planning Committee at <a href="mailto:{{site.data.conf.main-conf-email}}">{{site.data.conf.main-conf-email}}</a>
                         {% endif %}
 
-                        {% if site.data.conf.community-support-phone != '' %}
+                        {% if site.data.conf.community-support-phone != nil %}
                             <li>Call a Community Support Volunteer at <a href="tel:{{site.data.conf.community-support-phone}}">{{site.data.conf.community-support-phone}}</a>.</li>
                         {% endif %}
 
-                        {% if site.data.conf.anonymous-form != '' %}
+                        {% if site.data.conf.anonymous-form != nil %}
                             <li>Use the <a href="{{site.data.conf.anonymous-form}}">anonymous reporting form</a>.
                         {% endif %}
 
@@ -271,8 +267,7 @@ active: 'Conduct & Safety'
             <script>document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove()</script>
             {% endif %}
 
-
-            {% if site.data.conf.venue.name != '' %}
+            {% if site.data.conf.venue.name != nil %}
             <div class="row">
                 <div class="col-12">
                     <h2 id="photography">Photography Policy</h2>
