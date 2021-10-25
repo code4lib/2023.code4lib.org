@@ -75,3 +75,10 @@ p {
   margin: 0;
   padding: 0;
 }
+
+.ct-btn-light {
+    border: 2px solid $accent-light;
+    &:hover {
+        background-color: $accent-light;
+    }
+}
