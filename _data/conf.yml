@@ -182,7 +182,7 @@ keynote-proposals:
   end-date: '2021-11-18'
 
 workshop-proposals:
-  show: true
+  show: false
   submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSfh1ri7kmxtZv5SdfKJ-Q6EoiTFYVxtaFNhbh2Wzpzxcr0BcQ/viewform'
   end-date: '2021-11-18'
 
