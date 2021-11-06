@@ -12,10 +12,11 @@ online-only-conference: false
 ###########################
 # Hero
 ###########################
-# Place hero image in /assets/img/theme-images/
+# Place hero image in /assets/img/theme-images/. Includes optional webp format.
 hero-image-filename: 'buffalo.png'
 hero-image-source: ''
-hero-image-alt: ''
+hero-image-filename-webp: 'buffalo.webp'
+hero-image-alt: 'The skyline of Buffalo, New York. White lightning bolts and stars are in the background, representing the Buffalo city flag.'
 
 image-attributions:
   - attribution:
