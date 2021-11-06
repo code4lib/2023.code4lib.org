@@ -14,8 +14,12 @@ title: image attributions
 
                 {% for attribution in site.data.conf.image-attributions %}
                     <h3>{{ attribution.creator }}</h3>
-                    Image: <a href="{{ attribution.image-url }}">{{ attribution.image-title }}</a> <br/>
+                    {% if attribution.image-title != empty and attribution.image-url != empty %}
+                    Image: <a href="{{ attribution.image-url }}">{{ attribution.image-title }}</a> <br />
+                    {% endif %}
+                    {% if attribution.license-name != empty and attribution.license-url != empty %}
                     License: <a href="{{ attribution.license-url }}">{{ attribution.license-name }}</a> <br />
+                    {% endif %}
                 {% endfor %}
 
             {% endif %}

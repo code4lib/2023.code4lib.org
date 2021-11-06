@@ -19,11 +19,11 @@ hero-image-alt: ''
 
 image-attributions:
   - attribution:
-    creator: Creator
-    image-title: image-title
-    image-url: https://example.com
-    license-name: License Type
-    license-url: https://example.com
+    creator: Christopher Behrend
+    image-title: Buffalo
+    image-url: https://VisitBuffaloNiagara.com
+    license-name: ''
+    license-url: ''
 
 ########################
 # Program & Schedule
@@ -56,7 +56,7 @@ days:
 # Venue Information
 ####################
 
-#Short Form for location
+# Short Form for location
 city-state: 'Buffalo NY'
 city: 'Buffalo'
 state: 'NY'
