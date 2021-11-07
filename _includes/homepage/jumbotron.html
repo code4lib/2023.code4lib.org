@@ -3,7 +3,7 @@
 
     <div class="hero-image">
         <picture>
-            {% if site.data.conf.hero-image-filename-webp != empty %}
+            {% if site.data.conf.hero-image-filename-webp != nil %}
             <source srcset="/assets/img/theme-images/{{ site.data.conf.hero-image-filename-webp }}" type="image/webp">
             {% endif %}
             <img src="/assets/img/theme-images/{{ site.data.conf.hero-image-filename | site.data.conf.hero-image-source }}" alt="{{ site.data.conf.hero-image-alt }}">
