@@ -34,12 +34,8 @@ title: code4lib 2022
                     alt="Flag for City of Buffalo, New York" title="Flag for City of Buffalo, New York">
             </div>
             <div class="col-lg-9 col-md-7 col-xs-12">
-                <h2>Welcome to Buffalo, NY, the City of Light</h2>
-                <p>In 1896, when Nicola Tesla initiated the first long-range transmission of electricity in the world, Buffalo
-                    became the City of Light. Today, from biomedical research to the arts, this spirit of innovation
-                    glows brighter than ever, which makes Buffalo a perfect location for our 2022
-                    Code4Lib Conference. Hosted by the State University of New York at Buffalo, details on our
-                    venue are coming soon!</p>
+                <h2>Welcome to {{site.data.conf.location}}, {{site.data.conf.venue.catchline}}</h2>
+                <p>{{site.data.conf.venue.welcome-message}}</p>
                 {% if site.data.conf.venue.name != '' %}
                 <p>
                     The conference will take place at the <a
