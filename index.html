@@ -38,8 +38,7 @@ title: code4lib 2022
                 <p>{{site.data.conf.venue.welcome-message}}</p>
                 {% if site.data.conf.venue.name != '' %}
                 <p>
-                    The conference will take place at the <a
-                        href="{{site.data.conf.venue.website}}">{{site.data.conf.venue.name}}</a>,
+                    The conference will take place at the <a href="{{site.data.conf.venue.website}}">{{site.data.conf.venue.name}}</a>,
                     right in downtown {{ site.data.conf.location }}.
                 </p>
                 {% endif %}
@@ -67,7 +66,7 @@ title: code4lib 2022
                 </div>
             </div>
             {% endfor %}
-            <script src="{{ " /assets/js/testimonials.js" | relative_url }}"></script>
+            <script src="{{ "/assets/js/testimonials.js" | relative_url }}"></script>
         </div>
     </div>
 </section>
