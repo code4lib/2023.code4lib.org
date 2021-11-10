@@ -66,7 +66,7 @@ state: 'NY'
 #       to a physical conference venue, when the conference is fully online.
 venue:
     reserved-room-block: false
-    name: ' '
+    name: ''
     street: ''
     postal-code: ''
     phone: ''
