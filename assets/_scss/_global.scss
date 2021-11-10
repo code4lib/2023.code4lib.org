@@ -77,8 +77,9 @@ p {
 }
 
 .ct-btn-light {
+    background-color: $accent-light;
     border: 2px solid $accent-light;
     &:hover {
-        background-color: $accent-light;
+        background-color: $cultured-white;
     }
 }
