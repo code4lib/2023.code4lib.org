@@ -85,7 +85,7 @@ jQuery(document).ready(function($){
 //    }
 
     function toggleSpeaker(target){
-        var shownHeight;
+        let shownHeight;
 
         if ($('.speaker-info.show').length){
             shownHeight = $('.speaker-info.show').height();
@@ -96,6 +96,7 @@ jQuery(document).ready(function($){
         $('html, body').animate({
             scrollTop: $(target+'-id').offset().top - shownHeight
         }, 500);
+
         if (!$(target+'-id').hasClass('show')){
                 $('.speaker-info').removeClass('show');
                 $('.speaker-box').removeClass('selected');
@@ -110,7 +111,13 @@ jQuery(document).ready(function($){
 
     $('.speaker-info-toggle').click(function(e){
         e.preventDefault();
-        var target = $(this).data('target');
+        let toggle = $(this);
+        // any other expanded bio is now closed & this one is open
+        $('.speaker-info-toggle')
+            .filter((idx, el) => $(el).attr('aria-expanded') == 'true')
+            .attr('aria-expanded', 'false');
+        toggle.attr('aria-expanded', 'true');
+        let target = toggle.data('target');
         toggleSpeaker(target);
     });
 
