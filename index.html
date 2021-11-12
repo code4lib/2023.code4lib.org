@@ -36,7 +36,7 @@ title: code4lib 2022
             <div class="col-lg-9 col-md-7 col-xs-12">
                 <h2>Welcome to {{site.data.conf.location}}, {{site.data.conf.venue.catchline}}</h2>
                 <p>{{site.data.conf.venue.welcome-message}}</p>
-                {% if site.data.conf.venue.name != '' %}
+                {% if site.data.conf.venue.name != nil %}
                 <p>
                     The conference will take place at the <a href="{{site.data.conf.venue.website}}">{{site.data.conf.venue.name}}</a>,
                     right in downtown {{ site.data.conf.location }}.

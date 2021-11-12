@@ -18,10 +18,10 @@
                 <h1 class="text-right">
                     <span class="sr-only">code for lib {{site.data.conf.year}}</span>
                     {{site.data.conf.location}}
-                    {% if site.data.conf.venue.name != '' %}
-                    <small>{{site.data.conf.days[0].date-data | date: "%B %-d"}} - {{site.data.conf.days.last.date-data | date: "%-d"}} {{site.data.conf.year}}</small>
+                    {% if site.data.conf.venue.name != nil %}
+                        <small>{{site.data.conf.days[0].date-data | date: "%B %-d"}} - {{site.data.conf.days.last.date-data | date: "%-d"}} &#8226; Online</small>
                     {% else %}
-                    <small>{{site.data.conf.days[0].date-data | date: "%B %-d"}} - {{site.data.conf.days.last.date-data | date: "%-d"}} &#8226; Online</small>
+                        <small>{{site.data.conf.days[0].date-data | date: "%B %-d"}} - {{site.data.conf.days.last.date-data | date: "%-d"}} {{site.data.conf.year}}</small>
                     {% endif %}
                 </h1>
 
