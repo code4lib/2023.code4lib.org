@@ -183,7 +183,7 @@ sponsor-btn-link: 'https://www.concentra-cms.com/c4l22sponsorreg.html'
 keynote-proposals:
   show: true
   submission-form: 'https://wiki.code4lib.org/2022_Keynote_Speakers_Nominations'
-  end-date: '2021-11-18'
+  end-date: '2021-11-28'
 
 workshop-proposals:
   show: true
