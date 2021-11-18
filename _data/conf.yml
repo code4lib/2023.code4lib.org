@@ -188,7 +188,7 @@ keynote-proposals:
 workshop-proposals:
   show: true
   submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSfh1ri7kmxtZv5SdfKJ-Q6EoiTFYVxtaFNhbh2Wzpzxcr0BcQ/viewform'
-  end-date: '2021-11-18'
+  end-date: '2021-11-29'
 
 talk-proposals:
   show: true
