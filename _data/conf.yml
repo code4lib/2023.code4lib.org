@@ -66,21 +66,21 @@ state: 'NY'
 # NOTE: {% if site.data.conf.venue.name != '' %} is being used to remove textual references
 #       to a physical conference venue, when the conference is fully online.
 venue:
-    reserved-room-block: false
-    name:
-    street: ''
-    postal-code: ''
-    phone: ''
-    image: ''
-    website: ''
-    floorplan: ''
-    directions: ''
-    a11y: ''
-    cost: ''
-    with-tax-cost: ''
-    cost-cutoff-date: 2021-01-01
-    welcome-message: In 1896, when Nicola Tesla initiated the first ever long-range transmission of electricity, the destination of Buffalo became the City of Light. Today, from biomedical research to the arts, this spirit of innovation glows brighter than ever, which makes Buffalo a perfect location for our 2022 Code4Lib Conference. Hosted by the State University of New York at Buffalo, details on our venue are coming soon!
-    catchline: the City of Light
+  reserved-room-block: false
+  name:
+  street: ''
+  postal-code: ''
+  phone: ''
+  image: ''
+  website: ''
+  floorplan: ''
+  directions: ''
+  a11y: ''
+  cost: ''
+  with-tax-cost: ''
+  cost-cutoff-date: 2021-01-01
+  welcome-message: In 1896, when Nicola Tesla initiated the first ever long-range transmission of electricity, the destination of Buffalo became the City of Light. Today, from biomedical research to the arts, this spirit of innovation glows brighter than ever, which makes Buffalo a perfect location for our 2022 Code4Lib Conference. Hosted by the State University of New York at Buffalo, details on our venue are coming soon!
+  catchline: the City of Light
 
 ################
 # C4l Links
@@ -121,7 +121,7 @@ homepage-display: pre
 
 livestream:
   show: false
-  button-label: "Join Workshop"
+  button-label: 'Join Workshop'
   url: 'https://whova.com/portal/webapp/codel_202103/'
 
 slides:
@@ -139,23 +139,22 @@ closed-captioning:
 
 # Peri display descriptions and titles
 peri:
-  day1-am-title: "Pre-Conference"
-  day1-am-desc: "Workshops"
-  day2-am-title: "Conference, Day 1"
-  day2-am-desc: "Keynote"
-  day3-am-title: "Conference, Day 2"
-  day3-am-desc: "Awesome Talks"
-  day3-pm-title: "Game Night"
-  day3-pm-desc: "Board or Card Games"
-  day4-am-title: "Conference, Day 3"
-  day4-am-desc: "Awesome Talks"
-  day4-pm-title: "Karaoke Night"
-  day4-pm-desc: "Join Us"
-  day5-am-title: "Conference, Day 4"
-  day5-am-desc: "Awesome Talks"
-  day5-pm-title: "Trivia Night"
-  day5-pm-desc: "Bragging Rights"
-
+  day1-am-title: 'Pre-Conference'
+  day1-am-desc: 'Workshops'
+  day2-am-title: 'Conference, Day 1'
+  day2-am-desc: 'Keynote'
+  day3-am-title: 'Conference, Day 2'
+  day3-am-desc: 'Awesome Talks'
+  day3-pm-title: 'Game Night'
+  day3-pm-desc: 'Board or Card Games'
+  day4-am-title: 'Conference, Day 3'
+  day4-am-desc: 'Awesome Talks'
+  day4-pm-title: 'Karaoke Night'
+  day4-pm-desc: 'Join Us'
+  day5-am-title: 'Conference, Day 4'
+  day5-am-desc: 'Awesome Talks'
+  day5-pm-title: 'Trivia Night'
+  day5-pm-desc: 'Bragging Rights'
 
 ###########
 # Sponsors
@@ -181,7 +180,7 @@ sponsor-btn-link: 'https://www.concentra-cms.com/c4l22sponsorreg.html'
 ###########
 
 keynote-proposals:
-  show: true
+  show: false
   submission-form: 'https://wiki.code4lib.org/2022_Keynote_Speakers_Nominations'
   end-date: '2021-11-28'
 
@@ -257,73 +256,73 @@ shirt-voting:
 social-activities-url: ''
 
 community-gathering:
-    show: false
-    date: '2022-03-22'
-    time: '7PM'
-    description: 'Are you a crafter, artist, maker, or collector? We want your show-and-tell proposal! Please fill out the interest form by March 1st.'
-    event-url: ''
-    event-url-button-text: ''
-    sign-up-url: ''
-    sign-up-button-text: ''
+  show: false
+  date: '2022-03-22'
+  time: '7PM'
+  description: 'Are you a crafter, artist, maker, or collector? We want your show-and-tell proposal! Please fill out the interest form by March 1st.'
+  event-url: ''
+  event-url-button-text: ''
+  sign-up-url: ''
+  sign-up-button-text: ''
 
 game-night:
-    show: false
-    date: '2022-03-23'
-    time: '6PM to 8PM'
-    description: 'Play games? Come join your fellow code4libers in a few board or card games!'
-    event-url: ''
-    event-url-button-text: ''
-    sign-up-url: ''
-    sign-up-button-text: 'Sign Up for Game Night'
+  show: false
+  date: '2022-03-23'
+  time: '6PM to 8PM'
+  description: 'Play games? Come join your fellow code4libers in a few board or card games!'
+  event-url: ''
+  event-url-button-text: ''
+  sign-up-url: ''
+  sign-up-button-text: 'Sign Up for Game Night'
 
 karaoke-night:
-    show: false
-    date: '2022-03-24'
-    time: '6PM to 7:30PM'
-    description: 'We also have Karaoke night for those who would like to share your passions in singing, or just hangout with friendly folks.'
-    event-url: ''
-    event-url-button-text: ''
-    sign-up-url: ''
-    sign-up-button-text: 'Sign Up for a Song!'
+  show: false
+  date: '2022-03-24'
+  time: '6PM to 7:30PM'
+  description: 'We also have Karaoke night for those who would like to share your passions in singing, or just hangout with friendly folks.'
+  event-url: ''
+  event-url-button-text: ''
+  sign-up-url: ''
+  sign-up-button-text: 'Sign Up for a Song!'
 
 trivia-night:
-    show: false
-    date: '2022-03-25'
-    time: '6PM to 7:30PM'
-    description: 'If you miss the good old pub trivia days, come join us as we compete for bragging rights at Trivia Night hosted by DC-based District Trivia!'
-    event-url: ''
-    event-url-button-text: ''
-    sign-up-url: ''
-    sign-up-button-text: 'Sign Up! Registration Limited'
+  show: false
+  date: '2022-03-25'
+  time: '6PM to 7:30PM'
+  description: 'If you miss the good old pub trivia days, come join us as we compete for bragging rights at Trivia Night hosted by DC-based District Trivia!'
+  event-url: ''
+  event-url-button-text: ''
+  sign-up-url: ''
+  sign-up-button-text: 'Sign Up! Registration Limited'
 
 newcomer-dinner:
-    show: false
-    # entering the URL doubles as a "show more info" switch, too
-    signup-url: 'https://docs.google.com/document/d/1XCql9YgWydMluKfeAN9veDfms8u38shzE2wLlym179I/edit#heading=h.vmyysg627xj7'
-    transit-info: 'https://docs.google.com/document/d/1vOgMNG0kOaPdsvnjNLld5xlK7pLKZPYzytp7u14MRnQ/edit'
-    activities-info: 'https://www.google.com/maps/d/viewer?mid=1RI4SjmFkzoYX1k5cUgTlJ5zzjHQeAhui&ll=40.44383527823009%2C-79.9586392&z=14'
-    date: '2022-03-08'
+  show: false
+  # entering the URL doubles as a "show more info" switch, too
+  signup-url: 'https://docs.google.com/document/d/1XCql9YgWydMluKfeAN9veDfms8u38shzE2wLlym179I/edit#heading=h.vmyysg627xj7'
+  transit-info: 'https://docs.google.com/document/d/1vOgMNG0kOaPdsvnjNLld5xlK7pLKZPYzytp7u14MRnQ/edit'
+  activities-info: 'https://www.google.com/maps/d/viewer?mid=1RI4SjmFkzoYX1k5cUgTlJ5zzjHQeAhui&ll=40.44383527823009%2C-79.9586392&z=14'
+  date: '2022-03-08'
 
 libtech-women:
-    show: false
-    date: '2022-03-10'
-    time: '5:30PM to 7:30PM'
-    location: 'Bill’s Bar & Burger (in the Conference Hotel)'
-    hashtag: libtechwomen
+  show: false
+  date: '2022-03-10'
+  time: '5:30PM to 7:30PM'
+  location: 'Bill’s Bar & Burger (in the Conference Hotel)'
+  hashtag: libtechwomen
 
 reception:
-    show: false
-    venue: 'Carnegie Museum of Pittsburgh - Oakland'
-    street: '4400 Forbes Ave'
-    postal-code: '15213'
-    phone: '+1(412)-353-4795'
-    contact: 'straubn@carnegiemuseums.org'
-    times: '6:30PM to 8:30PM'
-    date: '2022-03-09'
+  show: false
+  venue: 'Carnegie Museum of Pittsburgh - Oakland'
+  street: '4400 Forbes Ave'
+  postal-code: '15213'
+  phone: '+1(412)-353-4795'
+  contact: 'straubn@carnegiemuseums.org'
+  times: '6:30PM to 8:30PM'
+  date: '2022-03-09'
 
 self-event:
-    show: false
-    url: 'https://docs.google.com/document/d/1bKuSy14npN2uq-rqE9RAEmc4nZRpn99KnU9SK8dfEQ8/edit?usp=sharing'
+  show: false
+  url: 'https://docs.google.com/document/d/1bKuSy14npN2uq-rqE9RAEmc4nZRpn99KnU9SK8dfEQ8/edit?usp=sharing'
 
 ###############
 # Volunteer
@@ -354,12 +353,12 @@ criteria:
   show: false
 
 angel-fund:
-    show: false
-    # whether to show the "donation thermometer" & Google Spreadsheet key for it
-    # NOTE: spreadsheet needs to be "published to the web"
-    thermometer: false
-    spreadsheet-key: '1U-FaszOhcXxpQnfMaI9TbRfcpQfPxrogfl8zrFIVIOk'
-    url: https://mxmerchant.com/mxcustomer/d/46efc4f8-1366-4943-a367-3d11cda79283/v3
+  show: false
+  # whether to show the "donation thermometer" & Google Spreadsheet key for it
+  # NOTE: spreadsheet needs to be "published to the web"
+  thermometer: false
+  spreadsheet-key: '1U-FaszOhcXxpQnfMaI9TbRfcpQfPxrogfl8zrFIVIOk'
+  url: https://mxmerchant.com/mxcustomer/d/46efc4f8-1366-4943-a367-3d11cda79283/v3
 
 diversity-scholarship-applications:
   show: false
@@ -381,4 +380,4 @@ diversity-scholarship-sponsors:
 ################
 
 quiet-room:
-    show: false
+  show: false
