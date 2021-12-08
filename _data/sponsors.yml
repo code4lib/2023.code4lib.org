@@ -1,6 +1,6 @@
 # Example
 # - name: ebsco
-  # img: assets/img/sponsors/ebsco.svg
+  # img: /assets/img/sponsors/ebsco.svg
   # link: http://www.google.com
   # level: platinum
   # diversity: true
@@ -39,3 +39,24 @@
   link: https://balsamiq.com/wireframes/
   level: contributor
   annotation: 'Captioning Sponsor'
+
+- name: VALE
+  img: /assets/img/sponsors/vale.png
+  link: https://vale.njedge.net/
+  level: supporter
+  diversity: false
+  transcription: false
+
+- name: MIT Libraries
+  img: /assets/img/sponsors/mit.png
+  link: http://www.google.com
+  level: silver
+  diversity: true
+  transcription: false
+
+- name: ArchivesSpace
+  img: /assets/img/sponsors/archivesspace.jpeg
+  link: https://archivesspace.org/
+  level: supporter
+  diversity: false
+  transcription: false
