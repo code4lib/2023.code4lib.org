@@ -226,7 +226,7 @@ workshop-voting:
   end-date: '2021-11-19'
 
 talk-voting:
-  show: true
+  show: false
   url: 'https://forms.gle/vSjoYhcxDEs8GuGX8'
   end-date: '2021-12-17'
 
