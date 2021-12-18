@@ -81,14 +81,10 @@ p.speaker-inst {
 }
 
 .speaker-info {
-  -moz-transition: max-height .15s ease;
-  -o-transition: max-height .15s ease;
-  -webkit-flex-flow: row wrap;
-  -webkit-transition: max-height .15s ease;
   background-color: $speaker-info-bg;
   border: none;
   border-radius: 5px;
-  display: flex;
+  display: none;
   flex-flow: row wrap;
   justify-content: space-around;
   max-height: 0;
@@ -98,12 +94,10 @@ p.speaker-inst {
 }
 
 .speaker-info.show {
-  -moz-transition: max-height .35s ease;
-  -o-transition: max-height .35s ease;
-  -webkit-transition: max-height .35s ease;
   max-height: 600px;
   transition: max-height .35s ease;
   transition-delay: .15s;
+  display: flex;
 }
 
 .speaker-info-inner {
@@ -125,7 +119,6 @@ p.speaker-inst {
 }
 
 .speaker-box {
-  -webkit-flex-flow: row wrap;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;

@@ -164,7 +164,7 @@ show-sponsors: true
 # Toggles whether prospectus button displays on homepage and sponsor pages
 sponsor-buttons: true
 # URL to document
-# prospectus-document: ''
+prospectus-document: https://drive.google.com/file/d/11oFZcxx5F_gCdkJ5S7WIzUom-AkNxuAM/view?usp=sharing
 sponsor-btn-link: 'https://www.concentra-cms.com/c4l22sponsorreg.html'
 
 ##########
@@ -216,9 +216,9 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: false
-  url: 'https://forms.gle/QbNwRbSwhE7E67ik7'
-  end-date: '2022-01-08'
+  show: true
+  url: 'https://forms.gle/NgZEfs3a5ciceAbr7'
+  end-date: '2021-12-20'
 
 workshop-voting:
   show: false
