@@ -216,7 +216,7 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: true
+  show: false
   url: 'https://forms.gle/NgZEfs3a5ciceAbr7'
   end-date: '2021-12-20'
 
