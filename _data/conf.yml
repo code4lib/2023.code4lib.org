@@ -326,7 +326,7 @@ self-event:
 ###############
 
 volunteer-committee:
-  show: true
+  show: false
   url: 'https://wiki.code4lib.org/Code4Lib_2022_Conference_Committees'
   end-date: '2021-12-31'
 
