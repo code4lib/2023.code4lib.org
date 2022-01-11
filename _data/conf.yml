@@ -347,7 +347,7 @@ volunteer-onsite:
 
 criteria:
   # if you have this year's eligibility requirements, show criteria section on general-info/scholarships
-  show: false
+  show: true
 
 angel-fund:
   show: false
@@ -358,14 +358,17 @@ angel-fund:
   url: https://mxmerchant.com/mxcustomer/d/46efc4f8-1366-4943-a367-3d11cda79283/v3
 
 diversity-scholarship-applications:
-  show: false
+  show: true
   url: '/general-info/scholarships#how-to-apply'
   url-text: 'How to Apply'
-  end-date: '2019-12-02'
-  notification-date: '2019-12-17'
-  apply-url: 'https://forms.gle/XFxkujq5HQhyac1eA'
-  committee-wiki-url: 'https://wiki.code4lib.org/Code4Lib_2021_Conference_Committees#Scholarship_Committee'
+  end-day: 'Monday'
+  end-date: '2022-01-31'
+  end-time: '11:59 PM ET'
+  notification-date: '2022-02-15'
+  apply-url: 'https://forms.gle/tNmnqz53e7yMoBXA6'
+  committee-wiki-url: 'https://wiki.code4lib.org/Code4Lib_2022_Conference_Committees#Scholarship_Committee'
   max-scholarship-award: '$1500'
+  max-international-award: '$3000'
 
 # show sponsors for diversity scholarships on general-info/scholarships
 diversity-scholarship-sponsors:
