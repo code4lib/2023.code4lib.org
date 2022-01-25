@@ -36,7 +36,7 @@ image-attributions:
 have-talks: false
 have-workshops: false
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
-have-schedule: false
+have-schedule: true
 
 # day 0 = preconf day
 days:

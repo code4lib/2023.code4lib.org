@@ -1,0 +1,11 @@
+# Placeholder, copy this file from _data/examples/schedule.yml to _data/schedule.yml
+- timeImg: 9.00.png
+  title: Schedule Forthcoming
+  day1: true
+  day2: true
+  time: 9:00-17:15
+
+- timeImg: 9.00.png
+  title: Schedule Forthcoming
+  day3: true
+  time: 9:00-12:45
