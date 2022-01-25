@@ -13,15 +13,18 @@ title: Schedule
 
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h3>12PM to 4PM
+            <h3>9AM to 5PM
                 <br/><div class="timezone">Eastern Time</div>
             </h3>
-
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h4><a href="/schedule/day-1">General Conference, Day One</a></h4>
+            <h3><a href="/workshops">Pre-Conference Workshops</a></h3>
             <p>
-                Keynote #1 kicks off the conference. Talks have been selected by the community.
+                Pre-conference details are available
+                {% if site.data.registration.workshop-only.url != nil %}
+                    on the <a href="{{site.data.registration.workshop-only.url}}">registration site</a> and
+                {% endif %}
+                on the <a href="/workshops">Pre-Conference Workshops</a> page.
             </p>
         </div>
     </div>
@@ -81,12 +84,12 @@ title: Schedule
 
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h3>12PM to 4PM
+            <h3>9AM to 5:15PM
                 <br/><div class="timezone">Eastern Time</div>
             </h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h4><a href="/schedule/day-2">General Conference, Day Two</a></h4>
+            <h4><a href="/schedule/day-1">General Conference, Day One</a></h4>
             <p>
                 Talks have been selected by the community.
             </p>
@@ -143,12 +146,12 @@ title: Schedule
 
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h3>12PM to 4PM
+            <h3>9AM to 5:15PM
                 <br/><div class="timezone">Eastern Time</div>
             </h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h4><a href="/schedule/day-3">General Conference, Day Three</a></h4>
+            <h4><a href="/schedule/day-2">General Conference, Day Two</a></h4>
             <p>
                 Talks have been selected by the community.
             </p>
@@ -206,12 +209,12 @@ title: Schedule
 
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h3>12PM to 4PM
+            <h3>9AM to 12:45PM
                 <br/><div class="timezone">Eastern Time</div>
             </h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h4><a href="/schedule/day-4">General Conference, Day Four</a></h4>
+            <h4><a href="/schedule/day-3">General Conference, Day Three</a></h4>
             <p>
                 Keynote #2 closes out the conference. Talks have been selected by the community.
             </p>
@@ -238,30 +241,6 @@ title: Schedule
         </div>
     </div>
     {% endif %}
-
-    <div class="row">
-        <div class="col-12 sched-date">
-            <h2>{{site.data.conf.days[4].weekday}}, {{site.data.conf.days[4].date}}</h2>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-12 col-md-3 text-right">
-            <h3>9AM to 5PM
-                <br/><div class="timezone">Eastern Time</div>
-            </h3>
-        </div>
-        <div class="col-12 col-md-9 sched-well">
-            <h3><a href="/workshops">Pre-Conference Workshops</a></h3>
-            <p>
-                Pre-conference details are available
-                {% if site.data.registration.workshop-only.url.size > 0 %}
-                    on the <a href="{{site.data.registration.workshop-only.url}}">registration site</a> and
-                {% endif %}
-                on the <a href="/workshops">Pre-Conference Workshops</a> page.
-            </p>
-        </div>
-    </div>
 
     {% comment %}
         <!-- BoF hangouts section, move to right date/time -->
