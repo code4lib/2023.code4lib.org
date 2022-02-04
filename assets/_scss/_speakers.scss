@@ -13,8 +13,10 @@
   padding: 0 15px;
 }
 
-a.speaker-info-toggle {
+button.speaker-info-toggle {
   color: $primary-light;
+  background: transparent;
+  border: 0;
 }
 
 p.speaker-title,
@@ -138,7 +140,7 @@ p.speaker-inst {
   border-top-right-radius: 10px;
 }
 
-.speaker-box.selected a {
+.speaker-box.selected button {
   color: $white;
 
   &:active,

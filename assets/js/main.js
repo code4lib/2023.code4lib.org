@@ -93,31 +93,34 @@ jQuery(document).ready(function($){
             shownHeight = 0;
         }
 
-        $('html, body').animate({
-            scrollTop: $(target+'-id').offset().top - shownHeight
-        }, 500);
+		if($(target+'-info').hasClass('show')) {
+		    $(target+'-info').removeClass('show');
+            $(target+'-id').removeClass('selected');
+		}
+        else {
+            $('.speaker-info').removeClass('show');
+            $('.speaker-box').removeClass('selected');
+            $(target+'-info').addClass('show');
+            $(target+'-id').addClass('selected');
+        } 
 
-        if (!$(target+'-id').hasClass('show')){
-                $('.speaker-info').removeClass('show');
-                $('.speaker-box').removeClass('selected');
-                $(target+'-info').addClass('show');
-                $(target+'-id').addClass('selected');
-                $(target+'-id + div.speaker-info a' ).attr('tabindex', '0');
-            } else {
-                $(target+'-info').removeClass('show');
-                $(target+'-id').removeClass('selected');
-            }
     }
 
     $('.speaker-info-toggle').click(function(e){
-        e.preventDefault();
         let toggle = $(this);
-        // any other expanded bio is now closed & this one is open
-        $('.speaker-info-toggle')
-            .filter((idx, el) => $(el).attr('aria-expanded') == 'true')
-            .attr('aria-expanded', 'false');
-        toggle.attr('aria-expanded', 'true');
-        let target = toggle.data('target');
+
+		if(toggle.attr('aria-expanded') == 'true') {
+			// this toggle is already open, so close it
+			toggle.attr('aria-expanded', 'false');
+		}
+		else { 
+			// any other expanded bio is now closed & this one is open
+			$('.speaker-info-toggle')
+				.filter((idx, el) => $(el).attr('aria-expanded') == 'true')
+				.attr('aria-expanded', 'false');
+			toggle.attr('aria-expanded', 'true');
+		}
+		let target = toggle.data('target');
         toggleSpeaker(target);
     });
 
