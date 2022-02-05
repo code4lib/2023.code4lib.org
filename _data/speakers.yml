@@ -9,6 +9,8 @@
   slack:
   github:
   image_src: /assets/img/speakers/crystal-lee.jpg
+  image_alt: 
+    This is a great description of what the profile photo shows. It is a photo of someone who has eyes, a face, maybe hair, skin of some color, and there may be some gender-y things worth talking about. The emotions and actions are also described.
   keynote: true
 
 - id: lauren-chambers
@@ -20,8 +22,23 @@
     Lauren Chambers is a Ph.D. student at the UC Berkeley School of Information. Advised by technology law expert Prof. Deirdre Mulligan, she studies the intersection of data, technology, and sociopolitical advocacy.<br/><br/>
     Previously Lauren was the staff technologist at the ACLU of Massachusetts, where she explored government data in order to inform citizens and lawmakers about the effects of legislation and political leadership on our civil liberties. Her projects included tracking the disparate effects of COVID-19 on vulnerable populations, analyzing policing budgets and practices, and advocating for regulation of government facial surveillance.<br/><br/>
     Lauren received her Bachelor's degree from Yale in 2017, where she double-majored in astrophysics and African American studies. Her undergraduate African American studies thesis, "A Different Kind of Dark Energy: Placing Race and Gender in Physics" examines how physics and astronomy theory and praxis are influenced by race, gender, and identity. After graduating, Lauren spent two years in Baltimore supporting NASA’s James Webb Space Telescope mission as a software developer.
-  twitter:
+  twitter: tweet
   slack:
   github:
   image_src: /assets/img/speakers/lauren-chambers.png
+  image_alt:
+  keynote: true
+  
+- id: mystery-presenter
+  name: Mystery Presenter
+  last: Mystery
+  pronouns:
+  position-title: 
+  bio: 
+    This person is a mystery.
+  twitter:
+  slack:
+  github:
+  image_src:
+  image_alt:
   keynote: true

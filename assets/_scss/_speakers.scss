@@ -43,6 +43,17 @@ p.speaker-session {
   padding: .5em;
 }
 
+.speaker-info-inner .image-description {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: $speaker-info-color;
+  padding: 0 2.5em;  
+  font-style: italic;
+}
+.speaker-info-inner h3.image-description {
+  margin: 0.5em 0;
+}
+
 p.speaker-bio a,
 p.speaker-session a {
   &:not(.icon) {
