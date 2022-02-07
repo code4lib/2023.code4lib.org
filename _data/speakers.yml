@@ -32,13 +32,14 @@
 - id: mystery-presenter
   name: Mystery Presenter
   last: Mystery
-  pronouns:
-  position-title: 
+  pronouns: a/b/c
+  position-title: CEO of Mysterious Mysteries
   bio: 
     This person is a mystery.
   twitter:
   slack:
   github:
-  image_src:
+  image_src: /assets/img/nopics/nopic8.jpg
   image_alt:
+    This is a great description of what the profile photo shows. It is a photo of someone who has eyes, a face, maybe hair, skin of some color, and there may be some gender-y things worth talking about. The emotions and actions are also described.
   keynote: true
