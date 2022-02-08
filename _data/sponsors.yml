@@ -50,7 +50,7 @@
 - name: MIT Libraries
   img: /assets/img/sponsors/mit.png
   link: https://libraries.mit.edu/
-  level: silver
+  #level: silver
   diversity: true
   transcription: false
 
@@ -121,3 +121,14 @@
   img: /assets/img/sponsors/bywater.png
   link: https://bywatersolutions.com
   level: supporter
+
+- name: Princeton University Library
+  img: /assets/img/sponsors/princeton.png
+  link: https://library.princeton.edu/
+  level: contributor
+  diversity: true
+
+- name: Rice University
+  img: /assets/img/sponsors/rice_fondren_library.png
+  link: https://library.rice.edu/
+  level: contributor
