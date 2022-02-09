@@ -107,7 +107,7 @@ p.speaker-inst {
 }
 
 .speaker-info.show {
-  max-height: 600px;
+  max-height: max-content;
   transition: max-height .35s ease;
   transition-delay: .15s;
   display: flex;
