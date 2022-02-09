@@ -125,14 +125,15 @@ jQuery(document).ready(function($){
     });
 
     resetOrders = function(){
-        var windowWidth = window.innerWidth,
+        var windowWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0),
             infoOrder = 1,
             i = 1,
             ik = 1;
 
         $('.speaker-sequence .speaker-box').each(function(){
             var infoTarget = $(this).data('speaker-info');
-            if (windowWidth >= 935){
+            if (windowWidth >= 992){
+				// three speakers across
                 $(this).css('order',i);
                 infoOrder = i + 3;
                 $(infoTarget).css('order',infoOrder);
@@ -141,7 +142,8 @@ jQuery(document).ready(function($){
                 } else {
                     i++;
                 }
-            } else if (windowWidth >= 635){
+            } else if (windowWidth >= 768){
+				// two speakers across
                 $(this).css('order',i);
                 infoOrder = i + 2;
                 $(infoTarget).css('order',infoOrder);
@@ -151,24 +153,45 @@ jQuery(document).ready(function($){
                     i++;
                 }
             } else {
+				// 1 speaker across
                 $(this).css('order',i);
                 infoOrder = i + 1;
                 $(infoTarget).css('order',infoOrder);
                 i = i+2;
             }
         });
+		
+		infoOrder = 1,
+		i = 1,
+		ik = 1;
         $('.keynote-sequence .speaker-box').each(function(){
             var infoTarget = $(this).data('speaker-info')
-            if (windowWidth >= 635) {
-                $(this).css('order', ik)
-                infoOrder = i + 2
-                $(infoTarget).css('order', infoOrder)
-                ik++
+            if (windowWidth >= 992){
+				// three speakers across
+                $(this).css('order',i);
+                infoOrder = i + 3;
+                $(infoTarget).css('order',infoOrder);
+                if ((i%3) == 0){
+                    i = i+4;
+                } else {
+                    i++;
+                }
+            } else if (windowWidth >= 768){
+				// two speakers across
+                $(this).css('order',i);
+                infoOrder = i + 2;
+                $(infoTarget).css('order',infoOrder);
+                if ((i%2) == 0){
+                    i = i+3;
+                } else {
+                    i++;
+                }
             } else {
-                $(this).css('order',ik)
-                infoOrder = i + 1
-                $(infoTarget).css('order', infoOrder)
-                ik = ik + 2
+				// 1 speaker across
+                $(this).css('order',i);
+                infoOrder = i + 1;
+                $(infoTarget).css('order',infoOrder);
+                i = i+2;
             }
         });
     }
