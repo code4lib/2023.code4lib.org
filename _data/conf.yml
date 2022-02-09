@@ -358,7 +358,7 @@ angel-fund:
   url: https://mxmerchant.com/mxcustomer/d/46efc4f8-1366-4943-a367-3d11cda79283/v3
 
 diversity-scholarship-applications:
-  show: true
+  show: false
   url: '/general-info/scholarships#how-to-apply'
   url-text: 'How to Apply'
   end-day: 'Monday'
@@ -373,7 +373,7 @@ diversity-scholarship-applications:
 # show sponsors for diversity scholarships on general-info/scholarships
 diversity-scholarship-sponsors:
   seeking: false
-  show: false
+  show: true
 
 ################
 # Other
