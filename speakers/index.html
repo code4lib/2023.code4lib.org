@@ -33,7 +33,7 @@ title: Speakers
 		var output = '<img ';
 		output += 'class="' + css + '" ';
 		output += 'alt="' + alt + '" ';
-		output += 'src="' + path.replace('#', hashCode(name) % 10) + '" ';
+		output += 'src="' + path.replace('#', Math.abs(hashCode(name)) % 10) + '" ';
 		output = output.trim() + '>';
 		document.write(output);
 	}
