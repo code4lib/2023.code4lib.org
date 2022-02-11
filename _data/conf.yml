@@ -197,7 +197,7 @@ panel-proposals:
   end-date: ''
 
 poster-proposals:
-  show: true
+  show: false
   submission-form: 'https://forms.gle/ELyF1dx6U3FnvZoU7'
   end-date: '2022-02-21'
 
