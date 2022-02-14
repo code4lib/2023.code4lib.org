@@ -3,52 +3,29 @@
   name: Crystal Lee
   last: Lee
   pronouns:
+  institution: MIT
   position-title: Senior Fellow in Responsible Computer Science at Mozilla
   bio: 'Crystal Lee is a PhD candidate at MIT and a Senior Fellow in Responsible Computer Science at Mozilla. Her work investigates what she calls the “life-cycle of data representations,” or the process by which datasets are curated, cleaned, visualized, and circulated. In other words, she works on a wide scope of things: from the history of disability and human-computer interaction to theories about data visualization. This research has been supported by fellowships from the National Science Foundation, Social Science Research Council, and the MIT Programs for Digital Humanities. She is also a research affiliate at the Berkman Klein Center at Harvard, where she co-lead the Ethical Tech Working Group. Previously, she has worked as a visiting research scientist at the European Commission and graduated with high honors from Stanford University.'
   twitter:
   slack:
   github:
   image_src: /assets/img/speakers/crystal-lee.jpg
-  image_alt: 
-    This is a great description of what the profile photo shows. It is a photo of someone who has eyes, a face, maybe hair, skin of some color, and there may be some gender-y things worth talking about. The emotions and actions are also described.
+  image_alt:
   keynote: true
 
 - id: lauren-chambers
   name: Lauren Chambers
   last: Chambers
   pronouns:
+  institution: UC Berkeley
   position-title: Ph.D. student at the UC Berkeley School of Information
   bio: |
     Lauren Chambers is a Ph.D. student at the UC Berkeley School of Information. Advised by technology law expert Prof. Deirdre Mulligan, she studies the intersection of data, technology, and sociopolitical advocacy.<br/><br/>
     Previously Lauren was the staff technologist at the ACLU of Massachusetts, where she explored government data in order to inform citizens and lawmakers about the effects of legislation and political leadership on our civil liberties. Her projects included tracking the disparate effects of COVID-19 on vulnerable populations, analyzing policing budgets and practices, and advocating for regulation of government facial surveillance.<br/><br/>
     Lauren received her Bachelor's degree from Yale in 2017, where she double-majored in astrophysics and African American studies. Her undergraduate African American studies thesis, "A Different Kind of Dark Energy: Placing Race and Gender in Physics" examines how physics and astronomy theory and praxis are influenced by race, gender, and identity. After graduating, Lauren spent two years in Baltimore supporting NASA’s James Webb Space Telescope mission as a software developer.
-  twitter: tweet
+  twitter:
   slack:
   github:
   image_src: /assets/img/speakers/lauren-chambers.png
   image_alt:
   keynote: true
-  
-- id: mystery-presenter
-  name: Mystery Presenter
-  last: Mystery
-  pronouns: a/b/c
-  position-title: CEO of Mysterious Mysteries
-  bio: 
-    This person is a mystery.
-  twitter:
-  slack:
-  github:
-  image_src: 
-  image_alt:
-  keynote: false
-
-- id: alison-rhonemus
-  name: Alison Rhonemus
-  last: Rhonemus
-  email: alisonrhonemus@nypl.org
-  institution: New York Public Library
-  position-title: Digital Archives Assistant
-  bio: Alison is the Digital Archives Assistant at the New York Public Library
-  image_src: /assets/img/nopics/nopic1.jpg
-  keynote: false
