@@ -8,13 +8,24 @@
   margin-top: 8px;
 }
 
+.speaker-name button {
+  font-weight: bold;
+    &:active,
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+}
+
 .speaker-mini {
   height: 5.2em;
   padding: 0 15px;
 }
 
-a.speaker-info-toggle {
+button.speaker-info-toggle {
   color: $primary-light;
+  background: transparent;
+  border: 0;
 }
 
 p.speaker-title,
@@ -41,6 +52,17 @@ p.speaker-session {
   padding: .5em;
 }
 
+.speaker-info-inner .image-description {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: $speaker-info-color;
+  padding: 0 2.5em;  
+  font-style: italic;
+}
+.speaker-info-inner h3.image-description {
+  margin: 0.5em 0;
+}
+
 p.speaker-bio a,
 p.speaker-session a {
   &:not(.icon) {
@@ -62,9 +84,9 @@ dt .speaker-bio .icon.icon--twitter a {
   &:hover,
   &:focus,
   &:active {
-    background-color: transparent;
-    border-bottom: 0;
-    color: $black;
+		background-color: transparent;
+		border-bottom: 0;
+		color: $black;
   }
 }
 
@@ -94,7 +116,7 @@ p.speaker-inst {
 }
 
 .speaker-info.show {
-  max-height: 600px;
+  max-height: max-content;
   transition: max-height .35s ease;
   transition-delay: .15s;
   display: flex;
@@ -130,7 +152,22 @@ p.speaker-inst {
 .speaker-box-inner {
   padding: 15px 0;
   width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
+
+.speaker-box-inner img {
+	order: 1;
+}
+.speaker-box-inner .speaker-name {
+	order: 2;
+}
+.speaker-box-inner .speaker-mini {
+	order: 3;
+}
+
 
 .speaker-box.selected .speaker-box-inner {
   background-color: $speaker-selected-bg;
@@ -138,7 +175,7 @@ p.speaker-inst {
   border-top-right-radius: 10px;
 }
 
-.speaker-box.selected a {
+.speaker-box.selected button {
   color: $white;
 
   &:active,
@@ -158,11 +195,11 @@ p.speaker-inst {
   border-right: 140px solid transparent;
   border-top: 15px solid $speaker-selected-bg;
   height: 0;
-  margin-top: 15px;
   opacity: 0;
   position: absolute;
   width: 0;
   z-index: 99;
+  bottom: -14px;
 }
 
 .speaker-box.selected .arrow-down {
