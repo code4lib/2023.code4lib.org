@@ -132,3 +132,13 @@
   img: /assets/img/sponsors/rice_fondren_library.png
   link: https://library.rice.edu/
   level: contributor
+
+- name: School of Information and Library Science, UNC-Chapel Hill
+  img: /assets/img/sponsors/unc_slis.jpg
+  link: https://sils.unc.edu
+  level: supporter
+
+- name: Blacklight
+  img: /assets/img/sponsors/blacklight.svg
+  link: https://projectblacklight.org
+  level: platinum
