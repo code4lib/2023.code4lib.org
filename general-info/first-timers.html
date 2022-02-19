@@ -48,7 +48,7 @@ active: First Timers
           {% endif %}
       {% endfor %}
 
-      {% if site.data.conf.venue.name != '' %}
+      {% if site.data.conf.online-only-conference == 'false' %}
       <p>
         Both lightning talks and breakout sessions signups take place at the conference. Signups are usually on a posterboard by the registration; specific details about signup times and places will be announced from the podium, as well as social media.
       </p>
@@ -66,7 +66,7 @@ active: First Timers
         </ul>
 
 
-      {% if site.data.conf.venue.name != '' %}
+      {% if site.data.conf.online-only-conference == 'false' %}
       <h2>Food</h2>
       <p>
         Morning and afternoon breaks will include snacks and caffeine. On full conference days, lunch will also be provided. No lunch or snacks will be provided on the pre-conference day. {% if site.data.conf.have-schedule %}<a href="/schedule">{% else %}<a href="/schedule/timeline">{% endif %}See the schedule for more details</a>
