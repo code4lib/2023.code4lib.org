@@ -58,7 +58,7 @@ active: Attend Code4Lib
                         <li><span class="font-weight-bold">Reception "plus one"</span>: {{ site.data.registration.reception.plus-one-cost }} (limit one "plus one" per registration)</li>
                     {% endif %}
 
-                    {% if site.data.conf.venue.name != '' %}
+                    {% if site.data.conf.online-only-conference == false %}
                     <li>
                         <span class="font-weight-bold">{{site.data.conf.venue.hotel.name}}</span>:
                         {{ site.data.conf.venue.hotel.cost }}/night

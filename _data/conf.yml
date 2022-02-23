@@ -65,8 +65,6 @@ city-state: 'Buffalo, NY'
 city: 'Buffalo'
 state: 'NY'
 
-# NOTE: {% if site.data.conf.venue.name != '' %} is being used to remove textual references
-#       to a physical conference venue, when the conference is fully online.
 venue:
   name: 'Jacobs School of Medicine and Biomedical Sciences'
   street: 'University in Buffalo 955 Main St.'
