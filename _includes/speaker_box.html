@@ -4,13 +4,11 @@
     <div class="speaker-box-inner">
 		<h3 class="h4 speaker-name"><button href="#" class="speaker-info-toggle" data-target="#{{ speaker.id }}" aria-expanded="false" aria-controls="{{ speaker.id }}-info">{{ speaker.name }}</button></h3>
 	
-		{% if speaker.image_src.size > 0 and speaker.image_alt.size > 0 %}
+		{% if speaker.image_alt and speaker.image_alt %}
             <img class="clip-circle-lg" src="{{ speaker.image_src }}" alt="{{ speaker.image_alt }}">
-		{% elsif speaker.image_src contains "img/nopics/nopic" %}
-			<img class="clip-circle-lg" src="{{ speaker.image_src }}" alt="Random placeholder image for {{ speaker.name }}">
-		{% elsif speaker.image_src.size > 0 %}
+		{% elsif speaker.image_src %}
 			<img class="clip-circle-lg" src="{{ speaker.image_src }}" alt="Profile image for {{ speaker.name }}">
-		{% else %}
+		{% else %} 
 			<script>
 				placeholderImage("clip-circle-lg", 
 					" {{ speaker.name }} ", 
@@ -19,7 +17,7 @@
 					10);
 			</script>
 		{% endif %}
-
+		
         <div class="speaker-mini">
 			{% if speaker.swork_title.size > 0 %}
 				<p class="speaker-title">{{ speaker.work_title }}</p>
