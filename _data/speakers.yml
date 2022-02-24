@@ -10,7 +10,6 @@
   slack:
   github:
   image_src: /assets/img/speakers/crystal-lee.jpg
-  image_alt:
   keynote: true
 
 - id: lauren-chambers
@@ -27,7 +26,6 @@
   slack:
   github:
   image_src: /assets/img/speakers/lauren-chambers.png
-  image_alt:
   keynote: true
 
 - id: shalini-ramachandran
@@ -38,8 +36,6 @@
   title: Associate STEM Librarian
   bio: "Dr. Shalini Ramachandran was a Science & Engineering librarian at the University of Southern California (USC) where she taught information literacy to science and engineering students, including computer science students. She is currently a Faculty Liaison at Boise State University's Office of Research Development. She has conducted research on computer science students' perceptions of algorithm bias and presented on the topic at the 2019 ALA Midwinter Meeting."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: steve-cutchin
   name: Steve Cutchin
@@ -49,8 +45,7 @@
   title: Associate Professor
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
+  image_src: 
 
 - id: sheree-fu
   name: Sheree Fu
@@ -60,8 +55,6 @@
   title: ECST Librarian
   bio: "Sheree Fu is the Engineering, Computer Science, and Technology Librarian at California State University, Los Angeles. She teaches graduate and undergraduate students information literacy skills. While her current research interests include information literacy, user research, space planning, accessibility, and algorithmic bias, she continuously explores how to encourage students to ask their own questions and take their next steps."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: jack-hill
   name: Jack Hill
@@ -71,8 +64,6 @@
   title: IT Analyst
   bio: "Jack is on the Systems team at Duke University Libraries, and is passionate about Free and Open Source software, storage, and functional programming. GNU Guix is the first Free software project where Jack has contributed meaningful code. When not thinking about computers, he cares about Catholicism, amateur radio, fountain pens, and ultimate (frisbee)."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: amy-jiang
   name: Amy Jiang
@@ -82,8 +73,6 @@
   title: Head of Emerging Technologies and Digital Initiatives
   bio: "Amy Jiang holds an MLS from the University of North Carolina at Chapel Hill, MS in Computer Science from Southeastern University, BA of English Translation and Interpretation from Tianjin Foreign Studies University in China. She is the Head of Emerging Technologies and Digital Initiatives at the Wilson Library at the University of La Verne. (2012 to present) where she serves as ILS system administrator, founding director for the Wilson library makerspace. Amy has worked at Northwestern University as Digital Resources and Emerging Technology Librarian from 2004-2012."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: david-raygoza
   name: David Raygoza
@@ -93,8 +82,6 @@
   title: Software Developer
   bio: "David is a senior student computer science major with Software Engineering concentration. He is the software development lead at the Wilson Library, University of La Verne. He is also the president of Computer Science Club."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: margaret-heller
   name: Margaret Heller
@@ -104,8 +91,6 @@
   title: Digital Services Librarian
   bio: "Margaret Heller is Digital Services Librarian at Loyola University Chicago, where she works on front-end web development, digital collections, and scholarly communications. She currently serves as President-Elect of Core, a division of ALA. Her scholarly interests include library technology community success, women in library technology, and improving access to digital resources. She also writes frequent book reviews for Library Journal and chairs the ELUNA Primo Working Group. In her personal life she enjoys taking her kids on tiny adventures and is slowly learning to play the guitar."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: eric-phetteplace
   name: Eric Phetteplace
@@ -115,8 +100,6 @@
   title: Systems Librarian
   bio: "I manage the library website, catalog, VAULT, Moodle, Panopto, & other systems. I have a B.A.S. in English and Mathematics from Stanford University and a Master's of Library & Information Science from the University of Illinois at Urbana-Champaign. At work, my interests are in web design, automating complex workflows, using APIs to integrate disparate systems, and user experience."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: bohyun-kim
   name: Bohyun Kim
@@ -128,8 +111,6 @@
 
 She is the author of three books, Moving Forward with Digital Disruption (ALA TechSource, 2020), The Library Mobile Experience: Practices and User Expectations (ALA TechSource, 2013), and Understanding Gamification (ALA TechSource, 2015). She has published many articles and given numerous invited/peer-reviewed presentations on a variety of topics related to library technologies and their impact on libraries."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: dr-patrick-murray-john
   name: Dr. Patrick Murray-John
@@ -139,8 +120,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Associate Director for Systems
   bio: "Patrick has a Ph.D in Old English literature, and moved on to instructional technology. He then moved on to the Omeka dev team. Just in time for the pandemic, he moved to Boston to work in the Northeastern University Library within the Digital Scholarship Group as Associate Director for Systems."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: william-reed-quinn
   name: William Reed Quinn
@@ -150,8 +129,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Semantic Data Specialist
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: julia-caffrey-hill
   name: Julia Caffrey-Hill
@@ -161,8 +138,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Web Services Librarian
   bio: "Will provide if selected"
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: wesley-teal
   name: Wesley Teal
@@ -172,8 +147,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Metadata Librarian
   bio: "Wesley Teal is a Metadata Librarian at Iowa State University."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: tomasz-kalata
   name: Tomasz Kalata
@@ -183,8 +156,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Metadata Manager
   bio: "Tomasz Kalata is the Metadata Manager in the Cataloging Department at BookOps, the shared technical services collaboration of New York Public Library and Brooklyn Public Library. He is responsible for development of cataloging applications, especially related to automation in cataloging work. Before joining BookOps in 2013 as a cataloger, he was a Senior Cataloger at Brooklyn Public Library. "
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: alyssa-panetta
   name: Alyssa Panetta
@@ -194,8 +165,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Web Designer/Developer
   bio: "Alyssa Panetta has been designing and developing websites by hand since Y2K. She has worked freelance, for educational mathematics software companies and is currently Web Designer/Developer (unicorn) for the University Libraries, University at Albany. After a diagnosis of brain cancer in 2020 and subsequent treatment, Alyssa started a website where she writes letters to her removed tumor that is preserved in a tumor research bank: deartalula.com. "
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: thomas-dodson
   name: Thomas Dodson
@@ -205,8 +174,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Web & Discovery Librarian
   bio: "Thomas is an assistant professor and the Web and Discovery Librarian at Southern Oregon University. A writer, editor, and front-end web developer, he has expertise in interaction design, visual design, information architecture, and writing for the web. Before joining SOU, he served as the web developer and designer for the Harvard Library."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: kate-deibel
   name: Kate Deibel
@@ -216,8 +183,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title:
   bio: "Dr. Kate Deibel is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about web comics, chili peppers, her cat, technology adoption, and changing the world. "
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: abigail-goben
   name: Abigail Goben
@@ -227,8 +192,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Associate Professor and Data Management Librarian
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: sebastian-karcher
   name: Sebastian Karcher
@@ -238,8 +201,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Associate Director, Qualitative Data Repository
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: randy-colon
   name: Randy Colon
@@ -249,8 +210,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: PhD Student Disability Studies
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: laurie-g-arp
   name: Laurie G. Arp
@@ -260,8 +219,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Director, DuraSpace Community Supported Programs, LYRASIS
   bio: "Laurie's professional interests focus on the intersection of collections, technology and people. As the Director of DuraSpace Community Supported Programs, Laurie supervises ArchivesSpace, CollectionSpace, DSpace, Fedora and VIVO, the community supported open-source programs housed at LYRASIS. Laurie supports governance, strategic planning and developing partnerships."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: heather-greer-klein
   name: Heather Greer Klein
@@ -271,8 +228,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Samvera Community Manager
   bio: "Heather Greer Klein is the Samvera Community Manager. She has worked in many roles supporting open source and consortial library communities. Heather has an MLIS from Simmons University and a Certificate in Training & Development from NC State University."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: chulin-meng
   name: Chulin Meng
@@ -282,8 +237,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Director of Library Technology
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: christopher-creswell
   name: Christopher Creswell
@@ -293,8 +246,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Senior Analyst
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: michelle-suranofsky
   name: Michelle Suranofsky
@@ -304,8 +255,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Senior Software Engineer
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: karen-majewicz
   name: Karen Majewicz
@@ -315,8 +264,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Geospatial Project Manager & Metadata Coordinator
   bio: "Karen manages the Big Ten Academic Alliance Geoportal and serves as the GeoBlacklight Community Coordinator. Her research interests include the promotion of free & open data and archives for geospatial data. When she is not wrangling metadata, she composes & performs music to silent films."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: amy-ruskin
   name: Amy Ruskin
@@ -326,8 +273,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Data Engineer
   bio: "Amy Ruskin is the Data Engineer for the Digital Scholarship Group at Northeastern University. She has a Master's degree in Information Studies from McGill University and a background in computer science and statistics."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: madison-chartier
   name: Madison Chartier
@@ -337,8 +282,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Metadata Librarian
   bio: "Madison Chartier is the Metadata Librarian for Digital Resources and Discovery Services at the Oklahoma State University Library. Chartier has a master’s degree in Library Science from Indiana University Bloomington. https://experts.okstate.edu/madison.chartier"
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: megan-macken
   name: Megan Macken
@@ -348,8 +291,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Assistant Director, Digital Resources and Discovery Services
   bio: "Megan Macken is the Assistant Director, Digital Resources and Discovery Services, and the liaison for art, art history, and graphic design at the Oklahoma State University Library. Macken has master’s degrees in Library Science and the History of Art from Indiana University. https://experts.okstate.edu/megan.macken"
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: kim-pham
   name: Kim Pham
@@ -359,8 +300,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Research Technology Officer
   bio: "Kim Pham is the Research Technology Officer at the Max Planck Institute for the History of Science. Working in Research IT group, she is involved in facilitating digital humanities projects and working on the digital research infrastructure with the Library."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: pascal-belouin
   name: Pascal Belouin
@@ -370,8 +309,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title:
   bio: "Pascal Belouin is a Digital Humanities researcher at the Max Planck Institute for the History of Science, where he supports historians of science in applying digital methods to their research, and explores various DH research topics such as, among other things, knowledge modelling, distant reading, network analysis, and data visualisation."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: naomi-dushay
   name: Naomi Dushay
@@ -381,8 +318,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Senior Software Developer
   bio: "Naomi Dushay is a software engineer at Stanford University Libraries, working on a team with Aaron Collier, Mike Giarlo and other Code4Lib notables. She has worked in the digital library field since 1990 (cough). Professionally, she is interested in improving discovery of assets, maintainability of code and providing quality assessments of metadata as early as possible in its lifecycle."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: jeremy-friesen
   name: Jeremy Friesen
@@ -392,8 +327,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title:
   bio: "Jeremy Friesen used to work in the digital library arena for Notre Dame University and was an active member of the Code4Lib community. He invented a hiring approach and created supporting spreadsheets for it as part of the Samvera (formerly-known-as Hydra) community. "
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: mike-giarlo
   name: Mike Giarlo
@@ -403,8 +336,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Senior Software Developer
   bio: "Mike Giarlo is a software engineer & technology strategist at Stanford University Libraries, working on a team designing and developing software for long-term access to the University’s research and cultural assets. His focus is on development and maintenance of the Stanford Digital Repository and collaboration with open source communities."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: kaci-resau
   name: Kaci Resau
@@ -414,8 +345,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Electronic Resources Librarian
   bio: "I am an Electronic Resources Librarian at a medical school library. I have experience in usability testing, technical services, and organisational planning."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: rachel-evans
   name: Rachel Evans
@@ -425,8 +354,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Metadata Services & Special Collections Librarian
   bio: "Rachel S. Evans first joined the staff at the University of Georgia as a web developer in the I.T. Services department in 2012. She currently serves as the metadata services and special collections librarian, ensuring the discoverability of library resources and maintaining library information platforms, including the online catalog. She also oversees the management of the archives and other special collections, including digitized materials in the school’s institutional repository. "
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: jason-tubinis
   name: Jason Tubinis
@@ -436,8 +363,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Information Technology Librarian
   bio: "Jason Tubinis joined the staff of the University of Georgia Alexander Campbell King Law Library in fall 2010. In his role as Information Technology librarian, Tubinis is responsible for researching and implementing new library and legal education technologies, and troubleshooting software and hardware problems for the library’s various systems. He leads the library's Systems and Instruction teams and serves on the law school's I.T. committees. Tubinis also teaches 1L Legal Research as well as Research & Technology Skills for the Georgia Lawyer. "
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: salwa-ismail
   name: Salwa Ismail
@@ -447,8 +372,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: ​Associate University Librarian for Digital Initiatives and Information Technology Associate CIO
   bio: "Salwa Ismail is the AUL for Digital Initiatives-Information Technology and the Associate CIO. Her current portfolio includes library-wide leadership for digital strategies including digital scholarship, data services, and programs, computing, innovative technology spaces, interface design, and infrastructure services following a user-centric, interoperable, service-oriented philosophy. She was listed by Ecampus News among “11 leaders shaping the future of higher education."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: jackie-gosselar
   name: Jackie Gosselar
@@ -458,8 +381,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Systems and Discovery Services Librarian
   bio: "Jackie Gosselar is a Systems and Discovery Services Librarian at the University of California Berkeley. Prior to UC Berkeley, they were an eResources Librarian at Livermore Public Library, where they served the public and framed access to information as fundamental to the collective good. They are interested in shaping projects that make space for all identities in an organization."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: niqui-oneill
   name: Niqui O'Neill
@@ -469,8 +390,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Digital Technologies Development Librarian
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: ilya-kreymer
   name: Ilya Kreymer
@@ -480,8 +399,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title:
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: ed-summers
   name: Ed Summers
@@ -491,8 +408,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title:
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: evan-peter-williamson
   name: Evan Peter Williamson
@@ -502,8 +417,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Digital Infrastructure Librarian
   bio: "Despite a background in Art History, Classical Studies, and Archives, he always manages to get involved in all things digital--especially websites, digitization, and digital preservation. At the library he works with Data & Digital Services to bring cool projects, enlightening workshops, and innovative services to life."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: olivia-wikle
   name: Olivia Wikle
@@ -513,8 +426,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Digital Initiatives Librarian
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: devin-becker
   name: Devin Becker
@@ -524,8 +435,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Head, Data and Digital Services
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: elizabeth-james
   name: Elizabeth James
@@ -535,8 +444,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Digital Archivist
   bio: "Elizabeth D. James is a Digital Archivist at the West Virginia Regional History Center at West Virginia University. Her research interests include using cultural heritage metadata as data for teaching, discovery, and research; non-traditional forms of engagement with digital archival materials and scalable approaches to digital preservation and repository management for small and medium size institutions."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: deb-verhoff
   name: Deb Verhoff
@@ -546,8 +453,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Digital Collections Manager
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: joe-pawletko
   name: Joe Pawletko
@@ -557,8 +462,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Senior Programmer/Analyst
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: michael-hucka
   name: Michael Hucka
@@ -568,8 +471,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Research Software Developer
   bio: "Michael Hucka, Ph.D., has a background in computer science and cognitive science. He has been a Research Software Developer at the Caltech Library since 2018. Prior to that, he was a Staff Scientist in Computing and Mathematical Sciences at Caltech, and worked for many years on standards and software for systems biology and computational neuroscience."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: inna-kouper
   name: Inna Kouper
@@ -579,8 +480,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Research Scientist
   bio: "Inna Kouper is a research scientist at the Luddy School of Informatics, Computing, and Engineering at Indiana University Bloomington. She studies emerging technologies and data practices and works on projects that advance open science and data sharing."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: alex-wermer-colan
   name: Alex Wermer-Colan
@@ -590,8 +489,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Digital Scholarship Coordinator
   bio: "Dr. Alex Wermer-Colan works as a Digital Scholarship Coordinator at Temple University Libraries’ Loretta C. Duckworth Scholars Studio. Alex leads workshops on computational methods of interpretation, while offering consultations, and developing research projects. "
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: ayisha-tabassum
   name: Ayisha Tabassum
@@ -601,8 +498,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title:
   bio: ""
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: julia-corrin
   name: Julia Corrin
@@ -612,8 +507,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: University Archivist
   bio: "Julia Corrin is the University Archivist at Carnegie Mellon where she oversees physical and digital collections. She is also the project lead for the libraries' digital collections migration. She received her MSI from the University of Michigan and previously served as the Political Collections and Access Archivist at Arkansas State University."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: matthew-lincoln
   name: Matthew Lincoln
@@ -623,8 +516,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Collections Information Architect
   bio: "Dr. Matthew Lincoln is the Collections Information Architect at Carnegie Mellon University Libraries, where he designs infrastructure for curators and archivists to express their knowledge as data that can be linked with cultural heritage organizations internationally, and used by students, researchers, and developers alike. He earned his PhD in Art History at the University of Maryland, College Park, and has formerly held positions at the National Gallery of Art, the Getty Research Institute, and as technical lead of The Programming Historian. His recent publications include The Index of Digital Humanities Abstracts and “Tangled Metaphors: Network Thinking and Network Analysis in the History of Art,” in The Routledge Companion to Digital Humanities and Art History."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: lina-crowe
   name: Lina Crowe
@@ -634,8 +525,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Metadata Specialist
   bio: "Lina Crowe is the metadata specialist at Carnegie Mellon University."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: clara-turp
   name: Clara Turp
@@ -645,8 +534,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Discovery Systems Librarian
   bio: "Clara Turp is a discovery systems librarian at McGill University Libraries. As part of Digital Initiatives, she is involved in managing, configuring, and integrating selected library systems, including, but not limited to the Library's Discovery layers."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: kelly-stathis
   name: Kelly Stathis
@@ -656,8 +543,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Discovery and Metadata Coordinator
   bio: "Kelly Stathis is the Discovery and Metadata Coordinator with the Digital Research Alliance of Canada’s research data management team. Kelly advances discovery and metadata initiatives for the Federated Research Data Repository (FRDR), provides technical support for the DataCite Canada Consortium, and works with several RDM expert and working groups, including the Discovery and Metadata Expert Group, the Data Repositories Expert Group, and the FRDR Discovery Redesign Working Group. Kelly holds a BS in Computer Science and a BMus in Music Composition from Washington University in St. Louis, and a MLIS from the University of British Columbia."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 - id: ingrid-reiche
   name: Ingrid Reiche
@@ -667,8 +552,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   title: Digital Metadata Librarian
   bio: "Ingrid Reiche is the Digital Metadata Librarian at the University of Calgary. Her work focuses on digital collections, providing metadata consultation for research projects. She has recently been been working on the system migration for the digital asset management system. Ingrid enjoys living in Calgary and being outdoors."
   keynote: FALSE
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
 
 # ---------------------------------------------------------------------------------
 
@@ -679,8 +562,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   institution:
   position-title:
   bio: ''
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: james-griffin-iii
@@ -690,8 +571,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   institution:
   position-title:
   bio: ''
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: esther-jackson
@@ -701,8 +580,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   institution:
   position-title:
   bio: 'Esther Jackson is the Scholarly Communication Technologies Librarian at Columbia University. Esther also serves on the Code4Lib Conference Scholarship Committee, is an organizer of the Code4Lib NYC meetup group, and has been a member of the Wikiverse since 2016 as an editor, organizer, workshop leader, and a member of various boards and projects, most recently the Wikimedia Foundation Community Fund for North America.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: dianne-weinthal
@@ -712,8 +589,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   institution:
   position-title:
   bio: 'Dianne Weinthal is a user experience designer at UCLA Library and 2020 graduate of the UCLA MLIS program. With a background in art history, she focuses her work on image as artwork, as visual resource, and as digital information. She also conducts visual design experiments for Civic Software Foundation and leads the grant-funded initiative "Artist Book as Record" at Los Angeles Contemporary Archive.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: alicia-cozine
@@ -723,8 +598,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   institution:
   position-title:
   bio: ''
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: hillel-arnold
@@ -734,8 +607,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   institution:
   position-title:
   bio: 'Hillel Arnold is the Assistant Director for Digital Strategies at the Rockefeller Archive Center, where he leads the implementation of systems and processes facilitating broad and equitable access to and responsible preservation of archival records. Hillel has worked as an archivist at the Tamiment Library/Robert F. Wagner Labor Archives, the Foundation for Landscape Studies and the Woody Guthrie Archives.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: jim-hahn
@@ -745,8 +616,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   institution:
   position-title:
   bio: 'Jim Hahn is the Head of Metadata Research at the University of Pennsylvania Libraries leading linked data and metadata projects and research. Working collaboratively across the UPenn Libraries, his work is developing a vision for the services, technologies, and policies to enhance discovery of collections, following international standards and best practices for linked data and metadata.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: axa-liauw
@@ -758,8 +627,6 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   bio: 'Axa Liauw is a user experience designer at UCLA Library who works with students, faculty, and staff to make digital products usable, enjoyable, and accessible. With over a decade of professional experience in academic libraries, including Princeton University and Wayne State University, Axas expertise spans user experience design, web development, and instruction.
 
 Axa is a Certified Professional in Web Accessibility, a certification provided by the International Association of Accessibility Professionals. She believes that equal access to information for all people is a core value in librarianship. As a user experience designer in the library, she is committed to working towards an inclusive web as equity, diversity, and inclusion are central to the promotion and practice of intellectual freedom.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: eric-morgan
@@ -769,8 +636,6 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   institution:
   position-title:
   bio: 'Eric Morgan is a librarian who works in the Navari Family Center for Digital Scholarship (University of Notre Dame) where he provides text mining and natural language processing for students, researchers, and scholars. He has been practicing librarianship for more than thirty years, mostly in higher education. He has been writing software longer than that. In his spare time he enjoys binding his books, rowing his boat, and playing his guitar.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: andreas-orphanides
@@ -780,8 +645,6 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   institution:
   position-title:
   bio: 'Andreas Orphanides is Associate Head, User Experience at the NC State University Libraries. His work focuses on developing high-quality, thoughtfully designed solutions to support teaching, learning, and information discovery. He holds a Bachelor of Arts in Mathematics from Oberlin College, a Master of Science in Library Science from UNC-Chapel Hill, and a Master of Computer Science from NC State University. His professional interests include human factors, systems analysis, and design ethics. Outside of work, he has too many cats.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: francis-kayiwa
@@ -791,8 +654,6 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   institution:
   position-title:
   bio: ''
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: cary-gordon
@@ -804,8 +665,6 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   bio: '"Cary Gordon, MLIS,Senior Developer & Founder, the Cherry Hill Company
 
 Cary is devoted to empowering libraries to enhance and extend their services through the use of technology, and he is focused on helping them to adopt open source software to that end. He is also very active in the Drupal community, having served on the board of the Drupal Association. A degreed librarian, Cary has taught and presented at conferences for the American Library Association, the California Library Association, LITA, ASIS&T, Code4Lib, Internet Librarian, Access (Canada) and NISO."'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: josh-weisman
@@ -815,8 +674,6 @@ Cary is devoted to empowering libraries to enhance and extend their services thr
   institution:
   position-title:
   bio: 'Josh Weisman is VP Development at Ex Libris. He leads several development teams and is an evangelist for the open platform, standards, and interoperability of Ex Libris products.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: mark-a-matienzo
@@ -826,8 +683,6 @@ Cary is devoted to empowering libraries to enhance and extend their services thr
   institution:
   position-title:
   bio: ''
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
 
 - id: timothy-ryan-mendenhall
@@ -837,6 +692,4 @@ Cary is devoted to empowering libraries to enhance and extend their services thr
   institution:
   position-title:
   bio: 'Timothy Ryan Mendenhall has worked as Metadata Librarian at Columbia University Libraries since 2018.  He is also active as a convener of the Program for Cooperative Cataloging (PCC) Sinopia Cataloging Affinity Group and as a convener of the LD4 Wikibase Working Hour.'
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
   keynote: FALSE
