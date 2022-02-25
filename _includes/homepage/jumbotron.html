@@ -31,7 +31,7 @@
                             {{ site.data.conf.livestream.button-label }} {% if site.data.conf.homepage-display == 'post' %} Archive{% endif %}
                         </a>
                     {% endif %}
-                    {% if site.data.conf.closed-captioning.show %}
+                    {% if site.data.conf.closed-captioning.url != nil %}
                         <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.closed-captioning.url }}">
                             Closed captioning
                         </a>
