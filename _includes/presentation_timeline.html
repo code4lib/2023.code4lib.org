@@ -1,3 +1,4 @@
+<script src="{{ "/assets/js/placeholder.js" | relative_url }}"></script>
 <div id="cd-timeline" class="cd-container">
     {% assign sorted_events = include.events | sort: "time" %}
     {% for event in sorted_events %}
@@ -56,9 +57,21 @@
                                     {% if speaker %}
                                         <div class="col-sm-3 text-center">
                                             <a href="/speakers/#{{ speaker.id }}-id">
-                                                <img class="clip-circle-speaker" src="{{ speaker.image_src |relative_url }}" alt="{{ speaker.name }}">
                                                 {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
                                                     <span>{{ speaker.name }}</span>
+                                                {% endif %}
+                                                {% if speaker.image_alt and speaker.image_src %}
+                                                    <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="{{ speaker.image_alt }}">
+                                                {% elsif speaker.image_src %}
+                                                    <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="Profile image for {{ speaker.name }}">
+                                                {% else %}
+                                                    <script>
+                                                        placeholderImage("clip-circle-speaker",
+                                                            " {{ speaker.name }} ",
+                                                            "/assets/img/nopics/nopic#.jpg",
+                                                            "Random placeholder for {{ speaker.name }}",
+                                                            10);
+                                                    </script>
                                                 {% endif %}
                                             </a>
                                         </div>
