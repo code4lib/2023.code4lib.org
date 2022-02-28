@@ -10,7 +10,6 @@
   slack:
   github:
   image_src: /assets/img/speakers/crystal-lee.jpg
-  image_alt:
   keynote: true
 
 - id: lauren-chambers
@@ -27,7 +26,6 @@
   slack:
   github:
   image_src: /assets/img/speakers/lauren-chambers.png
-  image_alt:
   keynote: true
 
 - id: shalini-ramachandran
@@ -41,6 +39,7 @@
   image_src: 
   image_alt:
 
+
 - id: steve-cutchin
   name: Steve Cutchin
   last: Cutchin
@@ -51,6 +50,7 @@
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: sheree-fu
   name: Sheree Fu
@@ -63,6 +63,7 @@
   image_src: 
   image_alt:
 
+
 - id: jack-hill
   name: Jack Hill
   last: Hill
@@ -73,6 +74,7 @@
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: amy-jiang
   name: Amy Jiang
@@ -85,6 +87,7 @@
   image_src: 
   image_alt:
 
+
 - id: david-raygoza
   name: David Raygoza
   last: Raygoza
@@ -95,6 +98,7 @@
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: margaret-heller
   name: Margaret Heller
@@ -107,6 +111,7 @@
   image_src: 
   image_alt:
 
+
 - id: eric-phetteplace
   name: Eric Phetteplace
   last: Phetteplace
@@ -117,6 +122,7 @@
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: bohyun-kim
   name: Bohyun Kim
@@ -131,6 +137,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: dr-patrick-murray-john
   name: Dr. Patrick Murray-John
   last: Murray-John
@@ -141,6 +148,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: william-reed-quinn
   name: William Reed Quinn
@@ -153,6 +161,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: julia-caffrey-hill
   name: Julia Caffrey-Hill
   last: Caffrey-Hill
@@ -163,6 +172,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: wesley-teal
   name: Wesley Teal
@@ -175,6 +185,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: tomasz-kalata
   name: Tomasz Kalata
   last: Kalata
@@ -185,6 +196,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: alyssa-panetta
   name: Alyssa Panetta
@@ -197,6 +209,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: thomas-dodson
   name: Thomas Dodson
   last: Dodson
@@ -207,6 +220,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: kate-deibel
   name: Kate Deibel
@@ -219,6 +233,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt: "Cartoon avatar of a quite pale white bespectacled brunette geek girl whose open downturned mouth is adamantly advocating an important point or three. A bookcase is behind her."
 
+
 - id: abigail-goben
   name: Abigail Goben
   last: Goben
@@ -229,6 +244,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: sebastian-karcher
   name: Sebastian Karcher
@@ -241,6 +257,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: randy-colon
   name: Randy Colon
   last: Colon
@@ -251,6 +268,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: laurie-g-arp
   name: Laurie G. Arp
@@ -263,6 +281,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: heather-greer-klein
   name: Heather Greer Klein
   last: Klein
@@ -273,6 +292,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: chulin-meng
   name: Chulin Meng
@@ -285,6 +305,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: christopher-creswell
   name: Christopher Creswell
   last: Creswell
@@ -295,6 +316,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: michelle-suranofsky
   name: Michelle Suranofsky
@@ -307,6 +329,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: karen-majewicz
   name: Karen Majewicz
   last: Majewicz
@@ -317,6 +340,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: amy-ruskin
   name: Amy Ruskin
@@ -329,6 +353,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: madison-chartier
   name: Madison Chartier
   last: Chartier
@@ -339,6 +364,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: megan-macken
   name: Megan Macken
@@ -351,6 +377,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: kim-pham
   name: Kim Pham
   last: Pham
@@ -361,6 +388,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: pascal-belouin
   name: Pascal Belouin
@@ -373,6 +401,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: naomi-dushay
   name: Naomi Dushay
   last: Dushay
@@ -383,6 +412,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: jeremy-friesen
   name: Jeremy Friesen
@@ -395,6 +425,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: mike-giarlo
   name: Mike Giarlo
   last: Giarlo
@@ -405,6 +436,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: kaci-resau
   name: Kaci Resau
@@ -417,6 +449,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: rachel-evans
   name: Rachel Evans
   last: Evans
@@ -427,6 +460,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: jason-tubinis
   name: Jason Tubinis
@@ -439,6 +473,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: salwa-ismail
   name: Salwa Ismail
   last: Ismail
@@ -449,6 +484,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: jackie-gosselar
   name: Jackie Gosselar
@@ -461,6 +497,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: niqui-oneill
   name: Niqui O'Neill
   last: O'Neill
@@ -471,6 +508,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: ilya-kreymer
   name: Ilya Kreymer
@@ -483,6 +521,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: ed-summers
   name: Ed Summers
   last: Summers
@@ -493,6 +532,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: /assets/img/speakers/ed-summers.jpg
   image_alt:
+
 
 - id: evan-peter-williamson
   name: Evan Peter Williamson
@@ -505,6 +545,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: olivia-wikle
   name: Olivia Wikle
   last: Wikle
@@ -515,6 +556,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: devin-becker
   name: Devin Becker
@@ -527,6 +569,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: elizabeth-james
   name: Elizabeth James
   last: James
@@ -537,6 +580,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: deb-verhoff
   name: Deb Verhoff
@@ -549,6 +593,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: joe-pawletko
   name: Joe Pawletko
   last: Pawletko
@@ -559,6 +604,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: michael-hucka
   name: Michael Hucka
@@ -571,6 +617,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: inna-kouper
   name: Inna Kouper
   last: Kouper
@@ -581,6 +628,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: alex-wermer-colan
   name: Alex Wermer-Colan
@@ -593,6 +641,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: ayisha-tabassum
   name: Ayisha Tabassum
   last: Tabassum
@@ -603,6 +652,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: julia-corrin
   name: Julia Corrin
@@ -615,6 +665,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: matthew-lincoln
   name: Matthew Lincoln
   last: Lincoln
@@ -625,6 +676,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: lina-crowe
   name: Lina Crowe
@@ -637,6 +689,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: clara-turp
   name: Clara Turp
   last: Turp
@@ -647,6 +700,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 - id: kelly-stathis
   name: Kelly Stathis
@@ -659,6 +713,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   image_src: 
   image_alt:
 
+
 - id: ingrid-reiche
   name: Ingrid Reiche
   last: Reiche
@@ -669,6 +724,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   keynote: FALSE
   image_src: 
   image_alt:
+
 
 # ---------------------------------------------------------------------------------
 
@@ -681,6 +737,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   bio: ''
   image_src: 
   image_alt:
+
   keynote: FALSE
 
 - id: james-griffin-iii
@@ -692,6 +749,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   bio: ''
   image_src: 
   image_alt:
+
   keynote: FALSE
 
 - id: esther-jackson
@@ -703,6 +761,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   bio: 'Esther Jackson is the Scholarly Communication Technologies Librarian at Columbia University. Esther also serves on the Code4Lib Conference Scholarship Committee, is an organizer of the Code4Lib NYC meetup group, and has been a member of the Wikiverse since 2016 as an editor, organizer, workshop leader, and a member of various boards and projects, most recently the Wikimedia Foundation Community Fund for North America.'
   image_src: /assets/img/speakers/esther-jackson.jpeg
   image_alt:
+
   keynote: FALSE
 
 - id: dianne-weinthal
@@ -714,6 +773,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   bio: 'Dianne Weinthal is a user experience designer at UCLA Library and 2020 graduate of the UCLA MLIS program. With a background in art history, she focuses her work on image as artwork, as visual resource, and as digital information. She also conducts visual design experiments for Civic Software Foundation and leads the grant-funded initiative "Artist Book as Record" at Los Angeles Contemporary Archive.'
   image_src: /assets/img/speakers/dianne-weinthal.jpeg
   image_alt: "Late 20s freckled white woman attempting a professional &quot;smize,&quot; depicted from the shoulders up in black and white against an empty wall of her studio."
+
   keynote: FALSE
 
 - id: alicia-cozine
@@ -725,6 +785,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   bio: ''
   image_src: 
   image_alt:
+
   keynote: FALSE
 
 - id: hillel-arnold
@@ -736,6 +797,7 @@ She is the author of three books, Moving Forward with Digital Disruption (ALA Te
   bio: 'Hillel Arnold is the Assistant Director for Digital Strategies at the Rockefeller Archive Center, where he leads the implementation of systems and processes facilitating broad and equitable access to and responsible preservation of archival records. Hillel has worked as an archivist at the Tamiment Library/Robert F. Wagner Labor Archives, the Foundation for Landscape Studies and the Woody Guthrie Archives.'
   image_src: /assets/img/speakers/hillel-arnold.jpeg
   image_alt:
+
   keynote: FALSE
 
 - id: jim-hahn
