@@ -1,6 +1,6 @@
 ---
 layout: presentation
-type: talk 
+type: talk
 startTime: 2022-05-25T16:10
 speakers-text: Deb Verhoff, Joe Pawletko
 categories: talks
@@ -11,6 +11,7 @@ time: 4:10 PM
 speakers:
 - deb-verhoff
 - joe-pawletko
+- laura-henze
 length: 15
 slugTitle: finding-aids-redesign-how-we-improved-thousands-of-legacy-finding-aids-and-upgraded-a-20-year-old-web-publishing-process
 location: Auditorium 2120 A&B

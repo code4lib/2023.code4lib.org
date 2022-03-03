@@ -1,4 +1,4 @@
-# NOTE: we've not traditionally used the github, twitter, slack, or bio at all
+# NOTE: we've not traditionally used the github, twitter, slack, or pronouns at all
 - id: crystal-lee
   name: Crystal Lee
   last: Lee
@@ -900,4 +900,15 @@ Cary is devoted to empowering libraries to enhance and extend their services thr
   bio: 'Timothy Ryan Mendenhall has worked as Metadata Librarian at Columbia University Libraries since 2018.  He is also active as a convener of the Program for Cooperative Cataloging (PCC) Sinopia Cataloging Affinity Group and as a convener of the LD4 Wikibase Working Hour.'
   image_src: /assets/img/speakers/timothy-ryan-mendenhall.jpeg
   image_alt: 'Timothy Ryan Mendenhall photographed at the Social Sciences and Engineering Library, Columbia University, New York.'
+  keynote: FALSE
+
+- id: laura-henze
+  name: Laura Henze
+  last: Henze
+  pronouns: she/they/her/hers
+  institution: New York University
+  position-title: Senior U/X Designer
+  bio:
+  image_src:
+  image_alt:
   keynote: FALSE
