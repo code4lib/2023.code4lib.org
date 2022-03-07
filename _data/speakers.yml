@@ -242,7 +242,7 @@
   title: Associate Professor and Data Management Librarian
   bio: ""
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/abigail-goben.png
   image_alt: "White brunette woman wearing tortoiseshell glasses and gold earrings. She is outside and smiling."
 
 
@@ -278,7 +278,7 @@
   title: Director, DuraSpace Community Supported Programs, LYRASIS
   bio: "Laurie's professional interests focus on the intersection of collections, technology and people. As the Director of DuraSpace Community Supported Programs, Laurie supervises ArchivesSpace, CollectionSpace, DSpace, Fedora and VIVO, the community supported open-source programs housed at LYRASIS. Laurie supports governance, strategic planning and developing partnerships."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/laurie-g-arp.jpg
   image_alt:
 
 
@@ -458,7 +458,7 @@
   title: Metadata Services & Special Collections Librarian
   bio: "Rachel S. Evans first joined the staff at the University of Georgia as a web developer in the I.T. Services department in 2012. She currently serves as the metadata services and special collections librarian, ensuring the discoverability of library resources and maintaining library information platforms, including the online catalog. She also oversees the management of the archives and other special collections, including digitized materials in the school’s institutional repository. "
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/rachel-evans.jpg
   image_alt: "White female with short light brown hair wearing green glasses, a gold necklace, and a beige cardigan smiles. A bookcase and old card catalog are behind her."
 
 
