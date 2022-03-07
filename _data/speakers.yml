@@ -27,6 +27,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/lauren-chambers.png
+  image_alt: "A woman smiling with long curly brown hair, wearing a purple cardigan and large lavender earrings."
   keynote: true
 
 - id: shalini-ramachandran
@@ -242,7 +243,7 @@
   bio: ""
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "White brunette woman wearing tortoiseshell glasses and gold earrings. She is outside and smiling."
 
 
 - id: sebastian-karcher
@@ -266,7 +267,7 @@
   bio: ""
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "Pale, smiling female; medium length blond hair; wearing light grey dress; darker gray background."
 
 
 - id: laurie-g-arp
@@ -458,7 +459,7 @@
   bio: "Rachel S. Evans first joined the staff at the University of Georgia as a web developer in the I.T. Services department in 2012. She currently serves as the metadata services and special collections librarian, ensuring the discoverability of library resources and maintaining library information platforms, including the online catalog. She also oversees the management of the archives and other special collections, including digitized materials in the school’s institutional repository. "
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "White female with short light brown hair wearing green glasses, a gold necklace, and a beige cardigan smiles. A bookcase and old card catalog are behind her."
 
 
 - id: jason-tubinis
