@@ -27,6 +27,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/lauren-chambers.png
+  image_alt: "A woman smiling with long curly brown hair, wearing a purple cardigan and large lavender earrings."
   keynote: true
 
 - id: shalini-ramachandran
@@ -242,7 +243,7 @@
   bio: ""
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "White brunette woman wearing tortoiseshell glasses and gold earrings. She is outside and smiling."
 
 
 - id: sebastian-karcher
@@ -266,7 +267,7 @@
   bio: ""
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: "Pale, smiling female; medium length blond hair; wearing light grey dress; darker gray background."
 
 
 - id: laurie-g-arp
