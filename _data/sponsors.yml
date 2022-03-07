@@ -157,3 +157,8 @@
   img: /assets/img/sponsors/jhu.jpg
   link: https://www.library.jhu.edu/
   level: bronze
+
+- name: OCLC, Inc.
+  img: /assets/img/sponsors/oclc.jpeg
+  link: http://www.oclc.org/
+  level: platinum
