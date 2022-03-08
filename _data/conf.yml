@@ -243,9 +243,9 @@ panel-voting:
   end-date:
 
 poster-voting:
-  show: false
-  url: 'https://goo.gl/tM4JJq'
-  end-date: '2021-11-29'
+  show: true
+  url: 'https://docs.google.com/forms/d/e/1FAIpQLSdPB96c7KqbKJJUN99al0fH2YeMhMyveuFd5_atqvtatZXexQ/viewform'
+  end-date: '2022-03-18'
 
 shirt-voting:
   show: false
