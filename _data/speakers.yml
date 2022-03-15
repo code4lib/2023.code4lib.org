@@ -434,8 +434,8 @@
   title: Senior Software Developer
   bio: "Mike Giarlo is a software engineer & technology strategist at Stanford University Libraries, working on a team designing and developing software for long-term access to the University’s research and cultural assets. His focus is on development and maintenance of the Stanford Digital Repository and collaboration with open source communities."
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/mike-giarlo.jpg
+  image_alt: "A white, freckle-faced male with blue eyes, chest-length curly dark brown hair, and a beard. He is wearing a grey henley shirt and standing in front of a light green wall."
 
 
 - id: kaci-resau
@@ -889,7 +889,7 @@ Cary is devoted to empowering libraries to enhance and extend their services thr
   position-title:
   bio: 'M.A. Matienzo is an archivist, technologist, and ambient musician. Their work for Stanford University Libraries includes serving as the project lead for Lighting the Way, an IMLS National Forum Grant focused on improving archival discovery and delivery, and managing a portfolio of digital library discovery and access services and systems. They received a MSI from the University of Michigan School of Information and a BA in Philosophy from the College of Wooster, and was the 2012 recipient of the Mark A. Greene Emerging Leader Award from the Society of American Archivists. They reside on the unceded ancestral lands of the Duwamish People past and present, who are still actively working for federal recognition.'
   image_src: /assets/img/speakers/m-a-matienzo.jpeg
-  image_alt:
+  image_alt: "Black and white image of a person towards the right of the frame wearing glasses and sideswept bangs looking downward.  There are leaves on the far left of the frame."
   keynote: FALSE
 
 - id: timothy-ryan-mendenhall
