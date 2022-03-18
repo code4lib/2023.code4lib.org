@@ -7,7 +7,7 @@ learning-outcomes: Participants will learn about using Docker Desktop and therea
 attendee-requirements: Attendees should have a working computer, be comfortable working on the command line, and have conceptual understanding of SPARQL, the basis for the Wikibase query service. To participate, bring a laptop (and a power cord) with Docker for Desktop installed and updated to the latest version.
 max-attendees: 15
 startTime: 9:00am
-endtime: 12:00pm
+endTime: 12:00pm
 time: am
 location: hayes-hall
 room:
