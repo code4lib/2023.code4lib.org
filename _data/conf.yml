@@ -243,7 +243,7 @@ panel-voting:
   end-date:
 
 poster-voting:
-  show: true
+  show: false
   url: 'https://docs.google.com/forms/d/e/1FAIpQLSdPB96c7KqbKJJUN99al0fH2YeMhMyveuFd5_atqvtatZXexQ/viewform'
   end-date: '2022-03-18'
 
