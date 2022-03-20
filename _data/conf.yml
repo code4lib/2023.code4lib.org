@@ -184,37 +184,37 @@ sponsor-btn-link: 'https://www.concentra-cms.com/c4l22sponsorreg.html'
 ###########
 
 keynote-proposals:
-  show: true
+  show: false
   submission-form: 'https://wiki.code4lib.org/2022_Keynote_Speakers_Nominations'
   end-date: '2021-11-28'
 
 workshop-proposals:
-  show: true
+  show: false
   submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSfh1ri7kmxtZv5SdfKJ-Q6EoiTFYVxtaFNhbh2Wzpzxcr0BcQ/viewform'
   end-date: '2021-11-29'
 
 talk-proposals:
-  show: true
+  show: false
   submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSc3WHM4INwlzBmpRXwJQTKls0yIr0Vafk2EVhfu5H_o0-aAgw/viewform'
   end-date: '2021-11-28'
 
 panel-proposals:
-  show: true
-  submission-form: 'https://example.org'
-  end-date: '2022-02-21'
+  show: false
+  submission-form: ''
+  end-date: ''
 
 poster-proposals:
-  show: true
+  show: false
   submission-form: 'https://forms.gle/ELyF1dx6U3FnvZoU7'
   end-date: '2022-02-21'
 
 shirt-proposals:
-  show: true
+  show: false
   submission-form: 'https://forms.gle/uZpF6MzgfzrNeSgNA'
   end-date: '2022-03-18'
 
 host-proposals:
-  show: true
+  show: false
   submission-form: 'https://wiki.code4lib.org/2019_Hosting_Proposals'
   end-date: '2021-02-23'
 
@@ -223,32 +223,32 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: true
+  show: false
   url: 'https://forms.gle/NgZEfs3a5ciceAbr7'
   end-date: '2021-12-20'
 
 workshop-voting:
-  show: true
+  show: false
   url: 'https://docs.google.com/forms/d/e/1FAIpQLSfEAwmP9Wnrk2aXLgfEpnk0zS3W8M4rukx_DL3tCeaMjqHwdg/viewform'
   end-date: '2021-11-19'
 
 talk-voting:
-  show: true
+  show: false
   url: 'https://forms.gle/vSjoYhcxDEs8GuGX8'
   end-date: '2021-12-17'
 
 panel-voting:
-  show: true
-  url: 'https://example.org'
-  end-date: '2021-12-17'
+  show: false
+  url: ''
+  end-date:
 
 poster-voting:
-  show: true
+  show: false
   url: 'https://docs.google.com/forms/d/e/1FAIpQLSdPB96c7KqbKJJUN99al0fH2YeMhMyveuFd5_atqvtatZXexQ/viewform'
   end-date: '2022-03-18'
 
 shirt-voting:
-  show: true
+  show: false
   url: 'https://forms.gle/5nMtw8Degbfgm2ja7 '
   end-date: '2022-01-21'
 
