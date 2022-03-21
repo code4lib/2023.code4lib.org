@@ -67,13 +67,15 @@ jQuery(document).ready(function($){
 		if($(target+'-info').hasClass('show')) {
 		    $(target+'-info').removeClass('show');
             $(target+'-id').removeClass('selected');
+            $(target+'-info .speaker-session a').attr('tabindex', -1);
 		}
         else {
             $('.speaker-info').removeClass('show');
             $('.speaker-box').removeClass('selected');
             $(target+'-info').addClass('show');
             $(target+'-id').addClass('selected');
-        } 
+            $(target+'-info .speaker-session a').removeAttr('tabindex');
+        }
 
     }
 
@@ -84,7 +86,7 @@ jQuery(document).ready(function($){
 			// this toggle is already open, so close it
 			toggle.attr('aria-expanded', 'false');
 		}
-		else { 
+		else {
 			// any other expanded bio is now closed & this one is open
 			$('.speaker-info-toggle')
 				.filter((idx, el) => $(el).attr('aria-expanded') == 'true')
@@ -131,7 +133,7 @@ jQuery(document).ready(function($){
                 i = i+2;
             }
         });
-		
+
 		infoOrder = 1,
 		i = 1,
 		ik = 1;
@@ -205,4 +207,3 @@ jQuery(document).ready(function($){
     });
 
 });
-
