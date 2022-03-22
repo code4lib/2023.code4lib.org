@@ -206,7 +206,7 @@
   title: Web Designer/Developer
   bio: "Alyssa Panetta has been designing and developing websites by hand since Y2K. She has worked freelance, for educational mathematics software companies and is currently Web Designer/Developer (unicorn) for the University Libraries, University at Albany. After a diagnosis of brain cancer in 2020 and subsequent treatment, Alyssa started a website where she writes letters to her removed tumor that is preserved in a tumor research bank: deartalula.com. "
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/alyssa-panetta.jpg
   image_alt: "Alyssa Panetta (she/her/hers) smiling with colorful background."
 
 
@@ -853,7 +853,7 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   institution:
   position-title:
   bio: ''
-  image_src:
+  image_src: /assets/img/speakers/francis-kayiwa.jpg
   image_alt: "A black man with a forced smile, grin. Short hair with a blue and white striped shirt. Background has out of focus trees and shrubbery."
   keynote: FALSE
 
@@ -866,7 +866,7 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   bio: 'Cary Gordon, MLIS,Senior Developer & Founder, the Cherry Hill Company
 <br><br>
 Cary is devoted to empowering libraries to enhance and extend their services through the use of technology, and he is focused on helping them to adopt open source software to that end. He is also very active in the Drupal community, having served on the board of the Drupal Association. A degreed librarian, Cary has taught and presented at conferences for the American Library Association, the California Library Association, LITA, ASIS&T, Code4Lib, Internet Librarian, Access (Canada) and NISO.'
-  image_src: /assets/img/speakers/cary-gordon.jpeg
+  image_src: /assets/img/speakers/cary-gordon.png
   image_alt: "A poorly drawn picture of a chupacabra (a Mexican goat-eating demon) approximately representing my visage before I've had coffee."
   keynote: FALSE
 
