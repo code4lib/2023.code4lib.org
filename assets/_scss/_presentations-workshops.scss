@@ -120,15 +120,16 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-top: 10px;
+  margin: 10px 0px;
   padding: 10px 10px 0px;
   width: 300px;
 }
 
-.workshop-well p {
+.workshop-well p,
+.workshop-well ul,
+.workshop-well ol {
   font-size: .9em;
   line-height: 1.3em;
-  word-break: break-all;
 }
 
 .workshop-well a {
@@ -143,6 +144,20 @@
 
 .workshop-well.top-10 {
   background-color: lightgoldenrodyellow;
+}
+
+.workshop-time {
+  font-size: $h5-font-size;
+  font-weight: 700;
+  letter-spacing: .02em;
+  line-height: 1.1;
+
+  & p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1em;
+    line-height: 1.1em;
+  }
 }
 
 .sched-date {
