@@ -6,6 +6,7 @@
 year: 2022
 hashtag: 'c4l22'
 location: 'Buffalo, New York'
+timezone: 'Eastern'
 search: false
 online-only-conference: false
 # https://research.lib.buffalo.edu/2022code4lib/venues
