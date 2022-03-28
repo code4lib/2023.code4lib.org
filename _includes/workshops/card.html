@@ -16,11 +16,11 @@
             {% endif %}
             <p>{{ workshop.content | truncatewords: 50 }} <a href="{{ workshop.url }}"><span aria-label="more about {{ workshop.title }}">more</span></a></p>
         </div>
-        <div class="col-12">
+        <div class="col-12 workshop-time">
             <h3 class="h5">Time</h3>
-            <h3 class="h5">{{ post.startTime }} to {{ post.endTime }}
-                <br/><div class="timezone">Eastern Time</div>
-            </h3>
+            <p class="h5">{{ post.startTime }} to {{ post.endTime }}
+                <br/><div class="timezone">{{ site.data.conf.timezone }} Time</div>
+            </p>
         </div>
         <!--
         <div class="col-12">
