@@ -38,8 +38,8 @@
   title: Associate STEM Librarian
   bio: "Dr. Shalini Ramachandran was a Science & Engineering librarian at the University of Southern California (USC) where she taught information literacy to science and engineering students, including computer science students. She is currently a Faculty Liaison at Boise State University's Office of Research Development. She has conducted research on computer science students' perceptions of algorithm bias and presented on the topic at the 2019 ALA Midwinter Meeting."
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/shalini-ramachandran.jpg
+  image_alt: "Image of a female librarian with black hair and brown eyes."
 
 
 - id: steve-cutchin
@@ -50,8 +50,8 @@
   title: Associate Professor
   bio: ""
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/steve-cutchin.jpg
+  image_alt: "Photograph of a pale white computer science professor against a brick background."
 
 
 - id: sheree-fu
@@ -62,8 +62,8 @@
   title: ECST Librarian
   bio: "Sheree Fu is the Engineering, Computer Science, and Technology Librarian at California State University, Los Angeles. She teaches graduate and undergraduate students information literacy skills. While her current research interests include information literacy, user research, space planning, accessibility, and algorithmic bias, she continuously explores how to encourage students to ask their own questions and take their next steps."
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/sheree-fu.jpg
+  image_alt: "Asian woman wearing red shirt and white sweater with long hair.  Also wearing glasses."
 
 
 - id: jack-hill
@@ -542,8 +542,8 @@
   title: Digital Infrastructure Librarian
   bio: "Despite a background in Art History, Classical Studies, and Archives, he always manages to get involved in all things digital--especially websites, digitization, and digital preservation. At the library he works with Data & Digital Services to bring cool projects, enlightening workshops, and innovative services to life."
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/evan-peter-williamson.jpg
+  image_alt: "smiling man with long brown hair and glasses in plaid shirt."
 
 
 - id: olivia-wikle
@@ -602,8 +602,8 @@
   title: Senior Programmer/Analyst
   bio: ""
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/joe-pawletko.jpg
+  image_alt: "A round-ish male-presenting person, blue eyes, extremely short haircut, wearing black wayfarer-style horn-rimmed glasses, a black fleece and purple t-shirt, no appreciable facial hair."
 
 
 - id: michael-hucka
@@ -783,8 +783,8 @@
   institution:
   position-title:
   bio: ''
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/alicia-cozine.jpg
+  image_alt: "Smiling female tech with glasses, hazel eyes, and shoulder-length blond-brown hair going gray."
 
   keynote: FALSE
 
