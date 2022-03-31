@@ -162,3 +162,27 @@
   img: /assets/img/sponsors/oclc.jpeg
   link: http://www.oclc.org/
   level: platinum
+
+- name: Developers for Diversity
+  img: /assets/img/sponsors/devs4diversity.png
+  link: https://github.com/pulibrary
+  level: bronze
+
+- name: University at Buffalo Libraries
+  img: /assets/img/sponsors/ubuffalo.jpeg
+  link: https://library.buffalo.edu/
+  # no level according to #conference-website slack
+  level:
+  diversity: true
+
+- name: University of Michigan
+  img: /assets/img/sponsors/umich.png
+  link: https://www.lib.umich.edu/
+  level: bronze
+  diversity: true
+
+- name: Penn State University Libraries
+  img: /assets/img/sponsors/psu.png
+  link: https://libraries.psu.edu/
+  level: bronze
+  diversity: true
