@@ -34,8 +34,10 @@ t-shirt-only:
   show: true
   start-date: 2022-03-01
   cost: $29
-  late-date: 2022-05-03
-  late-cost: $39
+  # should be one or the other: have to purchase by last-date or cost changes after late-date
+  last-date: 2022-05-02
+  # late-date: 2022-05-03
+  # late-cost: $39
 
 childcare:
   # "show" toggles the child care entry on /general-info/attend, under 'Additional Information' heading

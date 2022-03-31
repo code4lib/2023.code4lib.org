@@ -58,10 +58,13 @@ active: Attend Code4Lib
                     {% endif %}
 
                     {% if site.data.registration.t-shirt-only.show %}
-                        <li><span class="font-weight-bold">Conference T-Shirt ONLY</span>: {{ site.data.registration.t-shirt-only.cost }}.
+                        <li><span class="font-weight-bold">Conference T-Shirt ONLY</span>: {{ site.data.registration.t-shirt-only.cost }}
+                        {% if site.data.registration.t-shirt-only.last-date != nil %}
+                            (Must register on or before {{ site.data.registration.t-shirt-only.last-date | date: "%B %-d" }})
+                        {% endif %}
                         {% if site.data.registration.t-shirt-only.late-cost != nil %}
-                            {{ site.data.registration.t-shirt-only.late-cost }} on or after
-                            {{ site.data.registration.t-shirt-only.late-date | date: "%B %-d" }}
+                            ({{ site.data.registration.t-shirt-only.late-cost }} after
+                            {{ site.data.registration.t-shirt-only.late-date | date: "%B %-d" }})
                         {% endif %}
                         </li>
                     {% endif %}
