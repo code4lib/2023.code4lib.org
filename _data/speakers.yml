@@ -554,8 +554,8 @@
   title: Digital Initiatives Librarian
   bio: ""
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/olivia-wikle.jpg
+  image_alt: "brown-haired woman with bangs, smiling, wearing a blue shirt and standing outdoors."
 
 
 - id: devin-becker
@@ -566,8 +566,8 @@
   title: Head, Data and Digital Services
   bio: ""
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/devin-becker.jpg
+  image_alt: "A headshot photograph of Devin Becker, a middle-aged white male with a mustache and goatee."
 
 
 - id: elizabeth-james
