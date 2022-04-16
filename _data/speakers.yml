@@ -90,18 +90,6 @@
   image_alt:
 
 
-- id: david-raygoza
-  name: David Raygoza
-  last: Raygoza
-  pronouns:
-  institution: University of La Verne
-  title: Software Developer
-  bio: "David is a senior student computer science major with Software Engineering concentration. He is the software development lead at the Wilson Library, University of La Verne. He is also the president of Computer Science Club."
-  keynote: FALSE
-  image_src:
-  image_alt:
-
-
 - id: margaret-heller
   name: Margaret Heller
   last: Heller
@@ -409,18 +397,6 @@
   institution: Stanford University
   title: Senior Software Developer
   bio: "Naomi Dushay is a software engineer at Stanford University Libraries, working on a team with Aaron Collier, Mike Giarlo and other Code4Lib notables. She has worked in the digital library field since 1990 (cough). Professionally, she is interested in improving discovery of assets, maintainability of code and providing quality assessments of metadata as early as possible in its lifecycle."
-  keynote: FALSE
-  image_src:
-  image_alt:
-
-
-- id: jeremy-friesen
-  name: Jeremy Friesen
-  last: Friesen
-  pronouns: he/him/his
-  institution:
-  title:
-  bio: "Jeremy Friesen used to work in the digital library arena for Notre Dame University and was an active member of the Code4Lib community. He invented a hiring approach and created supporting spreadsheets for it as part of the Samvera (formerly-known-as Hydra) community. "
   keynote: FALSE
   image_src:
   image_alt:

@@ -1,6 +1,6 @@
 ---
 layout: presentation
-type: talk 
+type: talk
 startTime: 2022-05-25T11:00
 speakers-text: Naomi Dushay, Jeremy Friesen, Mike Giarlo
 categories: talks
@@ -10,7 +10,6 @@ spot: 1
 time: 11:00 AM
 speakers:
 - naomi-dushay
-- jeremy-friesen
 - mike-giarlo
 length: 20
 slugTitle: avoiding-unconscious-bias-a-defined-hiring-process
