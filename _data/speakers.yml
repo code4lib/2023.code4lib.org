@@ -846,17 +846,6 @@ Cary is devoted to empowering libraries to enhance and extend their services thr
   image_alt: "A poorly drawn picture of a chupacabra (a Mexican goat-eating demon) approximately representing my visage before I've had coffee."
   keynote: FALSE
 
-- id: josh-weisman
-  name: Josh Weisman
-  last: Weisman
-  pronouns:
-  institution:
-  position-title:
-  bio: 'Josh Weisman is VP Development at Ex Libris. He leads several development teams and is an evangelist for the open platform, standards, and interoperability of Ex Libris products.'
-  image_src: /assets/img/speakers/josh-weisman.jpeg
-  image_alt: 'Headshot of Josh Weisman from Ex Libris'
-  keynote: FALSE
-
 - id: m-a-matienzo
   name: M.A. Matienzo
   last: Matienzo
