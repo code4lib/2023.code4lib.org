@@ -135,33 +135,10 @@ title: Schedule
         </div>
     </div>
 
-    {% if site.data.conf.game-night.show %}
-    <div class="row">
-        <div class="col-12 col-md-3 text-right">
-            <h3>{{ site.data.conf.game-night.time }}
-                <br/><div class="timezone">{{ site.data.conf.timezone }} Time</div>
-            </h3>
-        </div>
-        <div class="col-12 col-md-9 sched-well">
-            <h4>
-                <a href="/general-info/social/#game-night">Game Night</a>
-            </h4>
-            <p>
-               {{ site.data.conf.game-night.description }}
-            </p>
-            {% if site.data.conf.game-night.sign-up-url != '' %}
-                <p>
-                    <a class="btn ct-btn-light" href="{{ site.data.conf.game-night.sign-up-url }}">{{ site.data.conf.game-night.sign-up-button-text }}</a>
-                </p>
-            {% endif %}
-        </div>
-    </div>
-    {% endif %}
-
     {% if site.data.conf.reception.show %}
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h3>{{ site.data.conf.reception.times }}                
+            <h3>{{ site.data.conf.reception.times }}
                 <br/><div class="timezone">{{ site.data.conf.timezone }} Time</div>
             </h3>
         </div>
@@ -199,6 +176,28 @@ title: Schedule
                 Talks have been selected by the community.
             </p>
         </div>
+        {% if site.data.conf.game-night.show %}
+        <div class="row">
+            <div class="col-12 col-md-3 text-right">
+                <h3>{{ site.data.conf.game-night.time }}
+                    <br/><div class="timezone">{{ site.data.conf.timezone }} Time</div>
+                </h3>
+            </div>
+            <div class="col-12 col-md-9 sched-well">
+                <h4>
+                    <a href="/general-info/social/#game-night">Game Night</a>
+                </h4>
+                <p>
+                {{ site.data.conf.game-night.description }}
+                </p>
+                {% if site.data.conf.game-night.sign-up-url != '' %}
+                    <p>
+                        <a class="btn ct-btn-light" href="{{ site.data.conf.game-night.sign-up-url }}">{{ site.data.conf.game-night.sign-up-button-text }}</a>
+                    </p>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
     </div>
 
     {% if site.data.conf.libtech-women.show %}
