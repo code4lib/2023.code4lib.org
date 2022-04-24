@@ -149,20 +149,18 @@ closed-captioning:
 peri:
   day1-am-title: 'Pre-Conference'
   day1-am-desc: 'Workshops'
+  day1-pm-title: 'Newcomer Dinner'
+  day1-pm-desc: 'Dine-Around'
   day2-am-title: 'Conference, Day 1'
-  day2-am-desc: 'Keynote'
+  day2-am-desc: 'Opening Keynote & Talks'
+  day2-pm-title: 'Reception'
+  day2-pm-desc: 'Pearl Street Grill & Brewery'
   day3-am-title: 'Conference, Day 2'
   day3-am-desc: 'Awesome Talks'
   day3-pm-title: 'Game Night'
   day3-pm-desc: 'Board or Card Games'
   day4-am-title: 'Conference, Day 3'
-  day4-am-desc: 'Awesome Talks'
-  day4-pm-title: 'Karaoke Night'
-  day4-pm-desc: 'Join Us'
-  day5-am-title: 'Conference, Day 4'
-  day5-am-desc: 'Awesome Talks'
-  day5-pm-title: 'Trivia Night'
-  day5-pm-desc: 'Bragging Rights'
+  day4-am-desc: 'Closing Keynote & Talks'
 
 ###########
 # Sponsors
