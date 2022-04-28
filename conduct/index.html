@@ -189,7 +189,11 @@ active: 'Conduct & Safety'
                                 <div class="col-4">
                                     <div class="speaker-box text-center">
                                         <div class="speaker-box-inner">
-                                            <img class="clip-circle-lg" src="/{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                            {% if volunteer.img_alt != nil %}
+                                                <img alt="{{ volunteer.img_alt }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                            {% else %}
+                                                <img alt="{{ volunteer.name }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                            {% endif %}
                                             <h4 class="speaker-name">{{ volunteer.name }}</h4>
                                         </div>
                                     </div>
@@ -207,7 +211,11 @@ active: 'Conduct & Safety'
                           {% for volunteer in online_volunteers %}
                             <div class="col-4">
                                 <div class="text-center">
-                                    <img class="clip-circle-lg" src="/{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                    {% if volunteer.img_alt != nil %}
+                                                <img alt="{{ volunteer.img_alt }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                            {% else %}
+                                                <img alt="{{ volunteer.name }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                            {% endif %}
                                     <h4 class="speaker-name">{{ volunteer.name }}</h4>
                                     <div class="speaker-mini"><p>Slack: {{ volunteer.slack_handle }}</p></div>
                                 </div>
