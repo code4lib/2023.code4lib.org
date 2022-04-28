@@ -20,15 +20,17 @@ conference:
   limited-capacity: true
 
 workshop-only:
-  # "show" only affects a button on the general-info/attend page
-  show: false
-  undecided: true
+  # "show" only toggles the display of info in the registration bullets on the general-info/attend page
+  show: true
+  # "show-button" only affects a button on the general-info/attend page
+  show-button: false
+  undecided: false
   undecided-text: "Depending on availability, Pre-Conference ONLY registration may open at the beginning of May."
   url:
   # precon-only registration cost may differ from precons with general registration
-  half-day-cost: "$40"
-  full-day-cost: "$80"
-  start-date: 2022-03-01
+  half-day-cost: "$50"
+  full-day-cost:
+  start-date: 2022-05-03
 
 t-shirt-only:
   show: true
