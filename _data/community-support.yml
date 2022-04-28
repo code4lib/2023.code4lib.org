@@ -1,0 +1,9 @@
+# alt text & img might be duplicated if person is also a speaker
+# no clean way to reference a property in speakers.yml
+phetteplace:
+    name: Eric Phetteplace
+    img: /assets/img/speakers/eric-phetteplace.png
+    img_alt: "Smiling white man with a mustache, beard, and receding hairline who is wearing a striped collared shirt."
+    slack_handle: phette23
+    onsite: true
+    online: true
