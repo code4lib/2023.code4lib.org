@@ -186,3 +186,9 @@
   link: https://libraries.psu.edu/
   level: bronze
   diversity: true
+
+- name: Data Curation Experts
+  img: /assets/img/sponsors/dce.png
+  link: https://curationexperts.com/
+  level: contributor
+  diversity: false
