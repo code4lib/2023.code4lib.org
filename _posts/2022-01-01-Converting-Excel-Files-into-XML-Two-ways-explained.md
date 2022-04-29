@@ -10,8 +10,7 @@ spot: 3
 time: 10:45 AM
 speakers:
 - amy-jiang
-# waiting on speaker info, see https://github.com/code4lib/2022.code4lib.org/issues/179
-# - bryan-hayley
+- bryan-haley
 length: 15
 slugTitle: converting-excel-files-into-xml-two-ways-explained
 location: Auditorium 2120 A&B

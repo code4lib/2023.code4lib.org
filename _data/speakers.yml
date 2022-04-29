@@ -866,3 +866,14 @@ Cary is devoted to empowering libraries to enhance and extend their services thr
   image_src:
   image_alt:
   keynote: FALSE
+
+- id: bryan-haley
+  name: Bryan Haley
+  last: Haley
+  pronouns: he/him
+  institution: University of La Verne
+  position-title: Student Worker, Software Developer
+  bio:
+  image_src:
+  image_alt:
+  keynote: FALSE
