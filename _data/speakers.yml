@@ -398,7 +398,7 @@
   title: Senior Software Developer
   bio: "Naomi Dushay is a software engineer at Stanford University Libraries, working on a team with Aaron Collier, Mike Giarlo and other Code4Lib notables. She has worked in the digital library field since 1990 (cough). Professionally, she is interested in improving discovery of assets, maintainability of code and providing quality assessments of metadata as early as possible in its lifecycle."
   keynote: FALSE
-  image_src:
+  image_src: /assets/img/speakers/naomi-dushay.png
   image_alt:
 
 
