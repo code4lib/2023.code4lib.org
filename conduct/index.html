@@ -138,7 +138,7 @@ active: 'Conduct & Safety'
             {% else %}
             {%- comment %} remove Emergency menu link because we don't have the info yet
             NOTE: jQuery not available on the page yet. {% endcomment -%}
-            <script>document.querySelector('ul.secondarynav a[href="#emergency"]').parentElement.remove()</script>
+            <script>try { document.querySelector('ul.secondarynav a[href="#emergency"]').parentElement.remove() } catch(e) {}</script>
             {% endif %}
 
             <div class="row">
@@ -272,7 +272,7 @@ active: 'Conduct & Safety'
             {% else %}
             {%- comment %} remove CSV Schedule menu link because we don't have the info yet
             NOTE: jQuery not available on the page yet. {% endcomment -%}
-            <script>document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove()</script>
+            <script>try { document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove() } catch(e) {}</script>
             {% endif %}
 
             {% if site.data.conf.online-only-conference == false %}
