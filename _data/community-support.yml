@@ -1,5 +1,14 @@
 # alt text & img might be duplicated if person is also a speaker
 # no clean way to reference a property in speakers.yml
+# template:
+# surname:
+#     name:
+#     img: /assets/img/conduct/
+#     img_alt:
+#     slack_handle:
+#     onsite: true
+#     online: false
+
 phetteplace:
     name: Eric Phetteplace
     img: /assets/img/speakers/eric-phetteplace.png
@@ -7,3 +16,19 @@ phetteplace:
     slack_handle: phette23
     onsite: true
     online: true
+
+grynoch:
+    name: Tess Grynoch
+    img: /assets/img/conduct/tess-grynoch.jpeg
+    img_alt: "Tess Grynoch, a white woman with short brown curly hair, smiling and proudly wearing her UMass Chan Medical School, Lamar Soutter Library sweater."
+    slack_handle:
+    onsite: true
+    online: false
+
+yelton:
+    name: Andromeda Yelton
+    img: /assets/img/conduct/andromeda-yelton.jpeg
+    img_alt:  "A smiling white woman with glasses, rosy cheeks, and curly brown hair. She's in three-quarter profile, looking at the camera like she's definitely up to something."
+    slack_handle: thatandromeda
+    onsite: true
+    online: false
