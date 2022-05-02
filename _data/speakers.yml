@@ -214,7 +214,7 @@
   name: Kate Deibel
   last: Deibel
   pronouns:
-  institution: Independent
+  institution: Philadelphia College of Osteopathic Medicine
   title:
   bio: "Dr. Kate Deibel is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about web comics, chili peppers, her cat, technology adoption, and changing the world."
   keynote: FALSE
@@ -796,7 +796,7 @@ Axa is a Certified Professional in Web Accessibility, a certification provided b
   position-title:
   bio: 'Eric Morgan is a librarian who works in the Navari Family Center for Digital Scholarship (University of Notre Dame) where he provides text mining and natural language processing for students, researchers, and scholars. He has been practicing librarianship for more than thirty years, mostly in higher education. He has been writing software longer than that. In his spare time he enjoys binding his books, rowing his boat, and playing his guitar.'
   image_src: /assets/img/speakers/eric-morgan.jpg
-  image_alt: "Eric is a librarian"
+  image_alt: "A 2-bit, pixelated rendition of Eric drawn on a computer more than thirty years ago."
   keynote: FALSE
 
 - id: andreas-orphanides
