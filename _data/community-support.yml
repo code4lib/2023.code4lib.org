@@ -21,7 +21,7 @@ grynoch:
     name: Tess Grynoch
     img: /assets/img/conduct/tess-grynoch.jpeg
     img_alt: "Tess Grynoch, a white woman with short brown curly hair, smiling and proudly wearing her UMass Chan Medical School, Lamar Soutter Library sweater."
-    slack_handle:
+    slack_handle: "Tess Grynoch"
     onsite: true
     online: false
 
@@ -30,5 +30,29 @@ yelton:
     img: /assets/img/conduct/andromeda-yelton.jpeg
     img_alt:  "A smiling white woman with glasses, rosy cheeks, and curly brown hair. She's in three-quarter profile, looking at the camera like she's definitely up to something."
     slack_handle: thatandromeda
+    onsite: true
+    online: false
+
+mesco:
+    name: Ann Marie Mesco
+    img: /assets/img/conduct/ann-marie-mesco.jpeg
+    img_alt: "Woman with long blonde hair and blue eyes.  Who is smiling, wearing glasses, and a black sweater."
+    slack_handle: "Ann Marie"
+    onsite: true
+    online: false
+
+sanford:
+    name: Daniel Sanford
+    img:
+    img_alt:
+    slack_handle:
+    onsite: true
+    online: false
+
+gosselar:
+    name: Jackie Gosselar
+    img:
+    img_alt:
+    slack_handle:
     onsite: true
     online: false
