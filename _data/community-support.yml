@@ -45,7 +45,7 @@ sanford:
     name: Daniel Sanford
     img:
     img_alt:
-    slack_handle:
+    slack_handle: dans
     onsite: true
     online: false
 
@@ -53,6 +53,38 @@ gosselar:
     name: Jackie Gosselar
     img:
     img_alt:
-    slack_handle:
+    slack_handle: "Jackie Gosselar"
     onsite: true
     online: false
+
+fox:
+  name: Bobbiy Fox
+  img: /assets/img/conduct/bobbi-fox.jpeg
+  img_alt:
+  slack_handle: bobbifox
+  onsite: true
+  online: false
+
+nelson:
+  name: Chad Nelson
+  img:
+  img_alt:
+  slack_handle: bibliotechy
+  onsite: false
+  online: true
+
+kayiwa:
+  name: Francis Kayiwa
+  img:
+  img_alt:
+  slack_handle: "El Cromulente"
+  onsite: true
+  online: false
+
+slaughter:
+  name: Anne Slaughter
+  img:
+  img_alt:
+  slack_handle: aslaughter
+  onsite: true
+  online: false
