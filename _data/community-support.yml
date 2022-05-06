@@ -60,7 +60,7 @@ gosselar:
 fox:
   name: Bobbiy Fox
   img: /assets/img/conduct/bobbi-fox.jpeg
-  img_alt:
+  img_alt: "A smiling large old white woman with glasses and long brown/grey hair."
   slack_handle: bobbifox
   onsite: true
   online: false
