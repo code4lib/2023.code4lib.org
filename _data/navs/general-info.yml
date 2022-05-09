@@ -6,6 +6,8 @@
   url: /general-info/venues
 - name: Accessibility
   url: /general-info/accessibility
+- name: Presenting Accessibly
+  url: /general-info/accessible-presenting
 #- name: Financial Assistance
 #  url: /general-info/financial-assistance
 #- name: First Timers
@@ -14,3 +16,4 @@
   url: /general-info/social
 - name: About Code4Lib
   url: /general-info/about-c4l
+
