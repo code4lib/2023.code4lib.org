@@ -55,8 +55,6 @@
             {% if site.data.conf.talk-voting.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Talks'
-                    more-info-link='/talks/proposed-talks.html'
-                    more-info-text=''
                     end-date=site.data.conf.talk-voting.end-date
                     url=site.data.conf.talk-voting.url
                     url-text='Vote!'
@@ -67,8 +65,6 @@
             {% if site.data.conf.panel-voting.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Panel'
-                    more-info-link='/panels/index.html'
-                    more-info-text='View proposed panels'
                     end-date=site.data.conf.panel-voting.end-date
                     url=site.data.conf.panel-voting.url
                     url-text='Vote!'
@@ -79,8 +75,6 @@
             {% if site.data.conf.workshop-voting.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Workshops'
-                    more-info-link='/workshops/proposed-workshops.html'
-                    more-info-text='View proposed workshops'
                     end-date=site.data.conf.workshop-voting.end-date
                     url=site.data.conf.workshop-voting.url
                     url-text='Vote!'
@@ -121,8 +115,6 @@
             {% if site.data.conf.keynote-proposals.show %}
                 {% include homepage/going_on_block.html
                     title='Keynote Proposals'
-                    more-info-link='/general-info/propose-a-keynote.html'
-                    more-info-text='About keynote proposals'
                     end-date=site.data.conf.keynote-proposals.end-date
                     url=site.data.conf.keynote-proposals.submission-form
                     url-text='Propose a speaker'
@@ -133,23 +125,15 @@
             {% if site.data.conf.talk-proposals.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Talks'
-                    more-info-link='/general-info/propose-a-talk.html'
-                    more-info-text='About talk proposals'
                     end-date=site.data.conf.talk-proposals.end-date
                     url=site.data.conf.talk-proposals.submission-form
                     url-text='Propose a talk'
                 %}
             {% endif %}
 
-            {% comment %}
-            Panels
-            @TODO the more-info-link page does not exist yet! but we should make it
-            {% endcomment %}
             {% if site.data.conf.panel-proposals.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Panels'
-                    more-info-link='/general-info/propose-a-panel.html'
-                    more-info-text='About panel proposals'
                     end-date=site.data.conf.panel-proposals.end-date
                     url=site.data.conf.panel-proposals.submission-form
                     url-text='Propose a panel'
@@ -180,8 +164,6 @@
             {% if site.data.conf.workshop-proposals.show %}
                 {% include homepage/going_on_block.html
                     title='Conference Workshops'
-                    more-info-link='/general-info/propose-a-workshop.html'
-                    more-info-text='About workshop proposals'
                     end-date=site.data.conf.workshop-proposals.end-date
                     url=site.data.conf.workshop-proposals.submission-form
                     url-text='Propose a workshop'
