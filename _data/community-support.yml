@@ -75,7 +75,7 @@ fox:
 
 nelson:
     name: Chad Nelson
-    img:
+    img: /assets/img/conduct/chad-nelson.jpeg
     img_alt:
     slack_handle: bibliotechy
     onsite: false
@@ -83,7 +83,7 @@ nelson:
 
 kayiwa:
     name: Francis Kayiwa
-    img:
+    img: /assets/img/conduct/francis-kayiwa.jpeg
     img_alt:
     slack_handle: "El Cromulente"
     onsite: true
@@ -91,7 +91,7 @@ kayiwa:
 
 slaughter:
     name: Anne Slaughter
-    img:
+    img: /assets/img/conduct/anne-slaughter.jpeg
     img_alt:
     slack_handle: aslaughter
     onsite: true
