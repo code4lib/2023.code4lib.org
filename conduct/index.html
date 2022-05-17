@@ -223,18 +223,15 @@ active: 'Conduct & Safety'
                 </div>
            </div>
 
-            {% if site.data.community-support-schedule %}
+            {% if site.data.community-support-schedule != nil %}
             <div class="row csv-schedule">
                 <div class="col-12">
-                    <h2 id="schedule">Community Support Volunteer Schedule
-                        {% if site.data.conf.online-only-conference == false %}
-                            - On-Site
-                        {% else %}
-                            - Online
-                        {% endif %}
-                    </h2>
-                    {% for session in site.data.community-support-schedule %}
-                        <h3>{{ session.day }} — {{ session.time }}</h3>
+                    <h2 id="schedule">Community Support Volunteer Schedule</h2>
+
+                    {% if site.data.community-support-schedule.onsite != nil %}
+                        <h3>On-Site</h3>
+                        {% for session in site.data.community-support-schedule.onsite %}
+                        <h3>{{ session.day }} — {{ session.period }}</h3>
                         <div class="row">
                             <div class="col-12 keynote-sequence sequence">
                                 {% if session.all-hands %}
@@ -244,7 +241,11 @@ active: 'Conduct & Safety'
                                     {% assign volunteer = site.data.community-support[volunteerId] %}
                                     <div class="speaker-box text-center">
                                         <div class="speaker-box-inner">
-                                            <img class="clip-circle-lg" src="/{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                            {% if volunteer.img_alt != nil %}
+                                                <img alt="{{ volunteer.img_alt }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                            {% else %}
+                                                <img alt="{{ volunteer.name }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+                                            {% endif %}
                                             <h4 class="speaker-name">{{ volunteer.name }}</h4>
                                         </div>
                                     </div>
@@ -253,14 +254,16 @@ active: 'Conduct & Safety'
                             </div>
                         </div>
                     {% endfor %}
-                    {% if site.data.conf.online-only-conference %}
+                    {% endif %}
+
+                    {% if site.data.community-support-schedule.online != nil %}
                         <h3>Online</h3>
-                        {% for period in site.data.online-community-support-schedule %}
-                           {% assign officer = site.data.community-support[period.officer] %}
+                        {% for session in site.data.community-support-schedule.online %}
+                           {% assign volunteer = site.data.community-support[session.volunteer] %}
                            <div class="row">
-                              <div class="col-2">{{ period.day }}</div>
-                              <div class="col-3">{{ period.interval }}</div>
-                              <div class="col-4">{{ officer.name }} ({{ officer.slack_handle }})</div>
+                              <div class="col-2">{{ session.day }}</div>
+                              <div class="col-3">{{ session.period }}</div>
+                              <div class="col-4">{{ volunteer.name }} ({{ volunteer.slack_handle }})</div>
                            </div>
                         {% endfor %}
                     {% endif %}
