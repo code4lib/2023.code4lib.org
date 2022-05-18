@@ -9,6 +9,14 @@
 #     onsite: true
 #     online: false
 
+slaughter:
+    name: Anne Slaughter
+    img: /assets/img/conduct/anne-slaughter.jpeg
+    img_alt:
+    slack_handle: aslaughter
+    onsite: true
+    online: false
+
 phetteplace:
     name: Eric Phetteplace
     img: /assets/img/speakers/eric-phetteplace.png
@@ -78,21 +86,13 @@ nelson:
     img: /assets/img/conduct/chad-nelson.jpeg
     img_alt:
     slack_handle: bibliotechy
-    onsite: false
-    online: true
+    onsite: true
+    online: false
 
 kayiwa:
     name: Francis Kayiwa
     img: /assets/img/conduct/francis-kayiwa.jpeg
     img_alt:
     slack_handle: "El Cromulente"
-    onsite: true
-    online: false
-
-slaughter:
-    name: Anne Slaughter
-    img: /assets/img/conduct/anne-slaughter.jpeg
-    img_alt:
-    slack_handle: aslaughter
     onsite: true
     online: false
