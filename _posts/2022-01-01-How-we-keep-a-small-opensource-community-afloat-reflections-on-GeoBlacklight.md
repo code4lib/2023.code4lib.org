@@ -1,8 +1,8 @@
 ---
 layout: presentation
-type: talk 
+type: talk
 startTime: 2022-05-24T16:50
-speakers-text: Karen Majewicz,
+speakers-text: Karen Majewicz
 categories: talks
 day: 1
 group: 3
