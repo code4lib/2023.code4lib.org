@@ -84,7 +84,7 @@ fox:
 nelson:
     name: Chad Nelson
     img: /assets/img/conduct/chad-nelson.jpeg
-    img_alt:
+    img_alt: "Man with glasses, and beard standing in front of a brick wall."
     slack_handle: bibliotechy
     onsite: true
     online: false
