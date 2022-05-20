@@ -10,7 +10,7 @@ startTime: 1:30pm
 endTime: 4:30pm
 time: pm
 location: hayes-hall
-room:
+room: 401
 speakers:
 - eric-morgan
 speaker-text: Eric Morgan
