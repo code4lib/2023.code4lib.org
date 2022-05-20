@@ -18,15 +18,14 @@
         </div>
         <div class="col-12 workshop-time">
             <h3 class="h5">Time</h3>
-            <p class="h5">{{ post.startTime }} to {{ post.endTime }}
-                <br/><div class="timezone">{{ site.data.conf.timezone }} Time</div>
+            <p>
+                {{ post.startTime }} to {{ post.endTime }}<br>
+                <span class="timezone">{{ site.data.conf.timezone }} Time</span>
             </p>
         </div>
-        <!--
         <div class="col-12">
             <h3 class="h5">Location</h3>
             <p style="word-break: normal;">{{ location_display }}</p>
         </div>
-        -->
     </div>
 </div>
