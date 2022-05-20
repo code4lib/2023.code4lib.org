@@ -10,7 +10,7 @@ startTime: 9:00am
 endTime: 12:00pm
 time: am
 location: hayes-hall
-room:
+room: 402
 speakers:
 - timothy-ryan-mendenhall
 - jim-hahn
