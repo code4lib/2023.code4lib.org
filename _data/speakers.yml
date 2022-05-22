@@ -315,7 +315,7 @@
   bio: ""
   keynote: FALSE
   image_src:
-  image_alt:
+  image_alt: 
 
 
 - id: karen-majewicz
@@ -326,8 +326,8 @@
   title: Geospatial Project Manager & Metadata Coordinator
   bio: "Karen manages the Big Ten Academic Alliance Geoportal and serves as the GeoBlacklight Community Coordinator. Her research interests include the promotion of free & open data and archives for geospatial data. When she is not wrangling metadata, she composes & performs music to silent films."
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/karen-majewicz.png
+  image_alt: "caricature of person with yellow hair & glasses, wearing green turtleneck."
 
 
 - id: amy-ruskin
