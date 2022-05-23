@@ -35,8 +35,8 @@ grynoch:
 
 yelton:
     name: Andromeda Yelton
-    img: /assets/img/conduct/andromeda-yelton.jpeg
-    img_alt:  "A smiling white woman with glasses, rosy cheeks, and curly brown hair. She's in three-quarter profile, looking at the camera like she's definitely up to something."
+    img: /assets/img/conduct/andromeda-yelton.jpg
+    img_alt:  "A smiling white woman with glasses, rosy cheeks, and curly brown hair. Her pretty white-and-grey cat is on her shoulder."
     slack_handle: thatandromeda
     onsite: true
     online: false
