@@ -127,9 +127,9 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 homepage-display: peri
 
 livestream:
-  show: false
-  button-label: 'Join Workshop'
-  url: 'https://whova.com/portal/webapp/codel_202103/'
+  show: true
+  button-label: 'Join Livestream'
+  url: 'https://www.youtube.com/watch?v=Fji25d14oRI'
 
 slides:
   show: false
