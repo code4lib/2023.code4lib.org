@@ -6,7 +6,7 @@
 
 conference:
   # "show" means display information on the home page and /general-info/attend
-  show: true
+  show: false
   url: https://code4lib.regfox.com/code4lib-2022
   start-date: 2022-03-01
   end-date: 2022-05-02
