@@ -129,7 +129,7 @@ homepage-display: peri
 livestream:
   show: true
   button-label: 'Join Livestream'
-  url: 'https://www.youtube.com/watch?v=Fji25d14oRI'
+  url: 'https://www.youtube.com/c/Code4Lib'
 
 slides:
   show: false
