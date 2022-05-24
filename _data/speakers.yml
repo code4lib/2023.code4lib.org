@@ -126,18 +126,6 @@
   image_alt: "A headshot photo of Bohyun Kim with a blank wall as the background."
 
 
-- id: dr-patrick-murray-john
-  name: Dr. Patrick Murray-John
-  last: Murray-John
-  pronouns: he/him/his
-  institution: Northeastern University
-  title: Associate Director for Systems
-  bio: "Patrick has a Ph.D in Old English literature, and moved on to instructional technology. He then moved on to the Omeka dev team. Just in time for the pandemic, he moved to Boston to work in the Northeastern University Library within the Digital Scholarship Group as Associate Director for Systems."
-  keynote: FALSE
-  image_src:
-  image_alt:
-
-
 - id: william-reed-quinn
   name: William Reed Quinn
   last: Reed
