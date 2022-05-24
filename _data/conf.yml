@@ -141,8 +141,8 @@ slide-template:
   url: '/assets/C4L2021-template.pptx'
 
 closed-captioning:
-  url:
-  show: false
+  url: https://2020archive.1capapp.com/event/code4lib/
+  show: true
 
 # Peri display descriptions and titles
 peri:
