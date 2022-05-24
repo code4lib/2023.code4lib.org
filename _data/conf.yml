@@ -354,6 +354,7 @@ reception:
   image_alt: 'Pearl Street Grill & Brewery'
   times: '6:30PM to 9:00PM'
   date: '2022-05-24'
+  special-notes: "We'll be on the 4th floor."
 
 self-event:
   show: false
