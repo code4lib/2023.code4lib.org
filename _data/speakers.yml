@@ -144,10 +144,10 @@
   pronouns: she/her/hers
   institution: Towson University
   title: Web Services Librarian
-  bio: "Will provide if selected"
+  bio: "Julia Caffrey-Hill is the Web Services Librarian at Cook Library of Towson University. She has a B.A. in Anthropology and Asian Studies from Bates College and received her M.S. in Library and Information Science from Simmons University. She specializes in digital inclusion, accessibility, and user experience. Julia enjoys coding (what else??), knitting, and spending time with her brand new son Sam, who arrived into the world January 2022."
   keynote: FALSE
-  image_src:
-  image_alt:
+  image_src: /assets/img/speakers/julia-caffrey-hill.png
+  image_alt: "A white woman smiling. She has curly dark blonde hair and a glass necklace."
 
 
 - id: wesley-teal
