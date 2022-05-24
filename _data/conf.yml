@@ -290,6 +290,17 @@ game-night:
   sign-up-url: 'https://docs.google.com/spreadsheets/d/1rPr6TxP5qxHnx2PMPvZK9im2b-ZmqZcTCVFOmwaQZLU/edit#gid=0'
   sign-up-button-text: 'Sign Up for Game Night'
 
+virtual-game-night:
+  show: true
+  date: '2022-05-25'
+  time: '6:00PM to 8:00PM'
+  location: 'Online'
+  description: 'Play games? Come join your fellow code4libers in a few board or card games!'
+  event-url: ''
+  event-url-button-text: ''
+  sign-up-url: 'https://docs.google.com/document/d/1oRVxajcg9Jx3FuFsufttyad5MB_TD37p8HxrVAQWkXg/edit#heading=h.ljbkf0ewo3sw'
+  sign-up-button-text: 'Sign Up for VIRTUAL Game Night'
+
 karaoke-night:
   show: false
   date: '2022-03-24'
