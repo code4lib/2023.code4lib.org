@@ -1,13 +1,13 @@
 ---
 layout: presentation
 type: talk 
-startTime: 2022-05-24T11:20
-speakers-text: Dr. Patrick Murray-John, William Reed Quinn
+startTime: 2022-05-25T10:15
+speakers-text: William Reed Quinn
 categories: talks
-day: 1
-group: 1
-spot: 5
-time: 11:20 AM
+day: 2
+group: 101
+spot: 1
+time: 10:15 AM
 speakers:
 - william-reed-quinn
 length: 15
