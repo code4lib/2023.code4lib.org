@@ -72,16 +72,16 @@
   link:
 
 # lightning
-- timeImg: 3.00.png
+- timeImg: 3.20.png
   title: Lightning Talks 1
   day1: true
-  time: 15:00-16:15
+  time: 15:20-16:15
   link:
 
-- timeImg: 10.15.png
+- timeImg: 10.30.png
   title: Lightning Talks 2
   day2: true
-  time: 10:15-11:00
+  time: 10:30-11:00
   link:
 
 - timeImg: 10.15.png
@@ -189,3 +189,15 @@
   day3: true
   groupId: 8
   time: 11:45-12:30
+
+- timeImg: 3.00.png
+  title: Rescheduled, Group 1&#58; 20 minutes (2 talks)
+  day1: true
+  groupId: 100
+  time: 15:00 - 15:20
+
+- timeImg: 10.15.png
+  title: Rescheduled, Group 1&#58; 15 minutes (1 talk)
+  day2: true
+  groupId: 101
+  time: 10:15 - 10:30
