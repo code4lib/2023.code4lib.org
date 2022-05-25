@@ -36,7 +36,7 @@
 - timeImg: 10.00.png
   title: Morning Break
   day1: true
-  day2: true
+  day2: false
   day3: true
   time: 10:00-10:15
   #menu: day1-menus
@@ -55,6 +55,8 @@
   time: 15:15-15:30
   #menu: day1-menus
   #submenu: Afternoon
+
+
 
 # NOTE: first-timers page uses the link properties of the first events with
 # titles like "Breakout Sessions" and "Lightning Talks"
