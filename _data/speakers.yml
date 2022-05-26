@@ -390,18 +390,6 @@
   image_alt: "A white, freckle-faced male with blue eyes, chest-length curly dark brown hair, and a beard. He is wearing a grey henley shirt and standing in front of a light green wall."
 
 
-- id: kaci-resau
-  name: Kaci Resau
-  last: Resau
-  pronouns: they/them/their
-  institution: Icahn School of Medicine at Mount Sinai
-  title: Electronic Resources Librarian
-  bio: "I am an Electronic Resources Librarian at a medical school library. I have experience in usability testing, technical services, and organisational planning."
-  keynote: FALSE
-  image_src:
-  image_alt:
-
-
 - id: rachel-evans
   name: Rachel Evans
   last: Evans
