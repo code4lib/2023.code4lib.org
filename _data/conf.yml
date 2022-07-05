@@ -121,7 +121,7 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 # - pre :   displays the _includes/homepage/timeline.html partial
 #           this section provides an overview of important conference dates.
 # - peri:   for display during the conference. provides homepage links to conference schedule, talks, livestream, etc.
-# - post:   for after the conference is over (TODO: we never made this template!)
+# - post:   for after the conference is over
 #
 ####################
 homepage-display: post
