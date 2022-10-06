@@ -16,18 +16,18 @@ catchline: Coming Soon
 # Hero
 ###########################
 # Place hero image in /assets/img/theme-images/. Includes optional webp format.
-hero-image-filename: ''
-hero-image-source: ''
-hero-image-filename-webp: ''
-hero-image-alt: ''
+hero-image-filename: 'princeton.jpg'
+hero-image-source: 'https://unsplash.com/photos/JYqLCa-rv7o'
+hero-image-filename-webp: 'princeton.webp'
+hero-image-alt: 'Princeton University campus'
 
 image-attributions:
   - attribution:
-    creator: ''
-    image-title: ''
-    image-url: ''
-    license-name: ''
-    license-url: ''
+    creator: 'Tim Alex (@thelondoner)'
+    image-title: 'Nassau Hall, Princeton University'
+    image-url: 'https://unsplash.com/photos/JYqLCa-rv7o'
+    license-name: 'Unsplash License'
+    license-url: 'https://unsplash.com/license'
 
 ########################
 # Program & Schedule
@@ -42,19 +42,19 @@ have-schedule: false
 
 # day 0 = preconf day
 days:
-  - weekday: Monday
-    date: March 13th
-    # date in a form that JS Date() constructor understands
-    date-data: 2023-03-13T23:59
   - weekday: Tuesday
-    date: March 15th
+    date: March 14th
+    # date in a form that JS Date() constructor understands
     date-data: 2023-03-14T23:59
   - weekday: Wednesday
-    date: March 16th
+    date: March 15th
     date-data: 2023-03-15T23:59
   - weekday: Thursday
-    date: March 17th
+    date: March 16th
     date-data: 2023-03-16T23:59
+  - weekday: Friday
+    date: March 17th
+    date-data: 2023-03-17T23:59
 
 ####################
 # Venue Information
