@@ -66,12 +66,12 @@ city: 'Princeton'
 state: 'NJ'
 
 venue:
-  name: ''
+  name: 'Princeton University'
   street: ''
   postal-code: ''
   phone:
   image: ''
-  website: ''
+  website: 'https://www.princeton.edu/'
   floorplan:
   directions: ''
   a11y: ''
@@ -123,7 +123,7 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 # - post:   for after the conference is over
 #
 ####################
-homepage-display: post
+homepage-display: pre
 
 livestream:
   show: false
@@ -190,9 +190,9 @@ workshop-proposals:
   end-date: ''
 
 talk-proposals:
-  show: false
-  submission-form: ''
-  end-date: ''
+  show: true
+  submission-form: 'https://forms.gle/nBvxVhndmeLAJRkN9'
+  end-date: '2022-11-14'
 
 panel-proposals:
   show: false
