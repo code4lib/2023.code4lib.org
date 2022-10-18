@@ -67,18 +67,18 @@ state: 'NJ'
 
 venue:
   name: 'Princeton University'
-  street: ''
-  postal-code: ''
+  street: 'Frist Campus Center'
+  postal-code: '08544'
   phone:
-  image: ''
+  image: 'frist-campus-center.jpg'
   website: 'https://www.princeton.edu/'
-  floorplan:
-  directions: ''
+  floorplan: 'https://www.princeton.edu/frist/floorplans/floorplansBc.html'
+  directions: 'https://www.princeton.edu/meet-princeton/visit-us'
   a11y: ''
   hotel:
-    show: false
+    show: true
     multiple-hotels: true
-    multiple-hotels-map: 
+    multiple-hotels-map: https://www.google.com/maps/d/viewer?mid=15yvj8MVkJpo8DtSdhPks_UauH8OqMbA
     name:
     reserved-room-block: false
     cost:
