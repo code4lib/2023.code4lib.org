@@ -317,3 +317,6 @@ quiet-room:
   show: true
   # Room number(s)
   location: ''
+
+public-transportation:
+  show: false

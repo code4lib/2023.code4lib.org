@@ -119,8 +119,7 @@ subnav:
 			<h3>Using a Microphone</h3>
 			<p>Generally, the line of the microphone should always point towards your mouth and nose. For a handheld mic, hold it like a candy bar or at a 45 degree angle. Position a podium mic towards you.</p>
 
-			<h3>Audience Microphones</h3>
-			<p>Desk microphones are built into every seat in the main conference venue for Q&A with presenters.</p>
+			
 
 		</div>
 	</div>
@@ -128,6 +127,7 @@ subnav:
 	<div class="row">
 		<div class="col-12">
 			<h2 id="transportation">Public Transportation</h2>
+			{% if site.data.conf.public-transportation.show %}
 			<p>Public transit in Buffalo, including the options between the conference hotels and venue, provide several options for riders with disabilities. For further details see the <a href="https://metro.nfta.com/special-services/accessibility">NFTA Special Services - Accessibility website</a>.</p>
 
 			<h3>Metro Rail</h3>
@@ -151,6 +151,9 @@ subnav:
 				<li>Metro Bus operators provide assistance to disabled passengers where necessary or upon request.</li>
 				<li>When the wheelchair lift is not working and the next bus is not due to arrive for over 30 minutes, riders are entitled to alternative transportation. Just ask your driver to make the arrangements for you.</li>
 			</ul>
+			{% else %}
+			<p>More information forthcoming. </p>
+			{% endif %}
         </div>
     </div>
 </div>

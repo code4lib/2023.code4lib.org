@@ -1,8 +1,12 @@
 <section class="general-info">
     <div class="col-12">
         <h2 id="workshops">Workshops</h2>
+		{% unless site.data.conf.workshops.show %}
+            Stay tuned… When the information of the workshops is confirmed, the details will be added here.
+        {% else %}
         <p>
             All Pre-Conference workshops will be held {{ site.data.conf.days[0].weekday }}, {{ site.data.conf.days[0].date-data | date: "%B %-d, %Y" }}.
         </p>
+		{% endunless %}
     </div>
 </section>
