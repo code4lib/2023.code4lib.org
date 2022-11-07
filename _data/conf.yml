@@ -165,10 +165,10 @@ closed-captioning:
 # If false, hides sponsors link in navigation and footer
 show-sponsors: false
 # Toggles whether prospectus button displays on homepage and sponsor pages
-sponsor-buttons: false
+sponsor-buttons: true
 # URL to document
-prospectus-document: https://drive.google.com/file/d/11oFZcxx5F_gCdkJ5S7WIzUom-AkNxuAM/view?usp=sharing
-sponsor-btn-link: 'https://www.concentra-cms.com/c4l22sponsorreg.html'
+prospectus-document: https://drive.google.com/file/d/1J6oOSqwsXQSGFs9AUHH2LW8IJDwX2AFN/view?usp=sharing
+sponsor-btn-link: 'https://www.concentra-cms.com/c4l23sponsorreg.html'
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
