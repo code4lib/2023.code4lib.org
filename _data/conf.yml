@@ -180,14 +180,14 @@ sponsor-btn-link: 'https://www.concentra-cms.com/c4l23sponsorreg.html'
 ###########
 
 keynote-proposals:
-  show: false
-  submission-form: ''
-  end-date: ''
+  show: true
+  submission-form: 'https://wiki.code4lib.org/2023_Keynote_Speakers_Nominations'
+  end-date: '2022-11-29'
 
 workshop-proposals:
-  show: false
-  submission-form: ''
-  end-date: ''
+  show: true
+  submission-form: 'https://forms.gle/e1fgutRMHRxJJwVQ7'
+  end-date: '2022-11-30'
 
 talk-proposals:
   show: true
