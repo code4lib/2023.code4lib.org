@@ -313,10 +313,14 @@ diversity-scholarship-sponsors:
 # Other
 ################
 
+live-captioning:
+  show: false
+  service: ''
+
 quiet-room:
-  show: true
+  show: false
   # Room number(s)
   location: ''
 
 public-transportation:
-  show: false
+  show: true
