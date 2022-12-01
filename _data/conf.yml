@@ -219,9 +219,9 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: false
-  url: ''
-  end-date: ''
+  show: true
+  url: 'https://forms.gle/Ve1M6YcSDwujAVYd8'
+  end-date: '2022-12-12'
 
 workshop-voting:
   show: false
