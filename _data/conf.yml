@@ -255,6 +255,9 @@ shirt-voting:
 # usually on the wiki
 #social-activities-url: '/general-info/social/'
 
+diy-social:
+  show: true
+
 ###############
 # Volunteer
 ###############
