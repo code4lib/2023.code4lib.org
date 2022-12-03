@@ -24,3 +24,17 @@
 # - contributor
 # - supporter
 
+- name: School of Information Sciences, University of Illinois Urbana-Champaign
+  img: /assets/img/sponsors/illinois.png
+  link: https://ischool.illinois.edu/
+  level: contributor
+
+- name: University of Pittsburgh- University Library System
+  img: /assets/img/sponsors/PittShield_Rule_ULS_3color_lightback.png
+  link: https://www.library.pitt.edu/
+  level: bronze
+
+- name: Index Data
+  img: /assets/img/sponsors/indexdata.png
+  link: http://www.indexdata.com/
+  level: bronze
