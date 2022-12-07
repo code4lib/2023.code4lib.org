@@ -38,3 +38,9 @@
   img: /assets/img/sponsors/indexdata.png
   link: http://www.indexdata.com/
   level: bronze
+
+- name: University of Michigan Library
+  img: /assets/img/sponsors/Bronze_PostCon_umich.png
+  link: https://lib.umich.edu/
+  level: bronze
+  annotation: 'PLUS Post Conference Video Production'
