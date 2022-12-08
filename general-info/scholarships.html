@@ -111,13 +111,13 @@ subnav:
 <div class="container-fluid">
    <div class="row">
        <div class="col-12">
-           <h2>Accepting Applications Now!</h2>
+           <h2>2023 Code4Lib Scholarship Application</h2>
            <p>
-            The <a href="{{ site.data.conf.committee-wiki-url }}">{{ site.data.conf.year }} Diversity Scholarship Committee</a> hopes to award multiple scholarships, based on merit and need.  Each scholarship will cover up to {{ site.data.conf.diversity-scholarship-applications.max-scholarship-award }} for {% if site.data.conf.online-only-conference == false %}travel costs, lodging, and {% endif %}conference fees for selected applicants from North America - with the potential for a few international scholarships of up to {{ site.data.conf.diversity-scholarship-applications.max-international-award }}. The scholarship will cover conference registration {% if site.data.conf.online-only-conference == false %}and hotel accommodations{% endif %} up front to scholarship awardees.{% if site.data.conf.online-only-conference == false %} Other incidentals like travel and meals may be reimbursed based on the amount awarded. Reimbursement will be managed independently at the conference. Pairing up housing with other scholarship awardees or conference attendees may also be accommodated.{% endif %}
-               
-           </p>
-           <p>
-              <strong>The deadline for applications is {{ site.data.conf.diversity-scholarship-applications.end-day}} {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d, %Y'}} at {{ site.data.conf.diversity-scholarship-applications.end-time}}</strong> (<a href="#how-to-apply">see below for more details</a>).
+            The <a href="{{ site.data.conf.committee-wiki-url }}">{{ site.data.conf.year }}
+            Scholarship Committee</a> is pleased to announce that the application for Code4Lib 2023
+            conference Diversity Scholarship is open now. The deadline to submit your application
+            is, {{ site.data.conf.diversity-scholarship-applications.end-day}}
+            {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d, %Y'}}.
            </p>
             <p>
                 Please contact <a href="mailto:{{site.data.conf.scholarship-contact-email}}">{{site.data.conf.scholarship-contact-email}}</a> with any questions. We want to ensure that financial issues do not discourage anyone from applying to this award. The scholarship committee will notify all applicants by <strong>{{ site.data.conf.diversity-scholarship-applications.notification-date | date: '%B %-d, %Y'}}</strong>, regardless of award results.
@@ -194,7 +194,7 @@ subnav:
                     Your application will be confidential. Application materials will be stored in a Google Drive folder with access restricted to Scholarship Committee members. If you are selected to receive a scholarship, you will be asked to provide a brief bio which will be featured on the conference website.
                 </p>
                 <p>
-                   The application deadline is <strong>{{ site.data.conf.diversity-scholarship-applications.end-day}} {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d, %Y'}} at {{ site.data.conf.diversity-scholarship-applications.end-time}}</strong>.
+                   The application deadline is <strong>{{ site.data.conf.diversity-scholarship-applications.end-day}} {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d, %Y'}}{% if site.data.conf.diversity-scholarship-applications.end-time != '' %} at {{ site.data.conf.diversity-scholarship-applications.end-time}}{% endif %}</strong>.
                 </p>
                 <p>
                   The scholarship committee will notify all applicants by <strong>{{ site.data.conf.diversity-scholarship-applications.notification-date | date: '%B %-d, %Y'}}</strong>, regardless of award results.

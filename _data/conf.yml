@@ -295,14 +295,14 @@ angel-fund:
   url: ''
 
 diversity-scholarship-applications:
-  show: false
+  show: true
   url: '/general-info/scholarships#how-to-apply'
   url-text: 'How to Apply'
-  end-day: 'Monday'
-  end-date: ''
+  end-day: 'Friday'
+  end-date: '2023-01-13'
   end-time: ''
-  notification-date: ''
-  apply-url: ''
+  notification-date: '2023-01-22'
+  apply-url: 'https://forms.gle/m3ePcbbCRiYNts2s6'
   committee-wiki-url: ''
   max-scholarship-award: ''
   max-international-award: ''
