@@ -200,14 +200,14 @@ panel-proposals:
   end-date: ''
 
 poster-proposals:
-  show: false
-  submission-form: ''
-  end-date: ''
+  show: true
+  submission-form: 'https://forms.gle/hXvf72euaf85ECoF6'
+  end-date: '2023-01-09'
 
 shirt-proposals:
-  show: false
-  submission-form: ''
-  end-date: ''
+  show: true
+  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSdBM1qojE9uQQKVxpIup5zmLIcmm9-XVs6AKEgRgvefvLRY6g/viewform'
+  end-date: '2023-01-09'
 
 host-proposals:
   show: false
