@@ -1,11 +1,180 @@
-# NOTE: we've not traditionally used the github, twitter, slack, or pronouns at all
-- id: sample
-  name: Sample
-  last: Sample
-  pronouns: they/them
-  institution: Sample Institution
-  title: Sample Title
-  bio: ""
-  keynote: FALSE
-  image_src:
+- id: yinlin-chen
+  name: Yinlin Chen
+  last: Chen
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
   image_alt:
+  keynote: FALSE
+- id: carolyn-cole
+  name: Carolyn Cole
+  last: Cole
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: hector-correa
+  name: Hector Correa
+  last: Correa
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: michael-della-bitta
+  name: Michael Della Bitta
+  last: Della Bitta
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: ryan-dubnicek
+  name: Ryan Dubnicek
+  last: Dubnicek
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: james-griffin
+  name: James Griffin
+  last: Griffin
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: max-kadel
+  name: Max Kadel
+  last: Kadel
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: francis-kayiwa
+  name: Francis Kayiwa
+  last: Kayiwa
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: brandon-klevence
+  name: Brandon Klevence
+  last: Klevence
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: amy-kirchhoff
+  name: Amy Kirchhoff
+  last: Krichhoff
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: john-kunze
+  name: John Kunze
+  last: Kunze
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: matt-lincoln
+  name: Dr. Matt Lincoln
+  last: Lincoln
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: eric-lease-morgan
+  name: Eric Lease Morgan
+  last: Morgan
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: andreas-orphanides
+  name: Andreas Orphanides
+  last: Orphanides
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: bess-sadler
+  name: Bess Sadler
+  last: Sadler
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: ron-snyder
+  name: Ron Snyder
+  last: Snyder
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: janet-swatscheno
+  name: Janet Swatscheno
+  last: Swatscheno
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
+- id: daniel-verbit
+  name: Daniel Verbit
+  last: Verbit
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: /assets/img/nopics/nopic0.jpg
+  image_alt:
+  keynote: FALSE
