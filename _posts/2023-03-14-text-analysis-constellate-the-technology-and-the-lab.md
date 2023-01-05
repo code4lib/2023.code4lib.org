@@ -5,7 +5,7 @@ categories: workshops
 full: false
 learning-outcomes: 
 attendee-requirements: 
-max-attendees: 30ish
+max-attendees: 30
 time: am
 startTime: 9:00am
 endTime: 12:00pm
