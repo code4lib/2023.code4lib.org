@@ -1,10 +1,18 @@
-- id: sample
-  name: 'Sample Hall'
-  google_maps: ''
+- id: rabinowitz
+  name: 'Julis Romo Rabinowitz Hall'
+  google_maps: 'https://goo.gl/maps/KALguVAEWt2DiRWM8'
   # only provide a URL, we make our own responsive iframe around it
   embed_code: ''
   rooms:
-    - id: 1
-      name: Room 1
-    - id: 2
-      name: Room 2
+    - id: a01
+      name: A01
+    - id: a12
+      name: A12
+    - id: a17
+      name: A17
+    - id: a87
+      name: A87
+    - id: a97
+      name: A97
+    - id: a98
+      name: A98
