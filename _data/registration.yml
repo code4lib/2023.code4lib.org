@@ -6,17 +6,17 @@
 
 conference:
   # "show" means display information on the home page and /general-info/attend
-  show: false
-  url: ''
-  start-date: ''
-  end-date: ''
-  cancellation-date: ''
+  show: true
+  url: 'https://concentracms.regfox.com/code4lib-2023'
+  start-date: '2023-01-05'
+  end-date: '2023-03-01'
+  cancellation-date: '2023-02-21'
   # "open" means people can register
-  open: false
-  cost: ''
-  late-cost: ''
-  workshop-half-day-cost: ''
-  workshop-full-day-cost: ''
+  open: true
+  cost: '$200'
+  late-cost: '$260'
+  workshop-half-day-cost: '$40'
+  workshop-full-day-cost: '$80'
   limited-capacity: true
 
 workshop-only:
@@ -28,16 +28,16 @@ workshop-only:
   undecided-text: "Depending on availability, Pre-Conference ONLY registration may open at the beginning of May."
   url:
   # precon-only registration cost may differ from precons with general registration
-  half-day-cost: ''
-  full-day-cost:
-  start-date: ''
+  half-day-cost: '$50'
+  full-day-cost: '$100'
+  start-date: '2023-02-21'
 
 t-shirt-only:
   show: true
-  start-date: ''
-  cost: ''
+  start-date: '2023-01-05'
+  cost: '$29'
   # should be one or the other: have to purchase by last-date or cost changes after late-date
-  last-date: ''
+  last-date: '2023-02-21'
   # late-date: ''
   # late-cost: ''
 
@@ -46,9 +46,9 @@ childcare:
   show: false
   # distinct from `show: false` in that we _know_ we won't be able to offer childcare
   no-childcare: true
-  no-childcare-text: "Child Care will, unfortunately, not be available in 2022 due to Covid-19 campus policies."
-  full-day-cost: "$30"
-  half-day-cost: "$15"
-  end-date: 2022-02-08
+  no-childcare-text: "Child Care will, unfortunately, not be available on campus this year."
+  full-day-cost:
+  half-day-cost:
+  end-date:
 
 reception-plus-one-cost:
