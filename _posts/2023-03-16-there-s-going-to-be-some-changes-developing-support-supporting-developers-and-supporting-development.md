@@ -6,7 +6,7 @@ time: 1:45 PM
 startTime: 2023-03-16T1:45
 length: 10
 day: 2
-group: 3
+group: 6
 spot: 2
 location: frist
 speakers:
