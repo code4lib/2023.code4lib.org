@@ -24,7 +24,7 @@
     - id: mpr
       name: Multi-Purpose Room (B-Floor)
     - id: a03
-      name: A03: Class of 1952 Room (A-Floor)
+      name: "A03: Class of 1952 Room (A-Floor)"
 
 - id: prospect
   name: 'Prospect House'
