@@ -9,6 +9,7 @@ day: 1
 group: 2
 spot: 5
 location: frist
+room: mpr
 speakers:
 - jacob-shelby
 speaker-text: Jacob Shelby

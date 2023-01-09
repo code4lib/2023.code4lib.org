@@ -9,6 +9,7 @@ day: 2
 group: 5
 spot: 2
 location: frist
+room: mpr
 speakers:
 - andromeda-yelton
 speaker-text: Andromeda Yelton

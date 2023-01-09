@@ -9,6 +9,7 @@ day: 2
 group: 5
 spot: 1
 location: frist
+room: mpr
 speakers:
 - jason-a-clark
 - sara-mannheimer

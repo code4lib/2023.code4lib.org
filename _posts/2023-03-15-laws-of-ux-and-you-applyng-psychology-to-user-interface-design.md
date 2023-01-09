@@ -9,6 +9,7 @@ day: 1
 group: 1
 spot: 5
 location: frist
+room: mpr
 speakers:
 - julia-caffrey-hill
 speaker-text: Julia Caffrey-Hill

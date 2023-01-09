@@ -9,6 +9,7 @@ day: 1
 group: 2
 spot: 4
 location: frist
+room: mpr
 speakers:
 - kate-topham
 speaker-text: Kate Topham

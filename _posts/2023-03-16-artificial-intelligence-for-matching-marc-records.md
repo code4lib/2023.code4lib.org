@@ -9,6 +9,7 @@ day: 2
 group: 5
 spot: 3
 location: frist
+room: mpr
 speakers:
 - raiden-van-bronkhorst
 - charlie-collett

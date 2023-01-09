@@ -9,6 +9,7 @@ day: 2
 group: 7
 spot: 1
 location: frist
+room: mpr
 speakers:
 - james-english
 - ben-armintor

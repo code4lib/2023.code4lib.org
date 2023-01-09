@@ -9,6 +9,7 @@ day: 2
 group: 6
 spot: 4
 location: frist
+room: mpr
 speakers:
 - naomi-dushay
 speaker-text: Naomi Dushay

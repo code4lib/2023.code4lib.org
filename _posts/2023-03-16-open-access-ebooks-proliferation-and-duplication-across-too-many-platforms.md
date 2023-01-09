@@ -9,6 +9,7 @@ day: 2
 group: 7
 spot: 2
 location: frist
+room: mpr
 speakers:
 - nancy-lin
 speaker-text: Nancy Lin

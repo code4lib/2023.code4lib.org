@@ -9,6 +9,7 @@ day: 2
 group: 6
 spot: 1
 location: frist
+room: mpr
 speakers:
 - vickie-karasic
 - robert-anthony-lee-faison

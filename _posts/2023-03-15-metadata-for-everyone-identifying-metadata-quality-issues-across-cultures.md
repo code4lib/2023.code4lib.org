@@ -9,6 +9,7 @@ day: 1
 group: 2
 spot: 3
 location: frist
+room: mpr
 speakers:
 - julie-shi
 - mike-nason

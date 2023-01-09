@@ -9,6 +9,7 @@ day: 3
 group: 8
 spot: 1
 location: frist
+room: mpr
 speakers:
 - elise-tanner
 - tyler-riley

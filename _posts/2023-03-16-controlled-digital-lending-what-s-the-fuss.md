@@ -9,6 +9,7 @@ day: 2
 group: 7
 spot: 4
 location: frist
+room: mpr
 speakers:
 - peter-murray
 speaker-text: Peter Murray

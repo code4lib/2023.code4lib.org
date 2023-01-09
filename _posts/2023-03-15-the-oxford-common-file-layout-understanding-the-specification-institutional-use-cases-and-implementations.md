@@ -9,6 +9,7 @@ day: 1
 group: 1
 spot: 8
 location: frist
+room: mpr
 speakers:
 - tom-wrobel
 - andrew-woods

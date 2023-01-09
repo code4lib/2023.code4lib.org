@@ -9,6 +9,7 @@ day: 1
 group: 3
 spot: 2
 location: frist
+room: mpr
 speakers:
 - mike-giarlo
 - justin-littman

@@ -9,6 +9,7 @@ day: 2
 group: 6
 spot: 2
 location: frist
+room: mpr
 speakers:
 - david-cirella
 speaker-text: David Cirella

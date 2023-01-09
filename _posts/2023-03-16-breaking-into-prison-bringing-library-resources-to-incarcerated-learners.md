@@ -9,6 +9,7 @@ day: 2
 group: 4
 spot: 1
 location: frist
+room: mpr
 speakers:
 - ryan-mccarthy
 speaker-text: Ryan McCarthy

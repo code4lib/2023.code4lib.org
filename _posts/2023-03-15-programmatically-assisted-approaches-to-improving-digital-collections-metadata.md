@@ -9,6 +9,7 @@ day: 1
 group: 2
 spot: 1
 location: frist
+room: mpr
 speakers:
 - jackson-huang
 speaker-text: Jackson Huang

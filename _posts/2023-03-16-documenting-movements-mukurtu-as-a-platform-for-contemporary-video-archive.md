@@ -9,6 +9,7 @@ day: 2
 group: 4
 spot: 3
 location: frist
+room: mpr
 speakers:
 - margaret-heller
 - greer-martin

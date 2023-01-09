@@ -9,6 +9,7 @@ day: 1
 group: 3
 spot: 3
 location: frist
+room: mpr
 speakers:
 - dan-field
 speaker-text: Dan Field

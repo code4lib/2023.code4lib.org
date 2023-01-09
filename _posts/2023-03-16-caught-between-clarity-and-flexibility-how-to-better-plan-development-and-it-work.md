@@ -9,6 +9,7 @@ day: 2
 group: 6
 spot: 3
 location: frist
+room: mpr
 speakers:
 - bohyun-kim
 speaker-text: Bohyun Kim

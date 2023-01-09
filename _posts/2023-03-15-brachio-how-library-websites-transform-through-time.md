@@ -9,6 +9,7 @@ day: 1
 group: 1
 spot: 4
 location: frist
+room: mpr
 speakers:
 - allan-berry
 speaker-text: Allan Berry

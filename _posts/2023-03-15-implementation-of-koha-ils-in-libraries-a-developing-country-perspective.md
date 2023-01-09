@@ -9,6 +9,7 @@ day: 1
 group: 1
 spot: 2
 location: frist
+room: mpr
 speakers:
 - nosheen-fatima-warraich
 - irfan-ali

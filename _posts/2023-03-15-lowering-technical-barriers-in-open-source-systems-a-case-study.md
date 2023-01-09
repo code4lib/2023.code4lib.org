@@ -9,6 +9,7 @@ day: 1
 group: 1
 spot: 7
 location: frist
+room: mpr
 speakers:
 - amelia-sutton
 speaker-text: Amelia Sutton

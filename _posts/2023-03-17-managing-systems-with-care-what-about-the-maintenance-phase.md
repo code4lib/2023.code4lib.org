@@ -9,6 +9,7 @@ day: 3
 group: 8
 spot: 2
 location: frist
+room: mpr
 speakers:
 - clara-turp
 - jessica-lange

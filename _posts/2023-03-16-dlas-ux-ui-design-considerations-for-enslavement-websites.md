@@ -9,6 +9,7 @@ day: 2
 group: 4
 spot: 2
 location: frist
+room: mpr
 speakers:
 - danny-nanez
 speaker-text: Danny Nanez

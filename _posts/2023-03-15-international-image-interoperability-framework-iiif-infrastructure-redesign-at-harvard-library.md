@@ -9,6 +9,7 @@ day: 1
 group: 1
 spot: 6
 location: frist
+room: mpr
 speakers:
 - katie-amaral
 - doug-simon

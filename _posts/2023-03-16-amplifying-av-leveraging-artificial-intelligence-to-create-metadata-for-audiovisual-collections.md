@@ -9,6 +9,7 @@ day: 2
 group: 5
 spot: 4
 location: frist
+room: mpr
 speakers:
 - emily-lynema
 speaker-text: Emily Lynema

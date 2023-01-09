@@ -9,6 +9,7 @@ day: 2
 group: 7
 spot: 3
 location: frist
+room: mpr
 speakers:
 - lauren-seroka
 - kristy-darby

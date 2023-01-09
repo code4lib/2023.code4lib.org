@@ -9,6 +9,7 @@ day: 3
 group: 8
 spot: 3
 location: frist
+room: mpr
 speakers:
 - angela-zoss
 speaker-text: Angela Zoss

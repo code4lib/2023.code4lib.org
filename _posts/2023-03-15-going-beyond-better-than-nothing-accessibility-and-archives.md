@@ -9,6 +9,7 @@ day: 1
 group: 1
 spot: 3
 location: frist
+room: mpr
 speakers:
 - kate-deibel
 speaker-text: Kate Deibel

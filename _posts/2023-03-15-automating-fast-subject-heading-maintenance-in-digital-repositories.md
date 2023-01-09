@@ -9,6 +9,7 @@ day: 1
 group: 3
 spot: 1
 location: frist
+room: mpr
 speakers:
 - lucas-mak
 speaker-text: Lucas Mak

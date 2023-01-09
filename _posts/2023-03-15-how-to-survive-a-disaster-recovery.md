@@ -9,6 +9,7 @@ day: 1
 group: 1
 spot: 1
 location: frist
+room: mpr
 speakers:
 - mike-kastellec
 speaker-text: Mike Kastellec

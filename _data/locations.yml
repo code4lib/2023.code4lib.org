@@ -16,3 +16,23 @@
       name: A97
     - id: a98
       name: A98
+
+- id: frist
+  name: 'Frist Campus Center'
+  google_maps: 'https://goo.gl/maps/Kp8DiNSyyFSn8X3S6'
+  rooms:
+    - id: mpr
+      name: Multi-Purpose Room (B-Floor)
+    - id: a03
+      name: A03: Class of 1952 Room (A-Floor)
+
+- id: prospect
+  name: 'Prospect House'
+  google_maps: 'https://goo.gl/maps/UQYHJAurFxGZjPRm9'
+
+- id: mathey
+  name: 'Mathey College (Madison Hall)'
+  google_maps: 'https://goo.gl/maps/4HqW99ikPYhpmA2U7'
+  rooms:
+    - id: common
+      name: Mathey Common Room

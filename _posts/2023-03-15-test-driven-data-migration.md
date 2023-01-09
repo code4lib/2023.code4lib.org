@@ -9,6 +9,7 @@ day: 1
 group: 2
 spot: 2
 location: frist
+room: mpr
 speakers:
 - tyler-nathaniel-wade
 speaker-text: Tyler Nathaniel Wade
