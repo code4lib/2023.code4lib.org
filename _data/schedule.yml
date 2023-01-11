@@ -93,22 +93,16 @@
   title: Lightning Talks 1
   day1: true
   time: 15:00-16:15
-  link: https://wiki.code4lib.org/Code4Lib2023_Lightning_Talks#Day_1_-_March_15.2C_2023
-  button_label: View sessions
 
 - timeImg: 10.15.png
   title: Lightning Talks 2
   day2: true
   time: 10:15-11:00
-  link: https://wiki.code4lib.org/Code4Lib2023_Lightning_Talks#Day_2_-_March_16.2C_2023
-  button_label: View sessions
 
 - timeImg: 10.15.png
   title: Lightning Talks 3
   day3: true
   time: 10:15-11:00
-  link: https://wiki.code4lib.org/Code4Lib2023_Lightning_Talks#Day_3_-_March_17.2C_2023
-  button_label: View sessions
 
 # Poster Session
 - timeImg: 3.30.png
