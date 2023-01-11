@@ -142,6 +142,10 @@ slide-template:
 closed-captioning:
   url:
 
+workshops:
+  show: true
+  location: rabinowitz
+
 # Peri display descriptions and titles
 #peri:
 #  day1-am-title: 'Pre-Conference'
