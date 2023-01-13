@@ -61,6 +61,11 @@
   link: https://ischool.illinois.edu/
   level: contributor
 
+- name: School of Information and Library Science, UNC-Chapel Hill
+  img: /assets/img/sponsors/Supporter_UNC.png
+  link: https://sils.unc.edu/
+  level: supporter
+
 - name: Developers 4 Diversity
   img: /assets/img/sponsors/Scholarship_devs4diversity.png
   link: https://github.com/pulibrary
@@ -70,11 +75,7 @@
   img: /assets/img/sponsors/Scholarship_MIT.png
   link: https://libraries.mit.edu/
   diversity: true
-
-- name: MIT
-  img: /assets/img/sponsors/Scholarship_MIT.png
-  link: https://libraries.mit.edu/
-  diversity: true
+  annotation: '(2) Diversity Scholarships'
 
 - name: CLIR
   link: https://www.clir.org/
