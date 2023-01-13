@@ -23,11 +23,12 @@
 # - bronze
 # - contributor
 # - supporter
+# - exhibitor
 
-- name: School of Information Sciences, University of Illinois Urbana-Champaign
-  img: /assets/img/sponsors/illinois.png
-  link: https://ischool.illinois.edu/
-  level: contributor
+- name: Blacklight
+  img: /assets/img/sponsors/Gold_blacklight-logo-vectorized.svg
+  link: https://projectblacklight.org/
+  level: gold
 
 - name: University of Pittsburgh- University Library System
   img: /assets/img/sponsors/PittShield_Rule_ULS_3color_lightback.png
@@ -50,12 +51,31 @@
   link: https://rockarch.org/
   level: bronze
 
-- name: Blacklight
-  img: /assets/img/sponsors/Gold_blacklight-logo-vectorized.svg
-  link: https://projectblacklight.org/
-  level: gold
+- name: School of Communication and Information - Rutgers University
+  img: /assets/img/sponsors/Bronze_Rutgers.png
+  link: https://comminfo.rutgers.edu/about/library-and-information-science-department
+  level: bronze
+
+- name: School of Information Sciences, University of Illinois Urbana-Champaign
+  img: /assets/img/sponsors/illinois.png
+  link: https://ischool.illinois.edu/
+  level: contributor
 
 - name: Developers 4 Diversity
   img: /assets/img/sponsors/Scholarship_devs4diversity.png
   link: https://github.com/pulibrary
   diversity: true
+
+- name: MIT
+  img: /assets/img/sponsors/Scholarship_MIT.png
+  link: https://libraries.mit.edu/
+  diversity: true
+
+- name: MIT
+  img: /assets/img/sponsors/Scholarship_MIT.png
+  link: https://libraries.mit.edu/
+  diversity: true
+
+- name: CLIR
+  link: https://www.clir.org/
+  level: exhibitor

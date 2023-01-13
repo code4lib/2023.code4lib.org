@@ -9,7 +9,7 @@
 {% endcapture %}
 
 {% capture level_name %}
-{% if include.level == 'contributor' or include.level == 'supporter' %}{{ include.level | capitalize }}s
+{% if include.level == 'contributor' or include.level == 'supporter' or include.level == 'exhibitor' %}{{ include.level | capitalize }}s
 {% else %}{{ include.level | capitalize }} Sponsors
 {% endif %}
 {% endcapture %}
