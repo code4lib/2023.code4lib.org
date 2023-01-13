@@ -17,7 +17,7 @@
     {% if sponsor.annotation and sponsor.annotation != nil %}
         <div class="sponsor-annotation">{{ sponsor.annotation }}</div>
     {% endif %}
-    {% if sponsor.diversity and sponsor.diversity != nil %}
+    {% if sponsor.diversity and sponsor.diversity != nil and sponsor.annotation == nil %}
         <div class="sponsor-diversity">Diversity Scholarships</div>
     {% endif %}
 </div>
