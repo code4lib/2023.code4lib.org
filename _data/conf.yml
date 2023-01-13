@@ -204,7 +204,7 @@ panel-proposals:
   end-date: ''
 
 poster-proposals:
-  show: true
+  show: false
   submission-form: 'https://forms.gle/hXvf72euaf85ECoF6'
   end-date: '2023-01-13'
 
