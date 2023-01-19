@@ -120,7 +120,7 @@
 
 - timeImg: 4.55.png
   title: Closing
-  day3: true
+  day2: true
   time: 16:55-17:10
 
 - timeImg: 12.30.png
@@ -147,9 +147,9 @@
 - timeImg: 7.00.png
   title: Reception at Mathey College (Madison Hall)
   location: mathey
-  day2: true
+  day1: true
   time: 19:00-21:00
-  #menu: day2-menus
+  #menu: day1-menus
   submenu: Reception
 
 # Talks
