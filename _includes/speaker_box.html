@@ -20,9 +20,14 @@
 		{% endif %}
 		
         <div class="speaker-mini">
-			{% if speaker.swork_title.size > 0 %}
-				<p class="speaker-title">{{ speaker.work_title }}</p>
+			{% if speaker.pronouns.size > 0 %}
+				<p class="speaker-pronouns">({{ speaker.pronouns }})</p>
 			{% endif %}
+			
+			{% if speaker.position-title.size > 0 %}
+				<p class="speaker-title">{{ speaker.position-title }}</p>
+			{% endif %}
+						
 			{% if speaker.institution.size > 0 %}
 				<p class="speaker-inst">{{ speaker.institution }}</p>
 			{% endif %}
