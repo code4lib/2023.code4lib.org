@@ -248,7 +248,7 @@ poster-voting:
   end-date: ''
 
 shirt-voting:
-  show: true
+  show: false
   url: 'https://docs.google.com/forms/d/e/1FAIpQLScahcvQUOQ1EDp7SnNNENoqGocjjCn55weBhyVtmEAlmfkJIQ/viewform'
   end-date: '2023-01-21'
 
