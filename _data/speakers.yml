@@ -4,8 +4,9 @@
   pronouns:
   institution:
   position-title:
+  position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: carolyn-cole
@@ -15,7 +16,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: hector-correa
@@ -25,7 +26,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: michael-della-bitta
@@ -35,7 +36,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: ryan-dubnicek
@@ -45,7 +46,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: james-griffin
@@ -55,7 +56,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: max-kadel
@@ -65,7 +66,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: francis-kayiwa
@@ -75,7 +76,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: brandon-klevence
@@ -85,7 +86,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: amy-kirchhoff
@@ -95,7 +96,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: john-kunze
@@ -105,7 +106,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: matt-lincoln
@@ -115,7 +116,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: eric-lease-morgan
@@ -125,7 +126,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: andreas-orphanides
@@ -135,7 +136,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: bess-sadler
@@ -145,7 +146,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: ron-snyder
@@ -155,7 +156,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: janet-swatscheno
@@ -165,7 +166,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: daniel-verbit
@@ -175,7 +176,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: allan-berry
@@ -185,7 +186,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: amelia-sutton
@@ -195,7 +196,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: andrew-woods
@@ -205,7 +206,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: andromeda-yelton
@@ -215,7 +216,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: angela-zoss
@@ -225,7 +226,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: arran-griffith
@@ -235,7 +236,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: ben-armintor
@@ -245,7 +246,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: bohyun-kim
@@ -255,7 +256,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: charlie-collett
@@ -265,7 +266,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: clara-turp
@@ -275,7 +276,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: dan-field
@@ -285,7 +286,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: danny-nanez
@@ -295,7 +296,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: david-cirella
@@ -305,7 +306,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: doug-simon
@@ -315,7 +316,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: elise-tanner
@@ -325,7 +326,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: emily-lynema
@@ -335,7 +336,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: greer-martin
@@ -345,7 +346,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: irfan-ali
@@ -355,7 +356,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: jackson-huang
@@ -365,7 +366,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: jacob-shelby
@@ -375,7 +376,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: james-english
@@ -385,7 +386,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: jason-a-clark
@@ -395,7 +396,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: jessica-lange
@@ -405,7 +406,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: julia-caffrey-hill
@@ -415,7 +416,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: julie-shi
@@ -425,7 +426,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: justin-littman
@@ -435,18 +436,18 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: kate-deibel
   name: Kate Deibel
   last: Deibel
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: /assets/img/nopics/nopic0.jpg
-  image_alt:
+  pronouns: "she/her"
+  institution: Philadelphia College of Osteopathic Medicine
+  position-title: Systems Librarian
+  bio: "Dr. Kate Deibel is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about web comics, chili peppers, her cat, technology adoption, and changing the world. She briefly left libraries for industry but is happily back working as PCOM Library's systems librarian."
+  image_src: /assets/img/speakers/kate-deibel.jpg
+  image_alt: "Cartoon avatar of a quite pale white bespectacled brunette geek girl whose open downturned mouth is adamantly advocating an important point or three. A bookcase is behind her."
   keynote: FALSE
 - id: kate-topham
   name: Kate Topham
@@ -455,7 +456,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: katie-amaral
@@ -465,7 +466,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: kristy-darby
@@ -475,7 +476,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: lauren-seroka-seroka
@@ -485,7 +486,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: lucas-mak
@@ -495,7 +496,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: margaret-heller
@@ -505,7 +506,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: mike-giarlo
@@ -515,7 +516,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: mike-kastellec
@@ -525,7 +526,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: mike-nason
@@ -535,7 +536,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: nancy-lin
@@ -545,7 +546,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: naomi-dushay
@@ -555,7 +556,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: nosheen-fatima-warraich
@@ -565,7 +566,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: peter-murray
@@ -575,7 +576,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: raiden-van-bronkhorst
@@ -585,7 +586,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: robert-anthony-lee-faison
@@ -595,7 +596,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: ryan-mccarthy
@@ -605,7 +606,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: sara-mannheimer
@@ -615,7 +616,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: tom-wrobel
@@ -625,7 +626,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: tyler-nathaniel-wade
@@ -635,7 +636,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: tyler-riley
@@ -645,7 +646,7 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: vickie-karasic
@@ -655,6 +656,6 @@
   institution:
   position-title:
   bio:
-  image_src: /assets/img/nopics/nopic0.jpg
+  image_src: 
   image_alt:
   keynote: FALSE
