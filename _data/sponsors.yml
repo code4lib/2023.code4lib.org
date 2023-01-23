@@ -71,6 +71,11 @@
   link: https://sils.unc.edu/
   level: supporter
 
+- name: Carnegie Mellon University Libraries
+  img: /assets/img/sponsors/Supporter_CMU.png
+  link: https://library.cmu.edu/
+  level: supporter
+
 - name: Developers 4 Diversity
   img: /assets/img/sponsors/Scholarship_devs4diversity.png
   link: https://github.com/pulibrary
