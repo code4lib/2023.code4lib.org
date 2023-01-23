@@ -659,3 +659,17 @@
   image_src: 
   image_alt:
   keynote: FALSE
+- id: siobahn-day-grady
+  name: Dr. Siobahn Day Grady
+  last: Grady
+  institution: North Carolina Central University
+  image_src: 
+  image_alt:
+  keynote: TRUE
+- id: lydia-tang
+  name: Dr. Lydia Tang
+  last: Tang
+  institution: LYRASIS
+  image_src: 
+  image_alt:
+  keynote: TRUE
