@@ -29,6 +29,16 @@
   image_src: 
   image_alt:
   keynote: FALSE
+- id: stefano-cossu
+  name: Stefano Cossu
+  last: Cossu
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src:
+  image_alt:
+  keynote: FALSE
 - id: michael-della-bitta
   name: Michael Della Bitta
   last: Della Bitta
@@ -192,16 +202,6 @@
 - id: amelia-sutton
   name: Amelia Sutton
   last: Sutton
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
-  keynote: FALSE
-- id: andrew-woods
-  name: Andrew Woods
-  last: Woods
   pronouns:
   institution:
   position-title:
