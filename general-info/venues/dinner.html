@@ -26,6 +26,7 @@
       </p>
 
 
+      {% if site.data.dinner %}
       <h3>Restaurant List</h3>
       <p>Keep in mind, this is not an exhaustive list. Feel free to add more on <a href="{{site.data.conf.newcomer-dinner.signup-url}}">the sign-up sheet</a>.</p>
       <table class="table table-striped table-bordered" id="dinner-datatable">
@@ -61,5 +62,6 @@
                 {% endfor %}
             </tbody>
       </table>
+      {% endif %}
   </div>
 </section>

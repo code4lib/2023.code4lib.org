@@ -262,6 +262,11 @@ shirt-voting:
 diy-social:
   show: true
 
+newcomer-dinner:
+  show: true
+  signup-url: "https://docs.google.com/document/d/1Mxd2N399rOz7UTUk2T4FUfUtlTJcCuPI2NocRVzeGMI/edit"
+  date: "2023-03-14"
+
 tours:
   show: true
   tours:
