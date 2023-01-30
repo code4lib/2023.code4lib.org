@@ -278,11 +278,12 @@ reception:
   contact: https://www.princeton.edu/palmerhouse/
   floorplans: https://www.princeton.edu/palmerhouse/floorplans.html
   date: "2023-03-15"
-  times: "6-8pm"
+  times: "6PM to 8PM"
   special-notes: Pedestrian entrance is on Nassau Street between Bank Street and Mercer Street.
 
 tours:
   show: true
+  time: 2PM to 4PM
   tours:
     - name: 'Special Collections Visit'
       date: '2023-03-17'
@@ -306,7 +307,7 @@ tours:
 game-night:
   show: true
   date: '2023-03-16'
-  time: '7:00PM to 11:00PM'
+  time: '7PM to 11PM'
   location: 'Frist Campus Center, A-Floor seating area.'
   description: 'Play games? Come join your fellow code4libers in a few board or card games! Games night will take place at the Frist Campus Center. Outside food and drinks are allowed.'
   event-url: ''
