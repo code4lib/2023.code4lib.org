@@ -61,6 +61,12 @@
   link: https://comminfo.rutgers.edu/about/library-and-information-science-department
   level: bronze
 
+- name: Lyrasis
+  img: /assets/img/sponsors/Captioning_lyrasis-logo_1.png
+  link: http://www.lyrasis.org/
+  level: bronze
+  annotation: Captioning Sponsor
+
 - name: School of Information Sciences, University of Illinois Urbana-Champaign
   img: /assets/img/sponsors/illinois.png
   link: https://ischool.illinois.edu/
@@ -81,6 +87,11 @@
   link: https://library.cmu.edu/
   level: supporter
 
+- name: ArchivesSpace
+  img: /assets/img/sponsors/Supporter_archivesspace_logo.png
+  link: https://archivesspace.org/
+  level: supporter
+
 - name: Developers 4 Diversity
   img: /assets/img/sponsors/Scholarship_devs4diversity.png
   link: https://github.com/pulibrary
@@ -94,4 +105,8 @@
 
 - name: CLIR
   link: https://www.clir.org/
+  level: exhibitor
+
+- name: Lyrasis
+  link: http://www.lyrasis.org/
   level: exhibitor
