@@ -144,11 +144,11 @@
   submenu: Lunch
 
 # Reception
-- timeImg: 7.00.png
+- timeImg: 6.00.png
   title: Reception at Palmer House
   location: Plamer House
   day1: true
-  time: 19:00-21:00
+  time: 18:00-20:00
   #menu: day1-menus
   submenu: Reception
 
