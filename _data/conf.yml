@@ -267,6 +267,20 @@ newcomer-dinner:
   signup-url: "https://docs.google.com/document/d/1Mxd2N399rOz7UTUk2T4FUfUtlTJcCuPI2NocRVzeGMI/edit"
   date: "2023-03-14"
 
+reception:
+  show: true
+  venue: Palmer House
+  street: 1 Bayard Lane
+  postal-code: 08542
+  phone: 609-258-3715
+  image: palmer-house.png
+  image_title: "Palmer House in Princeton, New Jersey"
+  contact: https://www.princeton.edu/palmerhouse/
+  floorplans: https://www.princeton.edu/palmerhouse/floorplans.html
+  date: "2023-03-15"
+  times: "6-8pm"
+  special-notes: Pedestrian entrance is on Nassau Street between Bank Street and Mercer Street.
+
 tours:
   show: true
   tours:

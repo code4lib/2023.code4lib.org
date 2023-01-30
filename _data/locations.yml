@@ -30,9 +30,6 @@
   name: 'Prospect House'
   google_maps: 'https://goo.gl/maps/UQYHJAurFxGZjPRm9'
 
-- id: mathey
-  name: 'Mathey College (Madison Hall)'
-  google_maps: 'https://goo.gl/maps/4HqW99ikPYhpmA2U7'
-  rooms:
-    - id: common
-      name: Mathey Common Room
+- id: palmer
+  name: 'Palmer House'
+  google_maps: 'https://goo.gl/maps/CQKZ8N3LPLa3dfZo9'
