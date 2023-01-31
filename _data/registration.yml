@@ -18,6 +18,7 @@ conference:
   workshop-half-day-cost: '$40'
   workshop-full-day-cost: '$80'
   limited-capacity: true
+  waitlist: true
 
 workshop-only:
   # "show" only toggles the display of info in the registration bullets on the general-info/attend page
