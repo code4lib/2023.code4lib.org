@@ -15,7 +15,7 @@ slides:
 youtube_key:
 ---
 
-Dr. Lydia Tang is currently an Outreach and Engagement Coordinator for LYRASIS. Previously, she
+Dr. Lydia Tang is an Outreach and Engagement Coordinator for LYRASIS. Previously, she
 held archivist positions at Michigan State University, the Library of Congress, and numerous
 graduate positions at the University of Illinois, where she received her MLIS and Doctor of Musical
 Arts degree. Passionate about accessibility and disability representation in archives, she served
@@ -27,7 +27,7 @@ was recognized in three SAA Council resolutions as a co-founder of the Archival 
 Fund, for spearheading the Accessibility & Disability Section’s “Archivists at Home” document, and
 for the “Guidelines for Accessible Archives for People with Disabilities.” In addition to her
 professional service with SAA, she has contributed to accessibility initiatives within DLF Digital
-Accessibility Working Group and the ArchivesSpace open source software and community by leading the
+Accessibility Working Group and the ArchivesSpace open source software community by leading the
 Staff Interface Enhancement Working Group, Development Prioritization subteam, founding the
 Usability subteam, and chairing the Users Advisory Council. She has written about accessible
 physical archival spaces, hiring and advancement practices, and is currently co-editing a book
