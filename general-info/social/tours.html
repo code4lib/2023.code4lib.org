@@ -8,11 +8,11 @@
           <p><span class="font-weight-bold">When: </span>{{tour.date | date: '%A, %B %-d, %Y'}}, {{tour.time}}</p>
           <p>{{ tour.description }}</p>
 
-          {% if tour.sign-up-url != '' %}
+          {% if tour.sign-up-url %}
             <a class="btn ct-btn-light" target="blank" href="{{tour.sign-up-url}}">{{tour.sign-up-button-text}}</a>
           {% endif %}
 
-          {% if tour.event-url != '' %}
+          {% if tour.event-url %}
             <a class="btn ct-btn-light" target="blank" href="{{tour.event-url}}"> {{tour.event-url-button-text}}</a>
           {% endif %}
       </div>

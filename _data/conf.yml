@@ -9,8 +9,8 @@ location: 'Princeton, New Jersey'
 timezone: 'Eastern'
 search: false
 online-only-conference: false
-welcome-message: Coming Soon
-catchline: Coming Soon
+welcome-message:
+catchline:
 
 ###########################
 # Hero
@@ -278,30 +278,42 @@ reception:
   contact: https://www.princeton.edu/palmerhouse/
   floorplans: https://www.princeton.edu/palmerhouse/floorplans.html
   date: "2023-03-15"
-  times: "6-8pm"
+  times: "6PM to 8PM"
   special-notes: Pedestrian entrance is on Nassau Street between Bank Street and Mercer Street.
 
 tours:
   show: true
+  time: 2PM to 4PM
   tours:
     - name: 'Special Collections Visit'
       date: '2023-03-17'
       time: '2:00PM to 3:00PM'
       location: 'Princeton University Special Collections'
       description: "The Department of Special Collections is one of the premier repositories of its kind. Its holdings span five millennia and five continents, and include around 300,000 rare or significant printed works; 30,000 linear feet of textual materials, ranging from cuneiform tablets to contemporary manuscripts; a wealth of prints, drawings, photographs, maps, coins, and other visual materials; the Cotsen Children's Library; and the Princeton University Archives. Capacity for this tour is 45 people, and sign-up at the time of registration is required."
-      event-url: ''
-      event-url-button-text: ''
-      sign-up-url: ''
-      sign-up-button-text: ''
+      event-url:
+      event-url-button-text:
+      sign-up-url:
+      sign-up-button-text:
     - name: 'Firestone Library Tour'
       date: '2023-03-17'
       time: '2:00PM to 3:00PM and 3:00PM to 4:00PM'
       location: 'Princeton University Firestone Library'
       description: "Tour of Firestone Library, Princeton University Library's main branch and the primary location of our humanities and social science collections, and our Special Collections department. Firestone Library opened in 1948 as the first large undergraduate library constructed after World War II. We have recently completed a 10 year renovation which focused on creating a building that is well-suited to support modern library services and contemporary approaches to scholarship, while also providing inspiring, flexible study and work spaces. Capacity for each of these tours is 15 people, and sign-up at the time of registration is required."
-      event-url: ''
-      event-url-button-text: ''
-      sign-up-url: ''
-      sign-up-button-text: ''
+      event-url:
+      event-url-button-text:
+      sign-up-url:
+      sign-up-button-text:
+
+game-night:
+  show: true
+  date: '2023-03-16'
+  time: '7PM to 11PM'
+  location: 'Frist Campus Center, A-Floor seating area.'
+  description: 'Play games? Come join your fellow code4libers in a few board or card games! Games night will take place at the Frist Campus Center. Outside food and drinks are allowed.'
+  event-url: ''
+  event-url-button-text: ''
+  sign-up-url: 'https://docs.google.com/spreadsheets/d/1waq5Qz4tXwnNbNmxe3lQq5mwnrmM1dvJzsTRYtUxLbU/edit#gid=0'
+  sign-up-button-text: 'Sign Up for Game Night'
 
 ###############
 # Volunteer
