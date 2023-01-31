@@ -12,7 +12,12 @@ active: Attend Code4Lib
 
                     {% if site.data.registration.conference.show %}
                         {% if site.data.registration.conference.open %}
+                          <h2>Code4Lib {{ site.data.conf.year }} is Sold Out!</h2>
+                          {% if site.data.registration.conference.waitlist %}
+                            <a href="{{ site.data.registration.conference.url }}" class="btn ct-btn-light btn-lg">Join Waitlist</a>
+                          {% else %}
                             <a href="{{ site.data.registration.conference.url }}" class="btn ct-btn-light btn-lg">Register Now!</a>
+                          {% endif %}
                         {% else %}
                             <p>Registration will open
                                 at 11 a.m. EST / 8 a.m. PST
