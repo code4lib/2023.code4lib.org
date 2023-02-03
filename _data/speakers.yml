@@ -227,7 +227,7 @@
   position-title:
   bio:
   image_src: 
-  image_alt:
+  image_alt: "A white woman with medium brown hair and eyes stands in front of a stone wall and smiles awkwardly for a professional photo."
   keynote: FALSE
 - id: arran-griffith
   name: Arran Griffith
@@ -327,7 +327,7 @@
   position-title:
   bio:
   image_src: 
-  image_alt:
+  image_alt: "A white woman with short blonde hair smiles broadly. She wears clear-framed glasses and a black blazer with a striped button-down top. Behind her is a wooden bookcase."
   keynote: FALSE
 - id: emily-lynema
   name: Emily Lynema
@@ -446,7 +446,7 @@
   institution: Philadelphia College of Osteopathic Medicine
   position-title: Systems Librarian
   bio: "Dr. Kate Deibel is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about web comics, chili peppers, her cat, technology adoption, and changing the world. She briefly left libraries for industry but is happily back working as PCOM Library's systems librarian."
-  image_src: /assets/img/speakers/kate-deibel.jpg
+  image_src: /assets/img/speakers/kate-deibel.png
   image_alt: "Cartoon avatar of a quite pale white bespectacled brunette geek girl whose open downturned mouth is adamantly advocating an important point or three. A bookcase is behind her."
   keynote: FALSE
 - id: kate-topham
@@ -456,8 +456,8 @@
   institution:
   position-title:
   bio:
-  image_src: 
-  image_alt:
+  image_src: /assets/img/speakers/kate-topham.jpg
+  image_alt: "A woman with long, dark blonde hair and large tortoiseshell glasses smiling in front of a brick building and greenery."
   keynote: FALSE
 - id: katie-amaral
   name: Katie Amaral
@@ -466,8 +466,8 @@
   institution:
   position-title:
   bio:
-  image_src: 
-  image_alt:
+  image_src: /assets/img/speakers/katie-amaral.png
+  image_alt: "Professional photo of a mid-30s brunette curly-haired woman with blue eyes and a big smile with a friendly expression."
   keynote: FALSE
 - id: kristy-darby
   name: Kristy Darby
@@ -486,8 +486,8 @@
   institution:
   position-title:
   bio:
-  image_src: 
-  image_alt:
+  image_src: /assets/img/speakers/lauren-seroka.jpg
+  image_alt: "Lauren is a white female wearing a grey shirt. Her hair is long, dark blonde, and straight. She is smiling for her first professional headshot with some green trees in the background."
   keynote: FALSE
 - id: lucas-mak
   name: Lucas Mak
@@ -547,7 +547,7 @@
   position-title:
   bio:
   image_src: 
-  image_alt:
+  image_alt: "Headshot picture of a black-haired woman in flowered dress."
   keynote: FALSE
 - id: naomi-dushay
   name: Naomi Dushay
@@ -576,8 +576,8 @@
   institution:
   position-title:
   bio:
-  image_src: 
-  image_alt:
+  image_src: /assets/img/speakers/peter-murray.jpg
+  image_alt: "Middle-aged white male in a green polo shirt set against a sky-blue background."
   keynote: FALSE
 - id: raiden-van-bronkhorst
   name: Raiden van Bronkhorst
@@ -647,7 +647,7 @@
   position-title:
   bio:
   image_src: 
-  image_alt:
+  image_alt: "Stubbly mid-twenties white male with long, brown hair pulled back out of view. They are wearing round glasses and a slight grin."
   keynote: FALSE
 - id: vickie-karasic
   name: Vickie Karasic
@@ -656,8 +656,8 @@
   institution:
   position-title:
   bio:
-  image_src: 
-  image_alt:
+  image_src: /assets/img/speakers/vickie-karasic.jpg
+  image_alt: "A slightly tanned and freckled white woman with brown hair wearing rounded brown eyeglasses, looking happy and professional, and wearing a dark green top with a light gray blazer. There is a dark gray backdrop behind her."
   keynote: FALSE
 - id: siobahn-day-grady
   name: Dr. Siobahn Day Grady
@@ -672,5 +672,5 @@
   institution: LYRASIS
   bio: "Dr. Lydia Tang is an Outreach and Engagement Coordinator for LYRASIS. Previously, she held archivist positions at Michigan State University, the Library of Congress, and numerous graduate positions at the University of Illinois, where she received her MLIS and Doctor of Musical Arts degree.  Passionate about accessibility and disability representation in archives, she served on the Task Force to Revise the Best Practices on Accessible Archives for People with Disabilities and spearheaded founding the Society of American Archivists’ (SAA) Accessibility & Disability Section (ADS). She is the 2020 recipient of SAA’s Mark A. Greene Emerging Leader Award and was recognized in three SAA Council resolutions as a co-founder of the Archival Workers Emergency Fund, for spearheading the Accessibility & Disability Section’s “Archivists at Home” document, and for the “Guidelines for Accessible Archives for People with Disabilities.” In addition to her professional service with SAA, she has contributed to accessibility initiatives within DLF Digital Accessibility Working Group and the ArchivesSpace open source software community by leading the Staff Interface Enhancement Working Group, Development Prioritization subteam, founding the Usability subteam, and chairing the Users Advisory Council. She has written about accessible physical archival spaces, hiring and advancement practices, and is currently co-editing a book with Dr. Gracen Brilmeyer, Preserving Disability: Disability and the Archival Profession."
   image_src: /assets/img/speakers/lydia-tang.jpg
-  image_alt:
+  image_alt: "A smiling half-Chinese half white woman with long dark brown hair."
   keynote: TRUE
