@@ -92,6 +92,11 @@
   link: https://archivesspace.org/
   level: supporter
 
+- name: School of Information - University of British Columbia
+  img: /assets/img/sponsors/Supporter_ubc_school_of_information_logo.png
+  link: https://ischool.ubc.ca/
+  level: supporter
+
 - name: Developers 4 Diversity
   img: /assets/img/sponsors/Scholarship_devs4diversity.png
   link: https://github.com/pulibrary
