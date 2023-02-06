@@ -202,31 +202,31 @@
 - id: amelia-sutton
   name: Amelia Sutton
   last: Sutton
-  pronouns:
-  institution:
-  position-title:
+  pronouns: she/her
+  institution: University of Massachusetts Amherst Libraries
+  position-title: Library Services Platform Administrator
   bio:
-  image_src: 
+  image_src: /assets/img/speakers/amelia-sutton.jpg
   image_alt:
   keynote: FALSE
 - id: andromeda-yelton
   name: Andromeda Yelton
   last: Yelton
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her
+  institution: JSTOR Labs
+  position-title: Senior Software Engineer
+  bio:  Andromeda Yelton is a software engineer and librarian. Currently she is at JSTOR Labs. Past affiliations include the Library of Congress, SJSU iSchool, Berkman Klein Center, MIT Libraries, Wikimedia Foundation, boards of the Library & Information Technology Association and the Ada Initiative, and a knitting company. Ask her about her cats, weightlifting, or planes.
+  image_src: /assets/img/speakers/andromeda-yelton.jpg
   image_alt:
   keynote: FALSE
 - id: angela-zoss
   name: Angela Zoss
   last: Zoss
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her
+  institution: Duke University Libraries 
+  position-title: Interim Head, Assessment & User Experience Strategy
+  bio: Angela is the Interim Head of the Assessment & User Experience Strategy Department at Duke University Libraries. She has many years of experience in teaching and training, especially around technology. As Duke's first Data Visualization Coordinator, she built a successful visualization service and partnered with various campus entities on visualization-related initiatives. In the Assessment & User Experience Strategy Department, she has taken a leadership role for DUL's data infrastructure and reporting systems. She has contributed to several open source development projects, including FOLIO and Wax, and is a certified instructor for both RStudio and the Carpentries.
+  image_src: /assets/img/speakers/angela-zoss.jpg
   image_alt: "A white woman with medium brown hair and eyes stands in front of a stone wall and smiles awkwardly for a professional photo."
   keynote: FALSE
 - id: arran-griffith
@@ -252,61 +252,61 @@
 - id: bohyun-kim
   name: Bohyun Kim
   last: Kim
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: she/her
+  institution: University of Michigan
+  position-title: Associate University Librarian for IT
+  bio: "Bohyun Kim is Associate University Librarian for Library Information Technology at the University of Michigan Library. She is the author of three books: Moving Forward with Digital Disruption (2020), Understanding Gamification (2015), and Library Mobile Experience: Practices and User Expectations (2013). She published many articles and is a frequent speaker at international and national conferences on topics related to emerging technologies. She is the former President (2018-2019) of the Library and Information Technology Association and served on many advisory boards and committees including those of American Library Association, San Jose State University’s School of Information, and Rhode Island Library Association." 
+  image_src: /assets/img/speakers/bohyun-kim.jpg
+  image_alt: 
   keynote: FALSE
 - id: charlie-collett
   name: Charlie Collett
   last: Collett
-  pronouns:
-  institution:
-  position-title:
-  bio:
+  pronouns: he/him/his
+  institution: California Digital Library
+  position-title: Software Engineer
+  bio: Charlie is a Software Engineer for the California Digital Library at the University of California. His current responsibilities include processing and managing metadata for HathiTrust and exploring the use of AI for metadata-related tasks.
   image_src: 
   image_alt:
   keynote: FALSE
 - id: clara-turp
   name: Clara Turp
   last: Turp
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her/hers
+  institution: McGill University
+  position-title: Discovery Systems Librarian
+  bio: Clara Turp is a discovery systems librarian at McGill University Libraries. As part of Digital Initiatives, she is involved in managing, configuring, and integrating selected library systems, including, but not limited to the Library's Discovery layers. 
+  image_src: /assets/img/speakers/clara-turp.jpg
   image_alt:
   keynote: FALSE
 - id: dan-field
   name: Dan Field
   last: Field
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/him
+  institution: National Library of Wales
+  position-title: Head of Software Development
+  bio: Dan has worked for 20 years at NLW in Software Develolpment roles where he manages a small team of developers who support the Library's many large-scale digitisation workflows and discovery platforms. NLW have over 5.5 million digital objects managed in their Digital Asset Manageent System, with multiple custom discovery interfaces.
+  image_src: /assets/img/speakers/dan-field.jpg 
   image_alt:
   keynote: FALSE
 - id: danny-nanez
   name: Danny Nanez
   last: Nanez
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: el/he/his/him
+  institution: University of North Carolina at Greensboro
+  position-title: IT Analyst/Programmer II
+  bio: Danny ha trabajado more than 16 years as a Web Applications Developer for the University Libraries at UNC Greensboro.  El trabaja on the Digital Library on American Slavery.  His previous projects include the NC Digital Online Collection of Knowledge and Scholarship and the North Carolina Literary Map.
+  image_src: /assets/img/speakers/danny-nanez.png
   image_alt:
   keynote: FALSE
 - id: david-cirella
   name: David Cirella
   last: Cirella
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/him/his
+  institution: Yale University Library
+  position-title: Digital Preservation Librarian
+  bio: David Cirella is a Digital Preservation Librarian at Yale University Library. In this role he works with stakeholders from around the institution towards the long-term preservation of their digital content. His areas of interest include digital forensics, programming, and information retrieval.
+  image_src: /assets/img/speakers/david-cirella.png  
   image_alt:
   keynote: FALSE
 - id: doug-simon
@@ -322,11 +322,11 @@
 - id: elise-tanner
   name: Elise Tanner
   last: Tanner
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her/hers
+  institution: UA Little Rock Center for Arkansas History and Culture
+  position-title: Director of Digital Projects and Initiatives
+  bio: Elise Tanner is the Director of Digital Projects and Initiatives at the UA Little Rock Center for Arkansas History and Culture. She was a Resident of the 2017-2018 cohort of the National Digital Stewardship Residency for Art Information (NDSR Art). Her project was "Planning for Time-Based Media Artwork Preservation at the Philadelphia Museum of Art." She has a Masters in Library and Information Science from the University of Illinois.
+  image_src: /assets/img/speakers/elise-tanner.jpg
   image_alt: "A white woman with short blonde hair smiles broadly. She wears clear-framed glasses and a black blazer with a striped button-down top. Behind her is a wooden bookcase."
   keynote: FALSE
 - id: emily-lynema
@@ -363,60 +363,60 @@
   name: Jackson Huang
   last: Huang
   pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  institution: University of Michigan
+  position-title: Digital Content and Collections Coordinator
+  bio: Jackson Huang is a library technologist whose work focuses on the intersections of structural politics and technological infrastructure in libraries and archives. Their research explores metadata translation and digital aggregations on the representation of materials related to the history of marginalized communities. They currently work as the digital collections and content ingest coordinator at the University of Michigan.
+  image_src: /assets/img/speakers/jackson-huang.jpg
   image_alt:
   keynote: FALSE
 - id: jacob-shelby
   name: Jacob Shelby
   last: Shelby
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/his
+  institution: Lyrasis
+  position-title: Data Migrations Specialist
+  bio: I'm a data wizard who believes in good metadata and reusable data processes. When I'm not lost in the weeds of a complex data migration or three, you'll find me working out or playing video games. I'm currently giving Witcher 3 a go.
+  image_src: /assets/img/speakers/jacob-shelby.jpg
   image_alt: "Close-up of Jacob, a white, bald man with a light beard, holding his equally-stoic orange tabby cat named Tree."
   keynote: FALSE
 - id: james-english
   name: James English
   last: English
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/him/his
+  institution: Lyrasis
+  position-title: Director Busines Development
+  bio: James English currently works as Director of Business Development  at The Palace Project | Lyrasis  where conducts business development activities, partnership development, and new market entry as part of The Palace Project division team.  He also works across other company open source programs to help build scalable and sustainable services and drive innovation.   Prior to LYRASIS James worked at The New York Public Library to create the Library Simplified Program and SimplyE platform.  Before coming to work in the non-profit sector,  James was Chief Product and Executive Officer of Telemetry Labs and as Chief Product and Operations Officer for Guardian Networks, both web and mobile product development service providers specializing in machine-to-machine technology development, R&D and managed services for utilities, municipalities and fortune 500 companies
+  image_src: /assets/img/speakers/james-english.png
   image_alt:
   keynote: FALSE
 - id: jason-a-clark
   name: Jason A. Clark
   last: Clarke
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: he/him
+  institution: Montana State University Library
+  position-title: Head - Research Optimization, Analytics, and Data Services
+  bio: Librarian @msulibrary, professor, hacker, author, footballer, skateboarder, fly-fisher, dogwalker, coffee brewer - "I am large, I contain multitudes." In my work, I have focused on Semantic Web development, digital library development, metadata and data modeling, web services and APIs, search engine optimization, and interface design. More recently, I have started to look at algorithmic literacy and machine UX - how bots and AI create particular types of user experiences and knowledge patterns. 
+  image_src: /assets/img/speakers/jason-a-clark.jpg
+  image_alt: 
   keynote: FALSE
 - id: jessica-lange
   name: Jessica Lange
   last: Lange
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her
+  institution: McGill University
+  position-title: Coordinator, Scholarly Communications
+  bio: Jessica Lange is the Coordinator, Scholarly Communications at McGill University Library. In this role, she provides services to the campus community in the areas of open access, publishing, author rights, and open educational resources (OERs). She also manages the McGill's institutional repository and its scholarly publishing program. Her research interests include labour in academic journal editorial boards as well as scholarly communications literacy.   
+  image_src: /assets/img/speakers/jessica-lange.jpg
   image_alt:
   keynote: FALSE
 - id: julia-caffrey-hill
   name: Julia Caffrey-Hill
   last: Caffrey-Hill
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her
+  institution: Towson University
+  position-title: Web Services Librarian
+  bio: Julia Caffrey-Hill is the Web Services Librarian at Towson University. She received her MSLIS from Simmons University. Her areas of interest include accessibility and user experience.
+  image_src: /assets/img/speakers/julia-caffrey-hill.png
   image_alt:
   keynote: FALSE
 - id: julie-shi
@@ -433,10 +433,10 @@
   name: Justin Littman
   last: Littman
   pronouns:
-  institution:
-  position-title:
+  institution: Stanford University Libraries
+  position-title: Software developer
   bio:
-  image_src: 
+  image_src: /assets/img/speakers/justin-littman.jpg 
   image_alt:
   keynote: FALSE
 - id: kate-deibel
@@ -452,39 +452,39 @@
 - id: kate-topham
   name: Kate Topham
   last: Topham
-  pronouns:
-  institution:
-  position-title:
-  bio:
+  pronouns: she/her
+  institution: Michigan State University
+  position-title: Digital Humanities Archivist
+  bio: Kate Topham is the Digital Humanities Archivist at Michigan State University. She collaborates on Digital Humanities projects that involve metadata, archives, digital preservation, linked open data, and text analysis. She has served as the digital archivist of the American Religious Sounds Project,  data wrangles for the Graphic Possibilities Research Workshop, and recently completed a 2022 LEADING Fellowship at Drexel University.
   image_src: /assets/img/speakers/kate-topham.jpg
   image_alt: "A woman with long, dark blonde hair and large tortoiseshell glasses smiling in front of a brick building and greenery."
   keynote: FALSE
 - id: katie-amaral
   name: Katie Amaral
   last: Amaral
-  pronouns:
-  institution:
-  position-title:
-  bio:
+  pronouns: she/her/hers
+  institution: Harvard University
+  position-title: Senior Software Engineer
+  bio: Katie Amaral is a Senior Software Engineer in Library Technology Services (LTS) at Harvard University. She has a master's degree in Computer Information Systems from Boston University. She has a background in security and wrote much of the code for the IIIF Authentication and Authorization services. She writes code in a variety of languages and frameworks such as JavaScript (NodeJS), TypeScript (Angular), and Python. She has experience with DevOps tools including Docker and Ansible. She is currently working along with her teammates to design, standardize, and build automated CI/CD pipelines for a variety of library systems across the university.
   image_src: /assets/img/speakers/katie-amaral.png
   image_alt: "Professional photo of a mid-30s brunette curly-haired woman with blue eyes and a big smile with a friendly expression."
   keynote: FALSE
 - id: kristy-darby
   name: Kristy Darby
   last: Darby
-  pronouns:
-  institution:
-  position-title:
+  pronouns: she/her
+  institution: Library of Congress
+  position-title: Digital Collections Specialist
   bio:
-  image_src: 
+  image_src: /assets/img/speakers/kristy-darby.png
   image_alt:
   keynote: FALSE
 - id: lauren-seroka
   name: Lauren Seroka
-  last: 
-  pronouns:
-  institution:
-  position-title:
+  last: Seroka
+  pronouns: she/her
+  institution: Library of Congress
+  position-title: Senior Digital Collections Specialist
   bio:
   image_src: /assets/img/speakers/lauren-seroka.jpg
   image_alt: "Lauren is a white female wearing a grey shirt. Her hair is long, dark blonde, and straight. She is smiling for her first professional headshot with some green trees in the background."
@@ -493,8 +493,8 @@
   name: Lucas Mak
   last: Mak
   pronouns:
-  institution:
-  position-title:
+  institution: Michigan State University Libraries
+  position-title: Metadata and Catalog Librarian
   bio:
   image_src: 
   image_alt:
@@ -502,22 +502,22 @@
 - id: margaret-heller
   name: Margaret Heller
   last: Heller
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her
+  institution: Loyola University Chicago
+  position-title: Digital Services Librarian
+  bio: "Margaret Heller has been Digital Services Librarian at Loyola University Chicago for ten years. An active participant in many library professional organizations including Code4Lib, she currently serves as president of Core, a division of the American Library Association. She the author of the 2019 book Community Technology Projects: Making Them Work."
+  image_src: /assets/img/speakers/margaret-heller.jpg 
   image_alt:
   keynote: FALSE
 - id: mike-giarlo
   name: Mike Giarlo
   last: Giarlo
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: he/him/his
+  institution: Stanford University
+  position-title: Software Engineer
+  bio: Mike Giarlo is a software engineer at Stanford University Libraries, working on a team designing and developing software for long-term access to the University’s research and cultural assets. His focus is on development and maintenance of the Stanford Digital Repository and collaboration with open source communities.
+  image_src: /assets/img/speakers/mike-giarlo.jpg
+  image_alt: "A white, freckle-faced male with blue eyes, chin-length curly dark brown hair, and a beard is smiling in front of a light green wall. He is wearing a green t-shirt and a grey & green Seattle Supersonics baseball cap."
   keynote: FALSE
 - id: mike-kastellec
   name: Mike Kastellec
@@ -532,61 +532,61 @@
 - id: mike-nason
   name: Mike Nason
   last: Nason
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/him
+  institution: University of New Brunswick Libraries // Public Knowledge Project
+  position-title: Open Scholarship & Publishing Librarian // Crossref & Metadata Liaison
+  bio: Mike Nason is the Open Scholarship & Publishing Librarian at the University of New Brunswick and the Metadata/Crossref Liaison for the Public Knowledge Project. Mike is a loud, passionate advocate of open scholarly infrastructure and has been working in and around library publishing services for over 15 years. He is loud, also. 
+  image_src: /assets/img/speakers/mike-nason.jpg
   image_alt:
   keynote: FALSE
 - id: nancy-lin
   name: Nancy Lin
   last: Lin
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her/hers
+  institution: New York University (NYU)
+  position-title: Sr. Data Projects Strategist
+  bio: Nancy Lin is Sr. Data Projects Strategist at New York University Libraries where she is developing e-reader apps, NYU bookstore and library integrations, and Open Access resources. She focuses on improving access to e-resources through the promotion of open standards and interoperability. She also serves an administrator of NYU’s library services platform. Prior to working at NYU, she spent decades developing electronic publishing products at Oxford University Press, John Wiley & Sons, and ACLS. She has an MLIS from the University of Michigan and a BA from Cornell University.
+  image_src: /assets/img/speakers/nancy-lin.jpg
   image_alt: "Headshot picture of a black-haired woman in flowered dress."
   keynote: FALSE
 - id: naomi-dushay
   name: Naomi Dushay
   last: Dushay
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her/hers
+  institution: Stanford University
+  position-title: Senior Software Engineer
+  bio: Naomi Dushay is a software engineer at Stanford University Libraries, working on a team with Aaron Collier, Mike Giarlo and other Code4Lib notables. She has worked in the digital library field since 1990 (cough). Professionally, she is interested in improving discovery of assets, maintainability of code and providing quality assessments of metadata as early as possible in its lifecycle. 
+  image_src: /assets/img/speakers/naomi-dushay.png
   image_alt:
   keynote: FALSE
 - id: nosheen-fatima-warraich
-  name: Nosheen Fatima Warraich
+  name: Prof. Nosheen Fatima Warraich
   last: Warraich
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her
+  institution: University of the Punjab, Lahore-Pakistan
+  position-title: Director and Professor at Institute of Information Management, University of the Punjab, Lahore 
+  bio: Prof. Nosheen Fatima Warraich is Director, Institute of Information Management University of the Punjab Lahore-Pakistan. She got Fulbright Post Doc. Fellow, State University of New York (SUNY) at Albany, NY-USA (2015-16). She is also serving as editor, Pakistan Journal of Information Management & Libraries and Associate Editor, International Journal of Librarianship & Information Science. She has been actively working in different SIGs of ASIST such as SiG III (Special Interest Group on International Information Issues),  SIG-USE and SIG-SM. She won ASIS&T New Leader Award 2017-18.
+  image_src: /assets/img/speakers/nosheen-fatima-warraich.jpg
   image_alt:
   keynote: FALSE
 - id: peter-murray
   name: Peter Murray
   last: Murray
-  pronouns:
-  institution:
-  position-title:
-  bio:
+  pronouns: he/him/his
+  institution: Index Data
+  position-title: Open Source Community Advocate
+  bio: Peter received an MLIS from Simmons College and a Bachelor of Science degree in Systems Analysis from Miami University.  His current activities include building relationships among libraries, organizations, and service providers participating in the FOLIO library services platform and ReShare resource sharing projects. He blogs at "The Disruptive Library Technology Jester" about the rapid advancement of library services in a social web world.
   image_src: /assets/img/speakers/peter-murray.jpg
   image_alt: "Middle-aged white male in a green polo shirt set against a sky-blue background."
   keynote: FALSE
 - id: raiden-van-bronkhorst
   name: Raiden van Bronkhorst
   last: van Bronkhorst
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/him/his
+  institution: California Digital Library
+  position-title: Software Engineer
+  bio: Raiden is a Software Engineer at the California Digital Library with a focus on machine learning applications for library metadata. He received his B.S. in Computer Science from Western Washington University.
+  image_src: /assets/img/speakers/raiden-van-bronkhorst.jpg
   image_alt:
   keynote: FALSE
 - id: robert-anthony-lee-faison
@@ -602,12 +602,12 @@
 - id: ryan-mccarthy
   name: Ryan McCarthy
   last: McCarthy
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: he/him/his
+  institution: Ithaka
+  position-title: Senior Software Engineer
+  bio: Ryan is a software engineer with JSTOR Labs at Ithaka, where he works on the JSTOR Access in Prisons Initiative. His interests outside of software are wide ranging and include watercolor painting, early modern theater, and the liberatory potential of both education and technology.
+  image_src: /assets/img/speakers/ryan-mccarthy.jpg
+  image_alt: "A white man with a short red beard and brown hair in front of a light gray wall smiles at the camera with what he hopes is warmth but suspects is not. He's wearing glasses and a navy suit jacket."
   keynote: FALSE
 - id: sara-mannheimer
   name: Sara Mannheimer
@@ -643,19 +643,19 @@
   name: Tyler Riley
   last: Riley
   pronouns:
-  institution:
-  position-title:
+  institution: University of Arkansas at Little Rock Center for Arkansas History and Culture
+  position-title: Digital Archive Programmer
   bio:
-  image_src: 
+  image_src: /assets/img/speakers/tyler-riley.jpg
   image_alt: "Stubbly mid-twenties white male with long, brown hair pulled back out of view. They are wearing round glasses and a slight grin."
   keynote: FALSE
 - id: vickie-karasic
   name: Vickie Karasic
   last: Karasic
-  pronouns:
-  institution:
-  position-title:
-  bio:
+  pronouns: she/her/hers
+  institution: Princeton University
+  position-title: Library IT Systems Administrator
+  bio: Vickie joined Princeton University Library in June 2022 as the inaugural Library IT Systems Administrator, providing support and instruction around several library-wide applications and assisting with network infrastructure, security, and maintenance. Previously, her work focused on teaching, research, and learning within educational technology, library spaces, and subject collections. Vickie holds an MLIS from Drexel University, MA in English and Comparative Literature from Columbia University, and BA in Comparative Literature and French from Cornell University. 
   image_src: /assets/img/speakers/vickie-karasic.jpg
   image_alt: "A slightly tanned and freckled white woman with brown hair wearing rounded brown eyeglasses, looking happy and professional, and wearing a dark green top with a light gray blazer. There is a dark gray backdrop behind her."
   keynote: FALSE
