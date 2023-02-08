@@ -133,11 +133,11 @@
   name: Eric Lease Morgan
   last: Morgan
   pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  institution: University of Notre Dame
+  position-title: Librarian
+  bio: Eric Lease Morgan is a librarian working in the Navari Family Center for Digital Scholarship, Hesburgh Libraries, University of Notre Dame where he provides text mining and natural language processing services to the University community. He does data science with words.
+  image_src: /assets/img/speakers/eric-lease-morgan.jpg
+  image_alt: "Eric is a librarian who works at the University of Notre Dame."
   keynote: FALSE
 - id: andreas-orphanides
   name: Andreas Orphanides
@@ -367,7 +367,7 @@
   position-title: Digital Content and Collections Coordinator
   bio: Jackson Huang is a library technologist whose work focuses on the intersections of structural politics and technological infrastructure in libraries and archives. Their research explores metadata translation and digital aggregations on the representation of materials related to the history of marginalized communities. They currently work as the digital collections and content ingest coordinator at the University of Michigan.
   image_src: /assets/img/speakers/jackson-huang.jpg
-  image_alt:
+  image_alt: "A young Han Chinese person wearing a black shirt and wire-rimmed glasses gazes forwards with a neutral expression. A white fringe of bleached hair peaks out from underneath a black wide-brimmed hat."
   keynote: FALSE
 - id: jacob-shelby
   name: Jacob Shelby
