@@ -24,14 +24,14 @@ workshop-only:
   # "show" only toggles the display of info in the registration bullets on the general-info/attend page
   show: true
   # "show-button" only affects a button on the general-info/attend page
-  show-button: false
+  show-button: true
   undecided: false
   undecided-text: "Depending on availability, Pre-Conference ONLY registration may open at the beginning of May."
-  url:
+  url: 'https://concentracms.regfox.com/code4lib-2023'
   # precon-only registration cost may differ from precons with general registration
   half-day-cost: '$50'
   full-day-cost: '$100'
-  start-date: '2023-02-21'
+  start-date: '2023-02-08'
 
 t-shirt-only:
   show: true
