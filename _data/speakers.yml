@@ -296,8 +296,8 @@
   institution: University of North Carolina at Greensboro
   position-title: IT Analyst/Programmer II
   bio: Danny ha trabajado more than 16 years as a Web Applications Developer for the University Libraries at UNC Greensboro.  El trabaja on the Digital Library on American Slavery.  His previous projects include the NC Digital Online Collection of Knowledge and Scholarship and the North Carolina Literary Map.
-  image_src: /assets/img/speakers/danny-nanez.png
-  image_alt:
+  image_src: /assets/img/speakers/danny-nanez.jpg
+  image_alt: "A smiling Mexican-American hombre standing beside a trumpet once belonging to Miles Davis."
   keynote: FALSE
 - id: david-cirella
   name: David Cirella
@@ -522,12 +522,12 @@
 - id: mike-kastellec
   name: Mike Kastellec
   last: Kastellec
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: he/him
+  institution: North Carolina State University Libraries
+  position-title: Associate Head of IT
+  bio: I lead the core infrastructure and developer support team at the NC State Libraries. Before that, I was a Libraries Fellow. Before that, I supported technology in public libraries. I am not a coder, but I could play one on TV.
+  image_src: /assets/img/speakers/mike-kastellec.jpg
+  image_alt: "A middle-aged white man with short brown hair and a goatee with beard, both of which are sparkled with white, wearing a dark gray sport coat and light gray sweater vest over a light blue dress shirt, smiling at a bad joke he just made."
   keynote: FALSE
 - id: mike-nason
   name: Mike Nason
