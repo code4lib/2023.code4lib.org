@@ -659,6 +659,16 @@
   image_src: /assets/img/speakers/vickie-karasic.jpg
   image_alt: "A slightly tanned and freckled white woman with brown hair wearing rounded brown eyeglasses, looking happy and professional, and wearing a dark green top with a light gray blazer. There is a dark gray backdrop behind her."
   keynote: FALSE
+  - id: esther-jackson
+  name: Esther Jackson
+  last: Jackson
+  pronouns:
+  institution: Columbia University
+  position-title: Scholarly Communication Technologies Librarian
+  bio: Esther Jackson works in the Digital Scholarship unit of the Columbia University Libraries where she interacts with all manner of library technologies, contributes to libraries system management and partner relationships, and manages a variety of projects. Esther loves messy data, metadata, and python.
+  image_src: /assets/img/speakers/esther-jackson.jpg
+  image_alt: "A woman, dressed in black, smiles at the camera in an attempt to be charming."
+  keynote: FALSE
 - id: siobahn-day-grady
   name: Dr. Siobahn Day Grady
   last: Grady
@@ -675,13 +685,3 @@
   image_src: /assets/img/speakers/lydia-tang.jpg
   image_alt: "A smiling half-Chinese half white woman with long dark brown hair."
   keynote: TRUE
-- id: esther-jackson
-  name: Esther Jackson
-  last: Jackson
-  pronouns:
-  institution: Columbia University
-  position-title: Scholarly Communication Technologies Librarian
-  bio: Esther Jackson works in the Digital Scholarship unit of the Columbia University Libraries where she interacts with all manner of library technologies, contributes to libraries system management and partner relationships, and manages a variety of projects. Esther loves messy data, metadata, and python.
-  image_src: /assets/img/speakers/esther-jackson.jpg
-  image_alt: "A woman, dressed in black, smiles at the camera in an attempt to be charming."
-  keynote: FALSE
