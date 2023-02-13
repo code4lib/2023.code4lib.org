@@ -22,11 +22,11 @@
 - id: hector-correa
   name: Hector Correa
   last: Correa
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/him/his
+  institution: Princeton University
+  position-title:  Software Developer
+  bio: Software developer at the Princeton University Library.
+  image_src: /assets/img/speakers/hector-correa.jpg
   image_alt:
   keynote: FALSE
 - id: stefano-cossu
@@ -46,17 +46,17 @@
   institution:
   position-title:
   bio:
-  image_src: 
-  image_alt:
+  image_src: /assets/img/speakers/michael-della-bitta.jpg
+  image_alt: A white man with brown hair wearing a dark sweater, a collared shirt, and blue glasses smiling slightly against a background of city buildings  
   keynote: FALSE
 - id: ryan-dubnicek
   name: Ryan Dubnicek
   last: Dubnicek
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/him
+  institution: HathiTrust Research Center & iSchool, University of Illinois
+  position-title: Digital Humanities Specialist
+  bio: Ryan is a Digital Humanities Specialist with HathiTrust Research Center where he works in cultural analytics research, digital tool and dataset design, user support, outreach, and instruction.
+  image_src: /assets/img/speakers/ryan-dubnicek.jpg 
   image_alt:
   keynote: FALSE
 - id: james-griffin
@@ -90,44 +90,44 @@
   image_alt:
   keynote: FALSE
 - id: brandon-klevence
-  name: Brandon Klevence
+  name: Brandon "bk" Klevence
   last: Klevence
-  pronouns:
+  pronouns: he/him/his
   institution:
-  position-title:
-  bio:
-  image_src: 
+  position-title: Educator & Fabricator
+  bio: Brandon, who goes by "bk", is currently a 9-12 Tech and Engineering instructor based in Northern NJ. His roots are in industrial design, electronics fabrication, and makerspace development. He was a founding member of the MakerJawn Initiative in Philadelphia Free Library system. 
+  image_src: /assets/img/speakers/brandon-klevence.jpg
   image_alt:
   keynote: FALSE
 - id: amy-kirchhoff
   name: Amy Kirchhoff
   last: Krichhoff
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: she/her
+  institution: Constellate, ITHAKA
+  position-title: Senior Manager
+  bio: Amy Kirchhoff enjoys her long career at JSTOR, Portico and ITHAKA.  She started her career working in the JSTOR technology group and then worked for Portico as the Archive Service Product Manager.  She is currently the Senior Manager for Constellate, a new text-analysis service from ITHAKA, which helps users across all disciplines learn essential text analysis and data skills.  
+  image_src: /assets/img/speakers/amy-kirchhoff.jpg
+  image_alt: "A middle-aged, Caucasian woman with glasses and specks of grey hair interspersed with her blonde against a colorful doodle."
   keynote: FALSE
 - id: john-kunze
   name: John Kunze
   last: Kunze
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: he/his/him
+  institution: ARK Alliance
+  position-title: Research Scholar
+  bio: John Kunze is a pioneer in the theory and practice of digital libraries. With a background in computer science and mathematics, he wrote BSD Unix software tools that come pre-installed with Mac and Linux systems. He created the ARK identifier scheme, the N2T.net scheme-agnostic resolver (which redirects over 600 kinds of CURIEs, or “compact identifiers”), and contributed heavily to the first standards for URLs (RFC1736, RFC1625, RFC2056), for library search and retrieval (Z39.50), for archival transfer (BagIt - RFC8493), for web archiving (WARC), and for metadata (RFC2413, RFC2731, ANSI/NISO Z39.85). His specs and tools for repository microservices – Pairtree, Namaste, ReDD, oxum, ERC/ANVL, TEMPER, THUMP – may be found in such places as the HathiTrust and OCFL. Follow-on work in metadata includes creation of the Dublin Kernel and Yamz.net. His current work focus is the ARK Alliance (arks.org), Yamz, and the DWeb.
+  image_src: /assets/img/speakers/john-kunze.jpg
   image_alt:
   keynote: FALSE
 - id: matt-lincoln
   name: Dr. Matt Lincoln
   last: Lincoln
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: he/him/his
+  institution: ITHAKA/JSTOR
+  position-title: Senior Software Engineer
+  bio: "Dr. Matthew Lincoln is a senior software engineer for text and data mining at JSTOR Labs working on Constellate. He earned his PhD in Art History at the University of Maryland, College Park, and has formerly held positions at the National Gallery of Art, the Getty Research Institute, Carnegie Mellon University Libraries, technical lead of The Programming Historian, and as a co-project director of the NEH Digital Humanities Advancement Grant Freedom and the Press Before Freedom of the Press: Tools, Data, and Methods for Researching Secret Printing."
+  image_src: /assets/img/speakers/matt-lincoln.jpg
+  image_alt: White male in his mid 30s, a bit scruffy, smiling confidently down at the camera because he's taking a selfie. He's wearing black, thick-rimmed rectangular glasses.
   keynote: FALSE
 - id: eric-lease-morgan
   name: Eric Lease Morgan
@@ -143,10 +143,10 @@
   name: Andreas Orphanides
   last: Orphanides
   pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  institution: NC State University Libraries
+  position-title: Lead Librarian for UX Strategy
+  bio: Andreas Orphanides is the Lead Librarian for UX Strategy at the NC State University Libraries. His work focuses on developing high-quality, thoughtfully designed technology solutions to support teaching, learning, and information discovery. His professional interests include systems analysis, human factors, and information design. Outside of work, he has too many cats.
+  image_src: /assets/img/speakers/andreas-orphanides.jpg
   image_alt:
   keynote: FALSE
 - id: bess-sadler
@@ -207,7 +207,7 @@
   position-title: Library Services Platform Administrator
   bio:
   image_src: /assets/img/speakers/amelia-sutton.jpg
-  image_alt:
+  image_alt: "A smiling young woman wearing a septum ring with curly shoulder length hair colored a vibrant red, and wearing a sweater that is a darker red. She is in front of a plain grey backdrop."
   keynote: FALSE
 - id: andromeda-yelton
   name: Andromeda Yelton
@@ -338,6 +338,16 @@
   bio:
   image_src: 
   image_alt:
+  keynote: FALSE
+- id: esther-jackson
+  name: Esther Jackson
+  last: Jackson
+  pronouns:
+  institution: Columbia University
+  position-title: Scholarly Communication Technologies Librarian
+  bio: Esther Jackson works in the Digital Scholarship unit of the Columbia University Libraries where she interacts with all manner of library technologies, contributes to libraries system management and partner relationships, and manages a variety of projects. Esther loves messy data, metadata, and python.
+  image_src: /assets/img/speakers/esther-jackson.jpg
+  image_alt: "A woman, dressed in black, smiles at the camera in an attempt to be charming."
   keynote: FALSE
 - id: greer-martin
   name: Greer Martin

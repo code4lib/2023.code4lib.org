@@ -13,7 +13,7 @@ location: rabinowitz
 room: 
 speakers:
 - amy-kirchhoff
-- dr-matt-lincoln
+- matt-lincoln
 speaker-text: Amy Kirchhoff, Dr. Matt Lincoln
 title: "Text Analysis & Constellate: the technology and the Lab"
 ---
