@@ -13,6 +13,7 @@ location: rabinowitz
 room: 
 speakers:
 - eric-lease-morgan
+- esther-jackson
 speaker-text: Eric Lease Morgan
 title: "Modern Alchemy: Hands-On with the Distant Reader"
 ---
