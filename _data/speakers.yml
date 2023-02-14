@@ -9,16 +9,6 @@
   image_src: 
   image_alt:
   keynote: FALSE
-- id: carolyn-cole
-  name: Carolyn Cole
-  last: Cole
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
-  keynote: FALSE
 - id: hector-correa
   name: Hector Correa
   last: Correa
@@ -57,36 +47,6 @@
   position-title: Digital Humanities Specialist
   bio: Ryan is a Digital Humanities Specialist with HathiTrust Research Center where he works in cultural analytics research, digital tool and dataset design, user support, outreach, and instruction.
   image_src: /assets/img/speakers/ryan-dubnicek.jpg 
-  image_alt:
-  keynote: FALSE
-- id: james-griffin
-  name: James Griffin
-  last: Griffin
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
-  keynote: FALSE
-- id: max-kadel
-  name: Max Kadel
-  last: Kadel
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
-  keynote: FALSE
-- id: francis-kayiwa
-  name: Francis Kayiwa
-  last: Kayiwa
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
   image_alt:
   keynote: FALSE
 - id: brandon-klevence
@@ -149,16 +109,6 @@
   image_src: /assets/img/speakers/andreas-orphanides.jpg
   image_alt:
   keynote: FALSE
-- id: bess-sadler
-  name: Bess Sadler
-  last: Sadler
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
-  keynote: FALSE
 - id: ron-snyder
   name: Ron Snyder
   last: Snyder
@@ -172,21 +122,21 @@
 - id: janet-swatscheno
   name: Janet Swatscheno
   last: Swatscheno
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  pronouns: she/her/hers/they/them
+  institution: HathiTrust Research Center
+  position-title: Associate Director for Outreach and Education
+  bio: Janet Swatscheno is the Digital Scholarship Librarian at HathiTrust and Associate Director for Outreach and Education at HTRC. She engages with faculty, academic staff, and students on scholarly computational uses of the HathiTrust collection. Prior to joining HTRC, Janet was the Digital Publishing Librarian at the University of Illinois Chicago and Co-Director of the UIC Digital Humanities Initiative.
+  image_src: /assets/img/speakers/janet-swatscheno.jpg
   image_alt:
   keynote: FALSE
 - id: daniel-verbit
   name: Daniel Verbit
   last: Verbit
-  pronouns:
+  pronouns: he/him
   institution:
-  position-title:
-  bio:
-  image_src: 
+  position-title: Soldering Instructor
+  bio: "Daniel Verbit holds a Master of Library and Information Studies degree from The University of Alabama, and serves on the board of the Liberty Chapter of the Medical Library Association (MLA), and previous chapter chair of the Philadelphia Chapter of the MLA, and a Senior Member of the Academy of Health Information Professionals. He has taught soldering to students and at various conferences since 2015, along with community volunteering. In the world of disposable technology having the skill to solder is one part of reducing waste via technology repair. In addition, having soldering classes/skills can reduce the cost of assistive technology for patrons of all ages, and help improve communities."
+  image_src: /assets/img/speakers/daniel-verbit.jpg
   image_alt:
   keynote: FALSE
 - id: allan-berry
@@ -427,6 +377,16 @@
   position-title: Web Services Librarian
   bio: Julia Caffrey-Hill is the Web Services Librarian at Towson University. She received her MSLIS from Simmons University. Her areas of interest include accessibility and user experience.
   image_src: /assets/img/speakers/julia-caffrey-hill.png
+  image_alt:
+  keynote: FALSE
+- id: julia-ha
+  name: Julia Ha
+  last: Ha
+  pronouns:
+  institution:
+  position-title:
+  bio:
+  image_src: 
   image_alt:
   keynote: FALSE
 - id: julie-shi

@@ -13,6 +13,7 @@ location: rabinowitz
 room: 
 speakers:
 - ron-snyder
+- julia-ha
 speaker-text: Ron Snyder
 title: Creating Visual Essays with Juncture
 ---
