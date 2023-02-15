@@ -107,7 +107,7 @@
   position-title: Lead Librarian for UX Strategy
   bio: Andreas Orphanides is the Lead Librarian for UX Strategy at the NC State University Libraries. His work focuses on developing high-quality, thoughtfully designed technology solutions to support teaching, learning, and information discovery. His professional interests include systems analysis, human factors, and information design. Outside of work, he has too many cats.
   image_src: /assets/img/speakers/andreas-orphanides.jpg
-  image_alt:
+  image_alt: "Torso shot of a curly-haired, male-presenting person, in profile, wearing a red  jacket, thick gloves, glasses, and black facemask, and wielding a longsword in a high guard. In the background is a statue of a bull and, further back, skyscrapers."
   keynote: FALSE
 - id: ron-snyder
   name: Ron Snyder
@@ -183,10 +183,10 @@
   name: Arran Griffith
   last: Griffith
   pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
+  institution: Lyrasis
+  position-title: Fedora Program Manager
+  bio: Arran comes to the open-source, library technology world with a diverse background and unique perspective on engaging communities and building meaningful connections. As the Fedora Program Manager, she acts as a strategic liaison between the program's governance groups and community stakeholders to oversee that key objectives are being met and that the program continues to evolve and grow. Arran previously served as Community Outreach Coordinator for the Fedora Program before taking on the full-time role as Program Manager in May 2022. Prior to joining Lyrasis, Arran led large sales teams in high-volume retail where her commitment to customer experience, and people management skills were the driving force in her successes. She has a BSc in Biology from Mount Allison University in Sackville, NB Canada.
+  image_src: /assets/img/speakers/arran-griffith.jpg
   image_alt:
   keynote: FALSE
 - id: ben-armintor
