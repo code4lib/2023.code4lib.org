@@ -1,13 +1,12 @@
 - id: yinlin-chen
   name: Yinlin Chen
   last: Chen
-  pronouns:
-  institution:
-  position-title:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: he/him/his
+  institution: Virginia Tech
+  position-title: Assistant Director
+  bio: Dr. Yinlin Chen is an assistant director at Virginia Tech University Libraries, specializing in cloud computing and serverless architecture on AWS. He teaches an "Introduction to Artificial Intelligence" course in the Computer Science department and has presented works and workshops related to machine learning and serverless computing at conferences. His research interests include machine learning, cloud computing, natural language processing, and information retrieval.
+  image_src: /assets/img/speakers/yinlin-chen.jpg
+  image_alt: "The individual in the photograph is an Asian man with short black hair, wearing glasses and a white shirt. ~ by ChatGPT."
   keynote: FALSE
 - id: hector-correa
   name: Hector Correa
