@@ -3,8 +3,140 @@
 # template:
 # surname:
 #     name:
+#     last: 
+#     pronouns:
 #     img: /assets/img/conduct/
 #     img_alt:
 #     slack_handle:
 #     onsite: true
 #     online: false
+
+soojeong-herring:
+    name: Soojeong Herring
+    last: Herring
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: Soojeong Herring
+    onsite: true
+    online: false
+
+ann-marie-mesco:
+    name: Ann Marie Mesco
+    last: Mesco
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: Ann Marie
+    onsite: true
+    online: false
+
+bobbi-fox:
+    name: Bobbi Fox 
+    last: Fox
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: Bobbi Fox
+    onsite: true
+    online: false
+    
+andromeda-yelton:
+    name: Andromeda Yelton 
+    last: Yelton 
+    pronouns: she/her
+    img: /assets/img/speakers/andromeda-yelton.jpg
+    img_alt:
+    slack_handle: thatandromeda
+    onsite: true
+    online: false
+
+bess-sadler: 
+    name: Bess Sadler
+    last: Sadler
+    pronouns: she/they
+    img: /assets/img/conduct/bess-sadler.png
+    img_alt: A white woman with light brown hair that is short on the sides and long on top. She is wearing rimless glasses and a black t-shirt. She is smiling. There are fairy lights behind her.
+    slack_handle: bess
+    onsite: true
+    online: false
+    
+francis-kawiya:
+    name: Francis Kawiya
+    last: Kawiya
+    pronouns: he/him/his
+    img: /assets/img/conduct/francis-kawiya.jpg
+    img_alt: "Black Man with a Blue and White Stripped Shirt. Background is a faded green background."
+    slack_handle: "El Cromulente"
+    onsite: true
+    online: false
+    
+carolyn-cole:
+    name:  Carolyn Cole
+    last: Cole
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: cam156
+    onsite: true
+    online: false
+    
+anne-slaughter:
+    name: Anne Slaughter
+    last: Slaughter
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: aslaughter
+    onsite: true
+    online: false
+    
+sharon-clapp:
+    name: Sharon Clapp 
+    last: Clapp
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: sclapp
+    onsite: true
+    online: false
+    
+kevin-reiss:
+    name: Kevin Reiss
+    last: Reiss
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: kevinreiss
+    onsite: false
+    online: true
+
+mike-giarlo:
+    name: Mike Giarlo
+    last: Giarlo
+    pronouns: he/him/his
+    img: /assets/img/speakers/mike-giarlo.jpg
+    img_alt: A white, freckle-faced male with blue eyes, chin-length curly dark brown hair, and a beard is smiling in front of a light green wall. He is wearing a green t-shirt and a grey & green Seattle Supersonics baseball cap.
+    slack_handle: mjgiarlo
+    onsite: false
+    online: true
+    
+esme-cowles:
+    name: Esmé Cowles
+    last: Cowles
+    pronouns: he/him
+    img: /assets/img/conduct/esme-cowles.jpg
+    img_alt: "A bald, middle-aged white man with a close-trimmed red beard which is graying at the chin, wearing tortoiseshell glasses and a dark blue hoodie."
+    slack_handle: escowles
+    onsite: false
+    online: true
+    
+eric-phetteplace:
+    name: Eric Phetteplace
+    last: Phetteplace
+    pronouns: he/him
+    img: /assets/img/conduct/eric-phetteplace.png
+    img_alt: "A black-and-white photo of a smiling white man with a beard wearing a collared shirt."
+    slack_handle: Phette23
+    onsite: false
+    online: true

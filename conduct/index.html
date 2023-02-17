@@ -184,17 +184,27 @@ active: 'Conduct & Safety'
                             <h3>On-Site Community Support Volunteers</h3>
 
                             <div class="row">
-                              {% assign onsite_volunteers = site.data.community-support | where:"onsite","true" %}
+                              {% assign onsite_volunteers = site.data.community-support | where:"onsite","true" | sort: 'last'%}
                                 {% for volunteer in onsite_volunteers %}
                                 <div class="col-4">
                                     <div class="speaker-box text-center">
                                         <div class="speaker-box-inner">
-                                            {% if volunteer.img_alt != nil %}
+											<div class="speaker-mini">
+												<h4 class="speaker-name">{{ volunteer.name }}</h4>
+												{% if volunteer.pronouns.size > 0 %}
+													<p class="speaker-pronouns">({{ volunteer.pronouns }})</p>
+												{% endif %}
+											</div>
+											{% if volunteer.img == nil %}
+												<div class="clip-circle-lg">
+													<p style="color:#fff; font-size:1.15rem; font-style:italic; font-weight:bold; height:100%; display:flex; justify-content:center; align-items:center; padding:1rem;">Image Forthcoming</p>
+												</div>
+                                            {% elsif volunteer.img_alt != nil %}
                                                 <img alt="{{ volunteer.img_alt }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
                                             {% else %}
                                                 <img alt="{{ volunteer.name }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
                                             {% endif %}
-                                            <h4 class="speaker-name">{{ volunteer.name }}</h4>
+			
                                         </div>
                                     </div>
                                 </div>
@@ -207,13 +217,16 @@ active: 'Conduct & Safety'
                           <p>Community Support Volunteers are also present on various online code4lib platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a> and the livestream. IRC and the <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">#{{site.data.conf.hashtag}}</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the community support volunteers via Slack, email, or the anonymous reporting form.
                           </p>
 
-                          {% assign online_volunteers = site.data.community-support | where:"online","true" %}
+                          {% assign online_volunteers = site.data.community-support | where:"online","true" | sort: 'last'%}
                           {% for volunteer in online_volunteers %}
                             <div class="col-4">
                                 <div class="text-center">
                                     <h4 class="speaker-name">{{ volunteer.name }}</h4>
                                     <div class="speaker-mini">
-                                        <p>Slack: {{ volunteer.slack_handle }}</p>
+										{% if volunteer.pronouns.size > 0 %}
+											<p class="speaker-pronouns">({{ volunteer.pronouns }})</p>
+										{% endif %}
+                                        <p style="font-size:1.1em">Slack: {{ volunteer.slack_handle }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -227,33 +240,36 @@ active: 'Conduct & Safety'
             <div class="row csv-schedule">
                 <div class="col-12">
                     <h2 id="schedule">Community Support Volunteer Schedule</h2>
+					{% if site.data.community-support-schedule.onsite == nil and site.data.community-support-schedule.online == nil %}
+						<p>Schedule will be posted shortly before the conference.</p>
+					{% endif %}
 
                     {% if site.data.community-support-schedule.onsite != nil %}
                         <h3>On-Site</h3>
                         {% for session in site.data.community-support-schedule.onsite %}
-                        <h3>{{ session.day }} — {{ session.period }}</h3>
-                        <div class="row">
-                            <div class="col-12 keynote-sequence sequence">
-                                {% if session.all-hands %}
-                                    <p><strong>All community support volunteers attending the event &mdash; look for the black & white striped lanyards!</strong></p>
-                                {% else %}
-                                    {% for volunteerId in session.volunteers %}
-                                    {% assign volunteer = site.data.community-support[volunteerId] %}
-                                    <div class="speaker-box text-center">
-                                        <div class="speaker-box-inner">
-                                            {% if volunteer.img_alt != nil %}
-                                                <img alt="{{ volunteer.img_alt }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
-                                            {% else %}
-                                                <img alt="{{ volunteer.name }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
-                                            {% endif %}
-                                            <h4 class="speaker-name">{{ volunteer.name }}</h4>
-                                        </div>
-                                    </div>
-                                    {% endfor %}
-                                 {% endif %}
-                            </div>
-                        </div>
-                    {% endfor %}
+							<h3>{{ session.day }} — {{ session.period }}</h3>
+							<div class="row">
+								<div class="col-12 keynote-sequence sequence">
+									{% if session.all-hands %}
+										<p><strong>All community support volunteers attending the event &mdash; look for the black & white striped lanyards!</strong></p>
+									{% else %}
+										{% for volunteerId in session.volunteers %}
+										{% assign volunteer = site.data.community-support[volunteerId] %}
+										<div class="speaker-box text-center">
+											<div class="speaker-box-inner">
+												{% if volunteer.img_alt != nil %}
+													<img alt="{{ volunteer.img_alt }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+												{% else %}
+													<img alt="{{ volunteer.name }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+												{% endif %}
+												<h4 class="speaker-name">{{ volunteer.name }}</h4>
+											</div>
+										</div>
+										{% endfor %}
+									 {% endif %}
+								</div>
+							</div>
+						{% endfor %}
                     {% endif %}
 
                     {% if site.data.community-support-schedule.online != nil %}
@@ -270,9 +286,9 @@ active: 'Conduct & Safety'
                 </div>
             </div>
             {% else %}
-            {%- comment %} remove CSV Schedule menu link because we don't have the info yet
-            NOTE: jQuery not available on the page yet. {% endcomment -%}
-            <script>try { document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove() } catch(e) {}</script>
+				{%- comment %} remove CSV Schedule menu link because we don't have the info yet
+				NOTE: jQuery not available on the page yet. {% endcomment -%}
+				<script>try { document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove() } catch(e) {}</script>
             {% endif %}
 
             {% if site.data.conf.online-only-conference == false %}
