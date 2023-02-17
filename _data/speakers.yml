@@ -368,16 +368,6 @@
   image_src: /assets/img/speakers/jessica-lange.jpg
   image_alt:
   keynote: FALSE
-- id: julia-caffrey-hill
-  name: Julia Caffrey-Hill
-  last: Caffrey-Hill
-  pronouns: she/her
-  institution: Towson University
-  position-title: Web Services Librarian
-  bio: Julia Caffrey-Hill is the Web Services Librarian at Towson University. She received her MSLIS from Simmons University. Her areas of interest include accessibility and user experience.
-  image_src: /assets/img/speakers/julia-caffrey-hill.png
-  image_alt:
-  keynote: FALSE
 - id: julia-ha
   name: Julia Ha
   last: Ha
