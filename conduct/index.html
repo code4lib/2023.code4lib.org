@@ -240,33 +240,37 @@ active: 'Conduct & Safety'
             <div class="row csv-schedule">
                 <div class="col-12">
                     <h2 id="schedule">Community Support Volunteer Schedule</h2>
+					{% if site.data.community-support-schedule.onsite == nil and site.data.community-support-schedule.online == nil %}
+						<p>Schedule will be posted shortly before the conference.</p>
+					{% endif %}
+
 
                     {% if site.data.community-support-schedule.onsite != nil %}
                         <h3>On-Site</h3>
                         {% for session in site.data.community-support-schedule.onsite %}
-                        <h3>{{ session.day }} — {{ session.period }}</h3>
-                        <div class="row">
-                            <div class="col-12 keynote-sequence sequence">
-                                {% if session.all-hands %}
-                                    <p><strong>All community support volunteers attending the event &mdash; look for the black & white striped lanyards!</strong></p>
-                                {% else %}
-                                    {% for volunteerId in session.volunteers %}
-                                    {% assign volunteer = site.data.community-support[volunteerId] %}
-                                    <div class="speaker-box text-center">
-                                        <div class="speaker-box-inner">
-                                            {% if volunteer.img_alt != nil %}
-                                                <img alt="{{ volunteer.img_alt }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
-                                            {% else %}
-                                                <img alt="{{ volunteer.name }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
-                                            {% endif %}
-                                            <h4 class="speaker-name">{{ volunteer.name }}</h4>
-                                        </div>
-                                    </div>
-                                    {% endfor %}
-                                 {% endif %}
-                            </div>
-                        </div>
-                    {% endfor %}
+							<h3>{{ session.day }} — {{ session.period }}</h3>
+							<div class="row">
+								<div class="col-12 keynote-sequence sequence">
+									{% if session.all-hands %}
+										<p><strong>All community support volunteers attending the event &mdash; look for the black & white striped lanyards!</strong></p>
+									{% else %}
+										{% for volunteerId in session.volunteers %}
+										{% assign volunteer = site.data.community-support[volunteerId] %}
+										<div class="speaker-box text-center">
+											<div class="speaker-box-inner">
+												{% if volunteer.img_alt != nil %}
+													<img alt="{{ volunteer.img_alt }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+												{% else %}
+													<img alt="{{ volunteer.name }}" class="clip-circle-lg" src="{{ volunteer.img }}" alt="{{ volunteer.name }}">
+												{% endif %}
+												<h4 class="speaker-name">{{ volunteer.name }}</h4>
+											</div>
+										</div>
+										{% endfor %}
+									 {% endif %}
+								</div>
+							</div>
+						{% endfor %}
                     {% endif %}
 
                     {% if site.data.community-support-schedule.online != nil %}
@@ -283,9 +287,9 @@ active: 'Conduct & Safety'
                 </div>
             </div>
             {% else %}
-            {%- comment %} remove CSV Schedule menu link because we don't have the info yet
-            NOTE: jQuery not available on the page yet. {% endcomment -%}
-            <script>try { document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove() } catch(e) {}</script>
+				{%- comment %} remove CSV Schedule menu link because we don't have the info yet
+				NOTE: jQuery not available on the page yet. {% endcomment -%}
+				<script>try { document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove() } catch(e) {}</script>
             {% endif %}
 
             {% if site.data.conf.online-only-conference == false %}

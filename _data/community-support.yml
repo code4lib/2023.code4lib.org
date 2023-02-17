@@ -19,7 +19,7 @@ soojeong-herring:
     img_alt:
     slack_handle: Soojeong Herring
     onsite: true
-    online: true
+    online: false
 
 ann-marie-mesco:
     name: Ann Marie Mesco
@@ -29,7 +29,7 @@ ann-marie-mesco:
     img_alt:
     slack_handle: Ann Marie
     onsite: true
-    online: true
+    online: false
 
 bobbi-fox:
     name: Bobbi Fox 
@@ -39,7 +39,7 @@ bobbi-fox:
     img_alt:
     slack_handle: Bobbi Fox
     onsite: true
-    online: true
+    online: false
     
 andromeda-yelton:
     name: Andromeda Yelton 
@@ -49,7 +49,7 @@ andromeda-yelton:
     img_alt:
     slack_handle: thatandromeda
     onsite: true
-    online: true
+    online: false
 
 bess-sadler: 
     name: Bess Sadler
@@ -59,7 +59,7 @@ bess-sadler:
     img_alt: A white woman with light brown hair that is short on the sides and long on top. She is wearing rimless glasses and a black t-shirt. She is smiling. There are fairy lights behind her.
     slack_handle: bess
     onsite: true
-    online: true
+    online: false
     
 francis-kawiya:
     name: Francis Kawiya
@@ -69,15 +69,55 @@ francis-kawiya:
     img_alt: "Black Man with a Blue and White Stripped Shirt. Background is a faded green background."
     slack_handle: "El Cromulente"
     onsite: true
-    online: true
+    online: false
     
-eric-phetteplace:
-    name: Eric Phetteplace
-    last: Phetteplace
-    pronouns: he/him
-    img: /assets/img/conduct/eric-phetteplace.png
-    img_alt: "A black-and-white photo of a smiling white man with a beard wearing a collared shirt."
-    slack_handle: Phette23
+carolyn-cole:
+    name:  Carolyn Cole
+    last: Cole
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: cam156
+    onsite: true
+    online: false
+    
+anne-slaughter:
+    name: Anne Slaughter
+    last: Slaughter
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: aslaughter
+    onsite: true
+    online: false
+    
+sharon-clapp:
+    name: Sharon Clapp 
+    last: Clapp
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: sclapp
+    onsite: true
+    online: false
+    
+kevin-reiss:
+    name: Kevin Reiss
+    last: Reiss
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: kevinreiss
+    onsite: false
+    online: true
+
+mike-giarlo:
+    name: Mike Giarlo
+    last: Giarlo
+    pronouns: he/him/his
+    img: /assets/img/speakers/mike-giarlo.jpg
+    img_alt: A white, freckle-faced male with blue eyes, chin-length curly dark brown hair, and a beard is smiling in front of a light green wall. He is wearing a green t-shirt and a grey & green Seattle Supersonics baseball cap.
+    slack_handle: mjgiarlo
     onsite: false
     online: true
     
@@ -88,55 +128,15 @@ esme-cowles:
     img: /assets/img/conduct/esme-cowles.jpg
     img_alt: "A bald, middle-aged white man with a close-trimmed red beard which is graying at the chin, wearing tortoiseshell glasses and a dark blue hoodie."
     slack_handle: escowles
-    onsite: true
+    onsite: false
     online: true
     
-carolyn-cole:
-    name:  Carolyn Cole
-    last: Cole
-    pronouns:
-    img:
-    img_alt:
-    slack_handle: cam156
-    onsite: true
-    online: true
-    
-anne-slaughter:
-    name: Anne Slaughter
-    last: Slaughter
-    pronouns:
-    img:
-    img_alt:
-    slack_handle: aslaughter
-    onsite: true
-    online: true
-    
-sharon-clapp:
-    name: Sharon Clapp 
-    last: Clapp
-    pronouns:
-    img:
-    img_alt:
-    slack_handle: sclapp
-    onsite: true
-    online: true
-    
-kevin-reiss:
-    name: Kevin Reiss
-    last: Reiss
-    pronouns:
-    img:
-    img_alt:
-    slack_handle: kevinreiss
-    onsite: true
-    online: true
-
-mike-giarlo:
-    name: Mike Giarlo
-    last: Giarlo
-    pronouns: he/him/his
-    img: /assets/img/speakers/mike-giarlo.jpg
-    img_alt: A white, freckle-faced male with blue eyes, chin-length curly dark brown hair, and a beard is smiling in front of a light green wall. He is wearing a green t-shirt and a grey & green Seattle Supersonics baseball cap.
-    slack_handle: mjgiarlo
+eric-phetteplace:
+    name: Eric Phetteplace
+    last: Phetteplace
+    pronouns: he/him
+    img: /assets/img/conduct/eric-phetteplace.png
+    img_alt: "A black-and-white photo of a smiling white man with a beard wearing a collared shirt."
+    slack_handle: Phette23
     onsite: false
     online: true
