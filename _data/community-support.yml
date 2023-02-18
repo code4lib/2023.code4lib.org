@@ -61,11 +61,11 @@ bess-sadler:
     onsite: true
     online: false
     
-francis-kawiya:
-    name: Francis Kawiya
-    last: Kawiya
+francis-kayiwa:
+    name: Francis Kayiwa
+    last: Kayiwa
     pronouns: he/him/his
-    img: /assets/img/conduct/francis-kawiya.jpg
+    img: /assets/img/conduct/francis-kayiwa.jpg
     img_alt: "Black Man with a Blue and White Stripped Shirt. Background is a faded green background."
     slack_handle: "El Cromulente"
     onsite: true
