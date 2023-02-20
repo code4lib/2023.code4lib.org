@@ -18,6 +18,8 @@ active: Attend Code4Lib
                           {% else %}
                             <a href="{{ site.data.registration.conference.url }}" class="btn ct-btn-light btn-lg">Register Now!</a>
                           {% endif %}
+                        {% elsif site.data.registration.workshop-only.show %}
+                            <a href="{{ site.data.registration.conference.url }}" class="btn ct-btn-light btn-lg">Pre-Conference Registration</a>
                         {% else %}
                             <p>Registration will open
                                 at 11 a.m. EST / 8 a.m. PST
