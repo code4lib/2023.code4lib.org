@@ -123,7 +123,7 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 # - post:   for after the conference is over
 #
 ####################
-homepage-display: pre
+homepage-display: peri
 
 livestream:
   show: false
@@ -147,21 +147,39 @@ workshops:
   location: rabinowitz
 
 # Peri display descriptions and titles
-#peri:
-#  day1-am-title: 'Pre-Conference'
-#  day1-am-desc: 'Workshops'
-#  day1-pm-title: 'Newcomer Dinner'
-#  day1-pm-desc: 'Dine-Around'
-#  day2-am-title: 'Conference, Day 1'
-#  day2-am-desc: 'Opening Keynote & Talks'
-#  day2-pm-title: 'Reception'
-#  day2-pm-desc: 'Pearl Street Grill & Brewery'
-#  day3-am-title: 'Conference, Day 2'
-#  day3-am-desc: 'Awesome Talks'
-#  day3-pm-title: 'Game Night'
-#  day3-pm-desc: 'Board or Card Games'
-#  day4-am-title: 'Conference, Day 3'
-#  day4-am-desc: 'Closing Keynote & Talks'
+peri:
+  day0:
+    am:
+      title: 'Pre-Conference'
+      desc: 'Workshops'
+      link: '/workshops'
+    pm:
+      title: 'Newcomer Dinner'
+      desc: 'Dine-Around'
+      link: '/general-info/venues/#dinner'
+  day1:
+    am:
+      title: 'Conference, Day 1'
+      desc: 'Opening Keynote & Talks'
+      link: '/schedule/day-1'
+    pm:
+      title: 'Reception'
+      desc: 'Palmer House'
+      link: '/general-info/venues/#reception'
+  day2:
+    am:
+      title: 'Conference, Day 2'
+      desc: 'Awesome Talks'
+      link: '/schedule/day-2'
+    pm:
+      title: 'Game Night'
+      desc: 'Board or Card Games'
+      link: '/general-info/venues/#gaming'
+  day3:
+    am:
+      title: 'Conference, Day 3'
+      desc: 'Closing Keynote & Talks'
+      link: '/schedule/day-3'
 
 ###########
 # Sponsors
