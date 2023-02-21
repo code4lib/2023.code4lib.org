@@ -46,7 +46,7 @@ andromeda-yelton:
     last: Yelton 
     pronouns: she/her
     img: /assets/img/speakers/andromeda-yelton.jpg
-    img_alt:
+    img_alt: "A white woman looks straight at the camera with a half-smile. She has curly brown hair and glasses. There's a soft white-and-grey cat draped over her shoulder."
     slack_handle: thatandromeda
     onsite: true
     online: false
@@ -74,9 +74,9 @@ francis-kayiwa:
 carolyn-cole:
     name:  Carolyn Cole
     last: Cole
-    pronouns:
-    img:
-    img_alt:
+    pronouns: she/her
+    img: /assets/img/conduct/carolyn-cole.png
+    img_alt: 
     slack_handle: cam156
     onsite: true
     online: false
@@ -84,9 +84,9 @@ carolyn-cole:
 anne-slaughter:
     name: Anne Slaughter
     last: Slaughter
-    pronouns:
-    img:
-    img_alt:
+    pronouns: she/her/hers
+    img: /assets/img/conduct/anne-slaughter.png
+    img_alt: A smiling white woman with dark blue eyes and long wavy light brown hair, wearing a teal blue dress and a necklace with gold and silver colored beads, against a lighter blue background. 
     slack_handle: aslaughter
     onsite: true
     online: false
