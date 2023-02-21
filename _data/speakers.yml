@@ -358,6 +358,16 @@
   image_src: /assets/img/speakers/jason-a-clark.jpg
   image_alt: 
   keynote: FALSE
+- id: jessica-edwards
+  name: Jessica Edwards
+  last: Edwards
+  pronouns:
+  institution: Columbia University Libraries
+  position-title:
+  bio:
+  image_src:
+  image_alt:
+  keynote: FALSE
 - id: jessica-lange
   name: Jessica Lange
   last: Lange
