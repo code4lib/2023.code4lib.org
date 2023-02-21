@@ -618,6 +618,16 @@
   image_src: /assets/img/speakers/vickie-karasic.jpg
   image_alt: "A slightly tanned and freckled white woman with brown hair wearing rounded brown eyeglasses, looking happy and professional, and wearing a dark green top with a light gray blazer. There is a dark gray backdrop behind her."
   keynote: FALSE
+- id: donny-winston
+  name: Donny Winston
+  last: Winston
+  pronouns: he/him/his
+  institution: Polyneme LLC
+  position-title: President
+  bio: Donny is a consulting engineer who helps research data stewards design and deploy FAIR digital objects and services. He is the owner and principal of Polyneme LLC; a cofounder of the FAIR Points event series; and host of the Machine-Centric Science podcast.
+  image_src: /assets/img/speakers/donny-winston.jpg
+  image_alt:
+  keynote: FALSE
 - id: siobahn-day-grady
   name: Dr. Siobahn Day Grady
   last: Grady
