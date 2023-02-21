@@ -16,7 +16,9 @@ subnav:
   url: '#presenters'
 - name: 'Microphones'
   url: '#microphones'
-- name: 'Public Transportation'
+- name: 'Venues'
+  url: '#venue'
+- name: 'Transportation'
   url: '#transportation'
 - name: 'Parking'
   url: '#parking'
@@ -133,25 +135,61 @@ subnav:
 
 	<div class="row">
 		<div class="col-12">
-			<h2 id="transportation">Public Transportation</h2>
-			{% if site.data.conf.public-transportation.show %}
-			<p>Newark Liberty International Airport is the closest airport to Princeton, and provides <a href="https://www.njtransit.com/airport">connections to NJTransit</a>.</p>
-			<p><a href="https://www.njtransit.com/">NJTransit</a> trains provide direct service from Princeton Junction Station to New York City and Newark Liberty International Airport. Southbound trains with service from Philadelphia via the <a href="https://www5.septa.org/">SEPTA regional rail line</a> are accessible through the Trenton Rail Station. From the Trenton Rail Station, the NJTransit #606 bus offers transportation to campus on a regular schedule (tickets must be purchased in advance or with exact change in cash upon boarding).  <a href="https://www.amtrak.com/home.html">Amtrak</a> service connects Princeton Junction to Washington, D.C., Boston and the greater northeast.</p>
-			<p>The NJTransit train referred to locally as "<a href="https://www.njtransit.com/dinky">the Dinky</a>" connects Princeton University to Princeton Junction, via Princeton Station on Alexander Street. Princeton's <a href="https://transportation.princeton.edu/getting-around/tigertransit/routes-schedules">TigerTransit shuttles</a> also connect Prinecton Junction with Princeton University campus via Alexander road, which can also be used by Code4Lib attendees staying at the Hyatt Regency hotel to get to campus.</p>
-			<p>The <a href="https://www.njtransit.com/trip-planner-to">NJTransit Trip Planner</a> can be used to help you determine the best way for you to travel to campus.  When using the planner, be sure to select <strong>Princeton Station</strong> as your destination.</p>
-			<p>For more information about parking, lodging, and transportation, see <a href="https://www.princeton.edu/meet-princeton/visit-us">Princeton University's "Visit Us" website</a>.</p>
-			<p>For more information about accessible public transit in the Princeton area, see the accessibility sites of <a href="https://www.njtransit.com/railaccessibility">New Jersey Transit</a> and <a href="https://www.amtrak.com/accessible-travel-services">Amtrak</a>.</p>
-			{% else %}
-			<p>More information forthcoming. </p>
-			{% endif %}
-        </div>
-    </div>
+			<h2 id="venue">Conference Venues</h3>
+		
+			<h3>Frist Campus Center (Main Conference / Game Night)</h3>
+			<p>The main conference will be held on the Princeton campus in the <a href="https://www.princeton.edu/frist/">Frist Campus Center</a> on the <a href="https://www.princeton.edu/frist/floorplans/floorplansBc.html">B Level</a>. Elevators and accessible bathrooms are located on this level outside of the conference hall. 
+			</p>
+			
+			<p>There is an accessible bus stop that is located right outside of the garage and lets riders off on Washington Road on the North side of Frist Campus Center on the opposite side of the road.  Participants can navigate on the walkway heading south towards Frist and enter the building either on the backside, using a ramp then chair lift leaving them on the first floor or move along the side of the building to an entrance with an automatic door opener onto the first floor.  There is an elevator on the opposite side of the building that leads to the B level and conference location.</p>
+			
+			<h3>Julis Romo Rabinowitz Building (Pre-Conference Workshops)</h3>
+			<p>More information about access forthcoming.</p>
+			
+			<h3>Prospect House (Lunch)</h3>
+			<p>Daily lunch will be served at <a href="https://www.princeton.edu/prospecthouse/index.html">Prospect House</a>. While the main entrance has two steps, but there is another door with no steps, also on the front of the building. An accessible bathroom is upstairs. The elevator is just inside the kitchen door.</p>
+			<p>It is worth noting that the walking path between the Frist Center and Prospect House can be steep at points. Please contact  <p>Contact <a href="mailto:{{site.data.conf.accessibility-email}}">{{site.data.conf.accessibility-email}}</a> to request any assistance. Food is also available for purchase in Frist.</p>
+
+			<h3>Palmer House (Reception)</h3>
+			<p>The Wednesday night reception will be held in <a href="https://www.princeton.edu/palmerhouse/">. Further details about access are forthcoming.</p>
+		</div>
+	</div>
 
 	<div class="row">
 		<div class="col-12">
-			<h2 id="parking">Parking</h2>
-            <p>Free parking is available at the <a href="https://goo.gl/maps/CnvwvMMAYLRfhUrf8">Stadium Drive Garage</a> on Princeton campus. Please pre-register at the university's <a href="https://transportation.princeton.edu/parking/visiting-campus-events/visitor-parking">visitor parking information</a> page.</p>
+			<h2 id="transportation">Transportation</h2>
+			
+			<h3>Public Transportation</h3>
+			{% if site.data.conf.public-transportation.show %}
+				<p>For more information about accessible public transit in the Princeton area, see the accessibility sites of <a href="https://www.njtransit.com/railaccessibility">New Jersey Transit</a> and <a href="https://www.amtrak.com/accessible-travel-services">Amtrak</a>.</p>
+			{% else %}
+			<p>More information forthcoming. </p>
+			{% endif %}
+			
+			<h3>On the Priceton Campus</h3>
+			<p>General information about getting around the Princeton campus accessibly is available from <a href="https://transportation.princeton.edu/campus-accessibility">Princeton Transportation &amp; Parking Services</a>. Available information includes the <a href="https://transportation.princeton.edu/campus-accessibility/accessible-transit-services">accessibility of TigerTransit</a> and <a href="https://transportation.princeton.edu/campus-accessibility/accessible-paths-entrances">maps of accessible paths and entrances</a>.
+			</p>
+			
+			<h3>TigerAccess</h3>
+			<p>Visitors with disability to the Princeton campus can <a href="https://transportation.princeton.edu/campus-accessibility/accessible-transit-services">contact TigerAccess</a> for additional assistance in commuting around on campus. Rides should be reserved 24 hours in advance to guarantee availability. Rides may be requested less than 24 hours in advance, but cannot be guaranteed.</p> 
+			
         </div>
     </div>
+
+Princeton University’s Transportation and Parking site recommends these resources:
+
+Accessible Parking
+Accessible Services
+Accessible Paths and Entrances
+
+From the Accessible Services page, there is this info on requesting a Tiger Access ride, if you do not have a Princeton.edu email address:
+Requesting a TigerAccess ride
+For visitors and those without a Princeton.edu email address, please submit a TigerTransit Access Request form and a member of the dispatch team will reach out to you within 24 hours to confirm ride details and schedule your trip.
+
+
+
+
+
+
 </div>
 </section>
