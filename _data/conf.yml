@@ -378,9 +378,9 @@ live-captioning:
   service: ''
 
 quiet-room:
-  show: false
+  show: true
   # Room number(s)
-  location: ''
+  location: 'Frist A03 (Class of 1952 Room)'
 
 public-transportation:
   show: true
