@@ -13,6 +13,7 @@ location: rabinowitz
 room: 
 speakers:
 - john-kunze
+- donny-winston
 speaker-text: John Kunze
 title: Getting running with ARK persistable identifiers
 ---
