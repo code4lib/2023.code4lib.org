@@ -281,12 +281,12 @@
 - id: emily-lynema
   name: Emily Lynema
   last: Lynema
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: she/her
+  institution: Indiana University Libraries
+  position-title: Head, Digital Media Software Development
+  bio: Emily recently became the Head of Digital Media Software Development at the Indiana University Libraries (Bloomington). She leads a team of developers (and a PO!) that support the Avalon Media System, an open source platform in the Samvera community for managing and accessing digital audiovisual materials. The group is also building the Audiovisual Metadata Platform, a tool for collection managers to use machine learning/AI tools to generate metadata for AV media. Prior to that, she was the Head of IT at NC State University Libraries.
+  image_src: /assets/img/speakers/emily-lynema.jpg
+  image_alt: Casual selfie of a white woman with long brunette hair and brown eyes taken in the middle of a run on a pier with Lake Michigan in the background
   keynote: FALSE
 - id: esther-jackson
   name: Esther Jackson

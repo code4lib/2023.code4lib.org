@@ -14,8 +14,8 @@
 soojeong-herring:
     name: Soojeong Herring
     last: Herring
-    pronouns:
-    img:
+    pronouns: she/her/hers
+    img: /assets/img/conduct/soojeong-herring.jpg
     img_alt:
     slack_handle: Soojeong Herring
     onsite: true
