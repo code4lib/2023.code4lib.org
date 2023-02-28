@@ -10,7 +10,7 @@ time: am
 startTime: 9:00am
 endTime: 12:00pm
 location: rabinowitz
-room: 
+room: A87
 speakers:
 - michael-della-bitta
 speaker-text: Michael Della Bitta

@@ -10,7 +10,7 @@ time: pm
 startTime: 1:30pm
 endTime: 4:30pm
 location: rabinowitz
-room: 
+room: A01
 speakers:
 - janet-swatscheno
 - ryan-dubnicek
