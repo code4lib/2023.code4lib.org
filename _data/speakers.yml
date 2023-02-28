@@ -256,7 +256,7 @@
   position-title: Digital Preservation Librarian
   bio: David Cirella is a Digital Preservation Librarian at Yale University Library. In this role he works with stakeholders from around the institution towards the long-term preservation of their digital content. His areas of interest include digital forensics, programming, and information retrieval.
   image_src: /assets/img/speakers/david-cirella.png  
-  image_alt:
+  image_alt: A photograph of a man with short brown hair, wearing glasses and a gray collared shirt, standing in front of a tan office divider.
   keynote: FALSE
 - id: doug-simon
   name: Doug Simon
@@ -391,10 +391,10 @@
 - id: julie-shi
   name: Julie Shi
   last: Shi
-  pronouns:
-  institution:
-  position-title:
-  bio:
+  pronouns: she/her
+  institution: Scholars Portal
+  position-title: Digital Preservation Librarian
+  bio: Julie Shi is the Digital Preservation Librarian at Scholars Portal, where she coordinates service delivery and development for the Permafrost digital preservation and Ontario Research Library Cloud storage services and supports digital preservation activities for other Scholars Portal services.
   image_src: 
   image_alt:
   keynote: FALSE
