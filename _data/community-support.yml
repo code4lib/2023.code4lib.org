@@ -24,9 +24,9 @@ soojeong-herring:
 ann-marie-mesco:
     name: Ann Marie Mesco
     last: Mesco
-    pronouns:
-    img:
-    img_alt:
+    pronouns: she/her/hers
+    img: /assets/img/conduct/ann-marie-mesco.jpg
+    img_alt: Woman with blonde hair, blue eyes, wearing glasses and a black sweater
     slack_handle: Ann Marie
     onsite: true
     online: false
@@ -94,9 +94,9 @@ anne-slaughter:
 sharon-clapp:
     name: Sharon Clapp 
     last: Clapp
-    pronouns:
-    img:
-    img_alt:
+    pronouns: she/her/hers
+    img: /assets/img/conduct/sharon-clapp.jpg
+    img_alt: Smiling middle aged white woman wearing headset and reading glasses. Not a professional photo, but quick recent image from her pc camera to remind you that she is here to be helpful, community support volunteer.
     slack_handle: sclapp
     onsite: true
     online: false
