@@ -28,16 +28,6 @@
   image_src:
   image_alt:
   keynote: FALSE
-- id: michael-della-bitta
-  name: Michael Della Bitta
-  last: Della Bitta
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: /assets/img/speakers/michael-della-bitta.jpg
-  image_alt: A white man with brown hair wearing a dark sweater, a collared shirt, and blue glasses smiling slightly against a background of city buildings  
-  keynote: FALSE
 - id: ryan-dubnicek
   name: Ryan Dubnicek
   last: Dubnicek
@@ -147,16 +137,6 @@
   bio:
   image_src: 
   image_alt:
-  keynote: FALSE
-- id: amelia-sutton
-  name: Amelia Sutton
-  last: Sutton
-  pronouns: she/her
-  institution: University of Massachusetts Amherst Libraries
-  position-title: Library Services Platform Administrator
-  bio:
-  image_src: /assets/img/speakers/amelia-sutton.jpg
-  image_alt: "A smiling young woman wearing a septum ring with curly shoulder length hair colored a vibrant red, and wearing a sweater that is a darker red. She is in front of a plain grey backdrop."
   keynote: FALSE
 - id: andromeda-yelton
   name: Andromeda Yelton
@@ -301,16 +281,6 @@
 - id: greer-martin
   name: Greer Martin
   last: Martin
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
-  keynote: FALSE
-- id: irfan-ali
-  name: Irfan Ali
-  last: Ali
   pronouns:
   institution:
   position-title:
@@ -526,16 +496,6 @@
   position-title: Senior Software Engineer
   bio: Naomi Dushay is a software engineer at Stanford University Libraries, working on a team with Aaron Collier, Mike Giarlo and other Code4Lib notables. She has worked in the digital library field since 1990 (cough). Professionally, she is interested in improving discovery of assets, maintainability of code and providing quality assessments of metadata as early as possible in its lifecycle. 
   image_src: /assets/img/speakers/naomi-dushay.png
-  image_alt:
-  keynote: FALSE
-- id: nosheen-fatima-warraich
-  name: Prof. Nosheen Fatima Warraich
-  last: Warraich
-  pronouns: she/her
-  institution: University of the Punjab, Lahore-Pakistan
-  position-title: Director and Professor at Institute of Information Management, University of the Punjab, Lahore 
-  bio: Prof. Nosheen Fatima Warraich is Director, Institute of Information Management University of the Punjab Lahore-Pakistan. She got Fulbright Post Doc. Fellow, State University of New York (SUNY) at Albany, NY-USA (2015-16). She is also serving as editor, Pakistan Journal of Information Management & Libraries and Associate Editor, International Journal of Librarianship & Information Science. She has been actively working in different SIGs of ASIST such as SiG III (Special Interest Group on International Information Issues),  SIG-USE and SIG-SM. She won ASIS&T New Leader Award 2017-18.
-  image_src: /assets/img/speakers/nosheen-fatima-warraich.jpg
   image_alt:
   keynote: FALSE
 - id: peter-murray
