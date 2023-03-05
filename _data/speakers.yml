@@ -132,11 +132,11 @@
   name: Allan Berry
   last: Berry
   pronouns:
-  institution:
-  position-title:
+  institution: University of Illinois at Chicago Library
+  position-title: Clinical Assistant Professor & Web Services Librarian
   bio:
-  image_src: 
-  image_alt:
+  image_src: /assets/img/speakers/allan-berry.jpg
+  image_alt: A picture of Allan Berry from the shoulders up, against a gray background.
   keynote: FALSE
 - id: andromeda-yelton
   name: Andromeda Yelton
