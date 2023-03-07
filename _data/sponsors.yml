@@ -24,6 +24,10 @@
 # - contributor
 # - supporter
 # - exhibitor
+- name: OCLC
+  img: /assets/img/sponsors/Platinum_OCLC_logo.png
+  link: https://www.oclc.org/?utm_campaign=code4lib-2023-conference&utm_medium=conference&utm_source=conference-website&utm_content=code4lib-2023-conference-oclc-description
+  level: platinum
 
 - name: Blacklight
   img: /assets/img/sponsors/Gold_blacklight-logo-vectorized.svg
@@ -116,6 +120,11 @@
 - name: Princeton University Libraries
   img: /assets/img/sponsors/Scholarship_Princeton_Univ_Library.png
   link: https://library.princeton.edu/
+  diversity: true
+
+- name: OCLC
+  img: /assets/img/sponsors/Platinum_OCLC_logo.png
+  link: https://www.oclc.org/?utm_campaign=code4lib-2023-conference&utm_medium=conference&utm_source=conference-website&utm_content=code4lib-2023-conference-oclc-description
   diversity: true
 
 - name: CLIR
