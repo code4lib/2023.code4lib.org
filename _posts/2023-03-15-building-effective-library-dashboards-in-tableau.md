@@ -7,7 +7,7 @@ startTime: 2023-03-15T11:15
 length: 10
 day: 1
 group: 1
-spot: 5
+spot: 4
 location: frist
 room: mpr
 speakers:

@@ -3,11 +3,11 @@ layout: presentation
 type: talk
 categories: talks
 time: 11:25 AM
-startTime: 2023-03-15T11:25
-length: 10
+startTime: 2023-03-15T11:30
+length: 15
 day: 1
 group: 1
-spot: 6
+spot: 5
 location: frist
 room: mpr
 speakers:
