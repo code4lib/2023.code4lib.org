@@ -3,12 +3,12 @@ layout: presentation
 speakers-text: Dr. Siobahn Day Grady
 speakers:
 - siobahn-day-grady
-day: 1
-group: key-open
+day: 3
+group: key-close
 spot: 1
 length: 45
-type: key-open
-startTime: 2023-03-15T09:15
+type: key-close
+startTime: 2023-03-17T09:15
 categories: keynotes
 title: Dr. Siobahn Day Grady Keynote
 slides:
