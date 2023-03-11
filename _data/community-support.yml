@@ -34,9 +34,9 @@ ann-marie-mesco:
 bobbi-fox:
     name: Bobbi Fox 
     last: Fox
-    pronouns:
-    img:
-    img_alt:
+    pronouns: she/her/hers
+    img: /assets/img/conduct/bobbi-fox.jpg
+    img_alt: "An old white woman with glasses and wavy long greying brown hair."
     slack_handle: Bobbi Fox
     onsite: true
     online: false
