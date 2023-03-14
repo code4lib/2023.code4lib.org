@@ -117,7 +117,7 @@
   diversity: true
   annotation: '(2) Diversity Scholarships'
 
-- name: Princeton University Libraries
+- name: Princeton University Library
   img: /assets/img/sponsors/Scholarship_Princeton_Univ_Library.png
   link: https://library.princeton.edu/
   diversity: true
@@ -142,3 +142,14 @@
 - name: Equinox Open Library Initiative
   link: https://www.equinoxoli.org/
   level: exhibitor
+
+- name: Princeton University Library
+  link: https://library.princeton.edu/
+  level: gold
+  img: /assets/img/sponsors/Gold_Princeton_Logo.png
+  annotation: Reception Sponsor
+
+- name: Johns Hopkins University
+  link: https://www.library.jhu.edu/
+  level: bronze
+  img: /assets/img/sponsors/Bronze_Johns_Hopkins.jpeg
