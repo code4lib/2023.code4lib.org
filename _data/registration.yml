@@ -6,7 +6,7 @@
 
 conference:
   # "show" means display information on the home page and /general-info/attend
-  show: true
+  show: false
   url: 'https://concentracms.regfox.com/code4lib-2023'
   start-date: '2023-01-05'
   end-date: '2023-02-21'
@@ -24,7 +24,7 @@ workshop-only:
   # "show" only toggles the display of info in the registration bullets on the general-info/attend page
   show: true
   # "show-button" only affects a button on the general-info/attend page
-  show-button: true
+  show-button: false
   undecided: false
   undecided-text: "Depending on availability, Pre-Conference ONLY registration may open at the beginning of May."
   url: 'https://concentracms.regfox.com/code4lib-2023'
@@ -35,7 +35,7 @@ workshop-only:
   end-date: '2023-03-13'
 
 t-shirt-only:
-  show: true
+  show: false
   start-date: '2023-01-05'
   cost: '$29'
   # should be one or the other: have to purchase by last-date or cost changes after late-date
