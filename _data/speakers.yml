@@ -521,12 +521,12 @@
 - id: robert-anthony-lee-faison
   name: Robert-Anthony Lee-Faison
   last: Lee-Faison
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: he/him/his
+  institution: Princeton University Library
+  position-title: Library IT Operations Fellow
+  bio: Robert is a North Carolina native and the Princeton University Library IT Operations Fellow. He helps to develop the applications to support the library system of Princeton University, with experience in Systems Administration, Web Development and Software Programming. Robert enjoys gaming, music, traveling, and lives for peaceful moments spent in nature. 
+  image_src: /assets/img/speakers/robert-anthony.png
+  image_alt: "A Black man with a dark green shirt and dark hair and beard against a gray solid background"
   keynote: FALSE
 - id: ryan-mccarthy
   name: Ryan McCarthy
