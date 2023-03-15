@@ -561,12 +561,12 @@
 - id: tyler-nathaniel-wade
   name: Tyler Nathaniel Wade
   last: Wade
-  pronouns:
-  institution:
-  position-title:
-  bio:
-  image_src: 
-  image_alt:
+  pronouns: he/him
+  institution: Princeton University Library
+  position-title: Cataloging and Metadata Services Fellow
+  bio: Tyler Wade catalogs technical reports for the Princeton Plasma Physics Library, and writes quality assurance software tests for scientific data migration at Princeton University Library.
+  image_src: /assets/img/speakers/tyler.jpg
+  image_alt: "A Black man with gold earrings and gold glasses"
   keynote: FALSE
 - id: tyler-riley
   name: Tyler Riley
