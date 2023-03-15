@@ -104,8 +104,8 @@ sharon-clapp:
 kevin-reiss:
     name: Kevin Reiss
     last: Reiss
-    pronouns:
-    img:
+    pronouns: he/him
+    img: /assets/img/conduct/kevin-reiss.jpg
     img_alt:
     slack_handle: kevinreiss
     onsite: false
