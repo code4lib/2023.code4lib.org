@@ -90,6 +90,9 @@ title: Schedule
             <p>
                 Talks have been selected by the community.
             </p>
+            {% if site.data.conf.have-menus %}
+              <p><a class="btn ct-btn-light" href="/schedule/food/day1-menus.html">View Menu</a></p>
+            {% endif %}
         </div>
     </div>
 
@@ -107,11 +110,9 @@ title: Schedule
             <p>
                 All attendees are invited to join us for the reception at the {{ site.data.conf.reception.venue }}. See the <a href="/general-info/venues/#reception" alt="Venues">Venues</a> page for more details.
             </p>
-            {%- comment %}
-            <p>
-                <a class="btn ct-btn-light" href="/schedule/food/day1-menus.html#Reception">View the menu</a>
-            </p>
-            {% endcomment -%}
+            {% if site.data.conf.have-menus %}
+              <p><a class="btn ct-btn-light" href="/schedule/food/day1-menus.html#reception">View Menu</a></p>
+            {% endif %}
         </div>
     </div>
     {% endif %}
@@ -133,6 +134,9 @@ title: Schedule
             <p>
                 Talks have been selected by the community.
             </p>
+            {% if site.data.conf.have-menus %}
+              <p><a class="btn ct-btn-light" href="/schedule/food/day2-menus.html">View Menu</a></p>
+            {% endif %}
         </div>
     </div>
 
@@ -240,6 +244,9 @@ title: Schedule
             <p>
                 Keynote #2 closes out the conference. Talks have been selected by the community.
             </p>
+            {% if site.data.conf.have-menus %}
+              <p><a class="btn ct-btn-light" href="/schedule/food/day3-menus.html">View Menu</a></p>
+            {% endif %}
         </div>
     </div>
 
