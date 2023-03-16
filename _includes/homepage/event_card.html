@@ -25,5 +25,10 @@
             <br>
         {%- endif -%}
         <p>{{ include.description }}</p>
+        {% if include.menu %}
+          <div class="card-menu">
+            <a href="/schedule/food/{{include.menu}}" class="btn ct-btn-light" >View Menu</a>
+          </div>
+        {% endif %}
     </div>
 </div>

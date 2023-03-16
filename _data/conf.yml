@@ -39,6 +39,7 @@ have-talks: true
 have-workshops: true
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
 have-schedule: true
+have-menus: true
 
 # day 0 = preconf day
 days:
