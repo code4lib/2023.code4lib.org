@@ -58,7 +58,9 @@
                                         <div class="col-sm-3 text-center">
                                             <a href="/speakers/#{{ speaker.id }}-id">
                                                 {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
-                                                    <span>{{ speaker.name }}</span>
+                                                    <span>{{ speaker.name }}
+                                                    {% if speaker.pronouns %} ({{ speaker.pronouns }}){% endif %}
+                                                    </span>
                                                 {% endif %}
                                                 {% if speaker.image_alt and speaker.image_src %}
                                                     <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="{{ speaker.image_alt }}">
